@@ -290,8 +290,7 @@ label[for] {
     height: 100px;
 }
 .top-bar .logo {
-    padding: 0 50px;
-    font-size: 2rem;
+  padding:0 45px;
 }
 .top-bar .menu-box-1>ul>li {
     position: relative;
