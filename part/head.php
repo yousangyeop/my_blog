@@ -9,6 +9,8 @@
     <link rel="icon" href="../resource/img/blog.logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="/resource/common.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
 </head>
@@ -26,7 +28,7 @@
         <nav class="menu-box-1">
             <ul>
                 <li><a href="#" class="block">History</a></li>
-               
+
                 <li><a href="#" class="block">Coffee</a>
                     <ul>
                         <li><a href="#">Classes</a></li>
@@ -59,10 +61,10 @@
                     <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-ai-c flex-jc-c">History</a></li>
                     <li class="flex-1-0-0 flex"><a href="/list.php"
                             class="flex flex-1-0-0 flex-ai-c flex-jc-c">Coffee</a>
-                            <ul>
-                                <li><a href="#">Classes</a></li>
-                                <li><a href="#">Delivery</a></li>
-                            </ul>
+                        <ul>
+                            <li><a href="#">Classes</a></li>
+                            <li><a href="#">Delivery</a></li>
+                        </ul>
                     </li>
                     <li class="flex-1-0-0 flex"><a href="/aboutMe.php"
                             class="flex flex-1-0-0 flex-ai-c flex-jc-c">Notice
@@ -94,5 +96,16 @@
                     </li>
                 </ul>
             </nav>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="slides">
+            <div class ="active" style="background-image:url(https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg);"></div>
+            <div style="background-image:url(https://cdn.pixabay.com/photo/2015/04/20/13/17/work-731198_960_720.jpg);"></div>
+            <div style="background-image:url(https://cdn.pixabay.com/photo/2015/10/12/15/14/coffee-984328_960_720.jpg);"></div>
+        </div>
+        <div class="side-bars">
+            <div><span><i class="fa fa-angle-left"></i></span></div>
+            <div><span><i class="fa fa-angle-right"></i></span></div>
         </div>
     </div>
