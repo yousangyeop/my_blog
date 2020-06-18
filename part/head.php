@@ -25,14 +25,19 @@
     <div class="mobile-side-bar visible-sm-down">
         <nav class="menu-box-1">
             <ul>
-                <li><a href="#" class="block">Home</a></li>
-                <li><a href="#" class="block">Articles</a>
+                <li><a href="#" class="block">History</a></li>
+               
+                <li><a href="#" class="block">Coffee</a>
                     <ul>
-                        <li><a href="#">Notice</a></li>
-                        <li><a href="#">Fee</a></li>
+                        <li><a href="#">Classes</a></li>
+                        <li><a href="#">Delivery</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="block">About Me</a></li>
+                <li><a href="#" class="block">Notice</a></li>
+                <ul>
+                    <li><a href="#">inquiry</a></li>
+                    <li><a href="#">information</a></li>
+                </ul>
                 <li><a href="#" class="block">SNS</a>
                     <ul>
                         <li><a href="https://github.com/yousangyeop" target="_blank" class="block">GITHUB</a></li>
@@ -51,12 +56,21 @@
             </a>
             <nav class="menu-box-1 flex flex-1-0-0">
                 <ul class="flex flex-1-0-0">
-                    <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-ai-c flex-jc-c">Home</a></li>
+                    <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-ai-c flex-jc-c">History</a></li>
                     <li class="flex-1-0-0 flex"><a href="/list.php"
-                            class="flex flex-1-0-0 flex-ai-c flex-jc-c">Articles</a>
+                            class="flex flex-1-0-0 flex-ai-c flex-jc-c">Coffee</a>
+                            <ul>
+                                <li><a href="#">Classes</a></li>
+                                <li><a href="#">Delivery</a></li>
+                            </ul>
                     </li>
-                    <li class="flex-1-0-0 flex"><a href="/aboutMe.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">About
-                            Me</a>
+                    <li class="flex-1-0-0 flex"><a href="/aboutMe.php"
+                            class="flex flex-1-0-0 flex-ai-c flex-jc-c">Notice
+                        </a>
+                        <ul>
+                            <li><a href="#">inquiry</a></li>
+                            <li><a href="#">information</a></li>
+                        </ul>
                     </li>
                     <li class="flex-1-0-0 flex">
                         <a href="#" class="flex flex-1-0-0 flex-ai-c flex-jc-c">SNS</a>
@@ -74,10 +88,6 @@
                             <li>
                                 <a href="https://www.instagram.com/yeobb/" target="_blank">
                                     INSTA
-                                    <ul>
-                                        <li><a href="#">Private</a></li>
-                                        <li><a href="#">Public</a></li>
-                                    </ul>
                                 </a>
                             </li>
                         </ul>
