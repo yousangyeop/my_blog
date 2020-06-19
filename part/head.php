@@ -98,11 +98,12 @@
             </nav>
         </div>
     </div>
+
     <div class="slider">
         <div class="slides">
-            <div class ="active" style="background-image:url(https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg);"></div>
-            <div style="background-image:url(https://cdn.pixabay.com/photo/2015/04/20/13/17/work-731198_960_720.jpg);"></div>
-            <div style="background-image:url(https://cdn.pixabay.com/photo/2015/10/12/15/14/coffee-984328_960_720.jpg);"></div>
+            <div class="active" style="background-image: url(./resource/img/slide1.jpg);"></div>
+            <div style="background-image: url(./resource/img/slide2.jpg);"></div>
+            <div style="background-image: url(./resource/img/slide3.jpg);"></div>
         </div>
         <div class="side-bars">
             <div><span><i class="fa fa-angle-left"></i></span></div>

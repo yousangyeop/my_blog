@@ -1,6 +1,3 @@
-
-
-
 function MobileSideBar__toggle() {
     var $btn = $('.btn-toggle-mobile-side-bar');
     var $mobileSideBar = $(".mobile-side-bar");
@@ -33,43 +30,59 @@ function MobileSideBar__init() {
         e.stopPropagation();
     });
 }
+
+
 $(function () {
     MobileSideBar__init();
+
     $("btn-toggle-mobile-side-bar").click();
     $(".mobile-side-bar .menu-box-1 > ul > li:last-child").click();
 });
 
-$('.slider > .side-bars > div').click(function() {
-  // this 클릭 당사자
-  var $clickedBtn = $(this);
-  // closest => 조상중에서 가장 가까운 엘리먼트 하나 찾아주세요.
-  var $slider = $clickedBtn.closest('.slider');
-  
-  //.index() => 형제번호
-  var isLeft = $clickedBtn.index() == 0;
-  
-  // find => 지역탐색
-  // $currnet => 현재 active 된 녀석
-  var $currnet = $slider.find('.slides > .active');
-  // next => 다음 형제 가져와
-  var $post = null;
-  
-  if ( isLeft ) {
-      $post = $currnet.prev();
-  }
-  else {
-      $post = $currnet.next();
-  }
-  
-  if ( $post.length == 0 ) {
-      if ( isLeft ) {
-          $post = $slider.find('.slides > div:last-child');
-      }
-      else {
-          $post = $slider.find('.slides > div:first-child');
-      }
-  }
-  
-  $currnet.removeClass('active');
-  $post.addClass('active');
+$(function(){
+
 });
+
+
+function slider() {
+
+    var $clickedBtn = $(this);
+    var $slider = $clickedBtn.parent().parent();
+    var $current = $slider.find('>.slides>div.active');
+    var $post;
+    var isLeft = $clickedBtn.index() == 0;
+
+    if (isLeft) {
+        $post = $current.prev();
+        if ($post.length == 0) {
+            $post = $slider.find('>.slides > div:last-child');
+        }
+    } else {
+        $post = $current.next();
+        if ($post.length == 0) {
+            $post = $slider.find('>.slides > div:first-child');
+        }
+    }
+    $current.removeClass('active');
+    $post.addClass('active');
+
+}
+
+function slider__init() {
+    $('.slider > .side-bars > div').click(slider);
+}
+
+$(function(){
+    slider__init()
+});
+
+function slideBar__move(){
+function a (){
+    $('.slider >.side-bars > div:last-child').click();
+}
+setInterval(a,5000);
+}
+$(function(){
+    slideBar__move();
+});
+
