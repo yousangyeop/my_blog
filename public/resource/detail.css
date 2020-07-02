@@ -1,8 +1,16 @@
-nav {
+.hobby-box {
     margin-top: 5%;
     width: 100%;
+    margin-left: 10%;
 }
-nav > .back {
+.hobby-box > .back {
     float: right;
-    margin-right: 20%;
+    margin-right: 30%;
+}
+.hobby-box > .hobby > img {
+    display: block;
+    margin: auto;
+}
+.hobby-box > .hobby {
+    width: 100%;
 }

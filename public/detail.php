@@ -33,16 +33,16 @@ $row = mysqli_fetch_assoc($rs);
 <!-- 토스트 UI 에디터, CSS 코어 -->
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
 <link rel="stylesheet" href="/resource/detail.css">
-<nav class="con">
-    <div class="">
-        <h1 class="">제목 : <?=$row['title']?></h1>
-        <div class="">
+<div class="con hobby-box">
+    <div class="hobby-bar">
+        <h1 class="title">제목 : <?=$row['title']?></h1>
+        <div class="regdate">
             등록날짜 : <?=$row['regDate']?>
         </div>
-        <div class="">
+        <div class="update">
             수정날짜 : <?=$row['updateDate']?>
         </div>
-        <div class="">
+        <div class="writer">
             작성자 : 유상엽
         </div>
         <div class="" style="display:none;" id="origin1">
@@ -53,8 +53,11 @@ $row = mysqli_fetch_assoc($rs);
         <a href="#" onclick="history.back();">[뒤로가기]</a>
         <a href="/list.php">[리스트]</a>
     </div>
-    <a href="/"><img src="../resource/img/1.png" alt=""></a>
-</nav>
+    <div class="hobby">
+            <img src="../resource/img/9.png" alt="">
+            <h4>사진을 보고 그린 그림</h4>
+    </div>
+</div>
 <div class="con" id="viewer1">
 
 </div>
