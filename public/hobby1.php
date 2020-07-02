@@ -2,7 +2,8 @@
 include "../part/head.php"
 ?>
 
-<div><a href=""><img src="" alt=""></a></div>
+<link rel="stylesheet" href="/resource/hobby1.css">
+
 
 <?php
 include "../part/foot.php"

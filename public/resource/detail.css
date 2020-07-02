@@ -1,0 +1,8 @@
+nav {
+    margin-top: 5%;
+    width: 100%;
+}
+nav > .back {
+    float: right;
+    margin-right: 20%;
+}

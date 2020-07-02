@@ -45,7 +45,7 @@ while ( true ) {
 ?>
 <link rel="stylesheet" href="/resource/hobby.css">
 
-<div><?=$cateItemName?> 게시물 리스트</div>
+<div><?=$cateItemName?></div>
 
 <nav class="list-box-1 flex flex-ai-c">
     <ul class="flex">
