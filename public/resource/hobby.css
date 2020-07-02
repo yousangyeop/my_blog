@@ -1,0 +1,30 @@
+.list-box-1 {
+    min-height: 100vh;
+}
+
+.list-box-1 > ul {
+    flex-wrap:wrap;
+}
+
+.list-box-1 > ul > li {
+    width:33.3333%;
+}
+
+.list-box-1 > ul > li:hover > a > .title {
+    text-decoration: underline;;
+}
+
+.list-box-1 > ul > li > a {
+    display: block;
+    padding:20px 0;
+}
+
+.list-box-1 > ul > li > a > img {
+    display: block;
+    width:200px;
+    margin:0 auto;
+}
+
+.list-box-1 > ul > li > a > .title {
+    text-align:center;
+}

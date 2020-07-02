@@ -245,12 +245,18 @@ label[for] {
 .border-red {
     border: 3px solid red;
 }
+.border-black {
+    border: 3px solid black;
+}
 
 /* 라이브러리 - flex */
 *>.flex {
     display: flex;
 }
-
+.flex-column {
+    display: flex;
+    flex-flow: column;
+}
 *>.flex-column-nowrap {
     display: flex;
     flex-flow: column nowrap;
@@ -274,6 +280,14 @@ label[for] {
     display: flex;
     align-items: center;
 }
+*>.flex-ai-start {
+    display: flex;
+    align-items: flex-start;
+}
+*>.flex-ai-end {
+    display: flex;
+    align-items: flex-end;
+}
 
 *>.flex-as-c {
     align-self: center;
@@ -296,280 +310,56 @@ label[for] {
     flex: 1 0 0;
 }
 
-/* 공통 CSS */
-@media (max-width:799px) {
-    .visible-md-up {
-        display: none;
-    }
-}
 
-@media (min-width:800px) {
-    .visible-sm-down {
-        display: none;
-    }
-}
-
-.btn-toggle-mobile-side-bar {
-    width: 30px;
-    height: 30px;
-    position: relative;
-}
-
-.btn-toggle-mobile-side-bar>div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 20%;
-    background-color: darkgray;
-    transition: top .15s .15s, transform .15s, opacity .15s .15s;
-}
-
-.btn-toggle-mobile-side-bar>div:nth-child(2) {
-    top: 40%;
-}
-
-.btn-toggle-mobile-side-bar>div:nth-child(3) {
-    top: 80%;
-}
-
-.btn-toggle-mobile-side-bar.active>div {
-    top: 40%;
-    transition: top .15s, transform .15s .15s, opacity .15s 0s;
-}
-
-.btn-toggle-mobile-side-bar.active>div:nth-child(1) {
-    transform: rotate(45deg);
-}
-
-.btn-toggle-mobile-side-bar.active>div:nth-child(3) {
-    transform: rotate(-45deg);
-}
-
-.btn-toggle-mobile-side-bar.active>div:nth-child(2) {
-    opacity: 0;
-}
 
 /* 커스텀 */
 .con {
-    max-width: 800px;
+    max-width: 1900px;
 }
-
-@media (max-width:799px) {
-    body {
-        padding-top: 50px;
-    }
+/* 배경 */
+.main {
+    min-height: 100vh;
 }
-
-/* 탑바 시작 */
-.top-bar {
-    background-color: white;
-    color: #25511C;
-    height: 100px;
+/* 메뉴박스 */
+.main>.left-side-bar {
+    width: 300px;
 }
-
-.top-bar .logo {
-    padding: 0 45px;
-}
-
-.top-bar .menu-box-1>ul>li {
-    position: relative;
-}
-
-.top-bar .menu-box-1 ul>li>a {
-    font-weight: bold;
-}
-
-.top-bar .menu-box-1>ul>li:hover>a {
-    background-color: darkgray;
-}
-
-.top-bar .menu-box-1>ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0px;
-    width: 100%;
-    background-color: white;
-    color: #25511C;
-    z-index: 10;
-}
-
-.top-bar .menu-box-1>ul>li:hover>ul {
-    display: block;
-}
-
-.top-bar .menu-box-1>ul ul>li>a {
-    display: block;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.top-bar .menu-box-1>ul ul>li:hover>a {
-    background-color: darkgray;
-    color: white;
-}
-
-/* 탑바 끝 */
-/* 모바일 탑바 시작 */
-.mobile-top-bar {
-    height: 50px;
-    background-color: #25511C;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.mobile-top-bar .btn-toggle-mobile-side-bar {
-    margin: 0 10px;
-}
-
-/* 모바일 탑바 끝 */
-
-/* 모바일 사이드 바 시작 */
-.mobile-side-bar {
-    position: fixed;
-    top: 50px;
-    left: -150px;
-    width: 150px;
-    bottom: 0;
-    background-color: white;
-    transition: left .3s;
-    z-index: 10;
-}
-
-.mobile-side-bar.active {
-    left: 0;
-}
-
-.mobile-side-bar>.menu-box-1>ul>li>a {
-    padding: 15px;
-    color: #25511C;
-}
-
-.mobile-side-bar>.menu-box-1>ul>li:hover>a {
-    background-color: darkgray;
-}
-
-.mobile-side-bar>.menu-box-1>ul ul {
-    display: none;
-    background-color: white;
-    padding-left: 20px;
-}
-
-.mobile-side-bar>.menu-box-1>ul>li {
-    position: relative;
-}
-
-.mobile-side-bar>.menu-box-1>ul ul>li>a {
-    padding: 15px;
-    color: #25511C;
-}
-
-.mobile-side-bar>.menu-box-1>ul ul>li:hover>a {
-    background-color: darkgray;
-    color: white;
-}
-
-.mobile-side-bar-bg {
-    position: fixed;
-    top: 50px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0);
-    visibility: hidden;
-    transition: background-color 0.3s;
-    z-index: 5;
-}
-
-.mobile-side-bar-bg.active {
-    visibility: visible;
-    background-color: rgba(0, 0, 0, .7);
-}
-
-.mobile-side-bar .menu-box-1 ul>li.active>ul {
-    display: block;
-}
-
-.mobile-side-bar .menu-box-1 ul>li>a {
-    display: block;
-    font-weight: bold;
-    padding: 15px;
-}
-
-.mobile-side-bar .menu-box-1 ul>li>a:not(:only-child)::after {
-    content: "[+]";
-    float: right;
-}
-
-.mobile-side-bar .menu-box-1 ul>li.active>a:not(:only-child)::after {
-    content: "[-]"
-}
-
-.mobile-side-bar .menu-box-1 ul>li.active>a:not(:only-child) {
-    background-color: darkgray;
-    color: white;
-}
-
-@media (max-width:799px) {
-    html.mobile-side-bar-actived {
-        overflow-y: hidden;
-    }
-}
-
-/* 모바일 사이드 바 끝 */
-/* 슬라이드 만들기 시작 */
-.slider {
-    height: 700px;
-    position: relative;
-    user-select: none;
-    
-}
-
-.slider>.slides>div {
-    position: absolute;
-    top: 0;
-    left: 0;
+.main > .left-side-bar > .menu-box {
+    width: 300px;
     height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0;
 }
-
-.slider>.slides>div.active {
-    opacity: 1;
-}
-
-.slider>.side-bars>div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40%;
-    height: 100%;
-    cursor: pointer;
-}
-
-.slider>.side-bars>div:last-child {
-    left: auto;
+.main > .left-side-bar > .menu-box > .menu-bar > .home {
+    writing-mode: vertical-rl;
+    letter-spacing: 10px;
+    font-size: 2.3rem;
     right: 0;
+    margin-top: 50px;
+}
+.main > .left-side-bar > .menu-box > .menu-bar {
+    width: 180px;
+    float: left;
+    position: fixed;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.main > .left-side-bar > .menu-box > .menu-bar > ul > li {
+    padding: 10px;
+    font-size: .9rem;
+}
+.main > .left-side-bar > .menu-box > .menu-bar > ul {
+    margin-top:50px;
+}
+/* 메인 이미지 */
+.main-content > .main > .logo {
+    margin-left: 200px;
+}
+.main-content > .main >.blog-img > .main-text > span:first-child {
+    font-size: 2.5rem;
 }
 
-.slider>.side-bars>div:active>span {
-    transform: translateY(-40%);
+.main-content > .main > .blog-img > .sns > a:last-child {
+    margin-top: 10px;
 }
-
-.slider>.side-bars>div>span {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: inherit;
-    right: inherit;
-    font-size: 3rem;
-    transition: transform 0.2s;
-    margin: 0 10px;
-    color: darkgray;
+.main-content > .main > .blog-img > .sns {
+    word-wrap: break-word;
 }

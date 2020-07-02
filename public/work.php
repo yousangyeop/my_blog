@@ -1,7 +1,7 @@
 <?php
 include "../part/head.php"
 ?>
-<h1>리스트</h1>
+<h1>작업물</h1>
 <?php
 include "../part/foot.php"
 ?>

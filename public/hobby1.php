@@ -1,7 +1,8 @@
 <?php
 include "../part/head.php"
 ?>
-<h1>하이</h1>
+
+<div><a href=""><img src="" alt=""></a></div>
 
 <?php
 include "../part/foot.php"
