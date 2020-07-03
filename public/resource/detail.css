@@ -14,3 +14,10 @@
 .hobby-box > .hobby {
     width: 100%;
 }
+.hobby-box > .hobby-bar > .body {
+    margin: auto;
+}
+.hobby-box > .hobby-bar > .back {
+    float: right;
+    margin-right: 30%;
+}

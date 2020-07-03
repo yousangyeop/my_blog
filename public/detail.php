@@ -36,31 +36,26 @@ $row = mysqli_fetch_assoc($rs);
 <div class="con hobby-box">
     <div class="hobby-bar">
         <h1 class="title">제목 : <?=$row['title']?></h1>
+        <br>
         <div class="regdate">
             등록날짜 : <?=$row['regDate']?>
         </div>
         <div class="update">
             수정날짜 : <?=$row['updateDate']?>
         </div>
+        <br>
         <div class="writer">
             작성자 : 유상엽
         </div>
-        <div class="" style="display:none;" id="origin1">
-            <?=$row['body']?>
+        <div class="back">
+            <a href="#" onclick="history.back();">[뒤로가기]</a>
+            <a href="/list.php">[리스트]</a>
         </div>
-    </div>
-    <div class="back">
-        <a href="#" onclick="history.back();">[뒤로가기]</a>
-        <a href="/list.php">[리스트]</a>
-    </div>
-    <div class="hobby">
-            <img src="../resource/img/9.png" alt="">
-            <h4>사진을 보고 그린 그림</h4>
+        <div class="body" style="display:none;" id="origin1"><?=$row['body']?></div>
+        <div id="viewer1"></div>
     </div>
 </div>
-<div class="con" id="viewer1">
 
-</div>
 <script>
     var editor1__initialValue = $('#origin1').html();
     var editor1 = new toastui.Editor({

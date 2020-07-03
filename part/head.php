@@ -13,9 +13,6 @@
 </head>
 
 <body>
-    <style>
-
-    </style>
     <div class="con main flex">
         <div class="left-side-bar">
             <div class="menu-box">

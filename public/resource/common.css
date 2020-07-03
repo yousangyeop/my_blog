@@ -313,12 +313,17 @@ label[for] {
 
 
 /* 커스텀 */
+
 .con {
     max-width: 1900px;
 }
 /* 배경 */
 .main {
-    min-height: 100vh;
+    min-height: 100%;
+    border: 3px solid black;
+    margin: 8px;
+    height: calc(100vh - 22px);
+    overflow-y: hidden;
 }
 /* 메뉴박스 */
 .main>.left-side-bar {
@@ -350,16 +355,16 @@ label[for] {
     margin-top:50px;
 }
 /* 메인 이미지 */
-.main-content > .main > .logo {
+.main-content > .index > .logo {
     margin-left: 200px;
 }
-.main-content > .main >.blog-img > .main-text > span:first-child {
+.main-content > .index >.blog-img > .main-text > span:first-child {
     font-size: 2.5rem;
 }
 
-.main-content > .main > .blog-img > .sns > a:last-child {
+.main-content > .index > .blog-img > .sns > a:last-child {
     margin-top: 10px;
 }
-.main-content > .main > .blog-img > .sns {
+.main-content > .index > .blog-img > .sns {
     word-wrap: break-word;
 }
