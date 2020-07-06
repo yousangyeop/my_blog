@@ -1,0 +1,10 @@
+.communication > .article {
+    margin-left: -62%;
+}
+.communication > .article > ul > li {
+    padding: 20px;
+}
+.communication > .article > ul > li > a {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
