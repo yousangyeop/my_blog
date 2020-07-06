@@ -12,11 +12,11 @@ include "../part/head.php"
 </div>
 <div class="sbs-slider">
     <div class="slides">
-        <div class="active" style="background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3bc4e100080539.5f0182f485e2e.png)">
+        <div class="active work1" style="background-image:url(../resource/img/work1.jpg)">
         </div>
-        <div style="background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/e73452100080539.5f01a17f3c761.png)">
+        <div class="work2" style="background-image:url(../resource/img/work2.jpg)">
         </div>
-        <div style="background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/f3bc4e100080539.5f0182f485e2e.png)">
+        <div class="work3" style="background-image:url(../resource/img/work3.png)">
         </div>
     </div>
     <div class="side-bars">
