@@ -1,8 +1,9 @@
 /* 폰트적용 */
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
+
 html {
-    font-family: "Noto Sans KR", sans-serif;
+    font-family: 'Gamja Flower', cursive;
 }
 
 /* 노말라이즈 */
@@ -313,6 +314,9 @@ label[for] {
 
 
 /* 커스텀 */
+body {
+    min-height: 100%;
+}
 
 .con {
     max-width: 1900px;
@@ -323,7 +327,7 @@ label[for] {
     border: 3px solid black;
     margin: 8px;
     height: calc(100vh - 22px);
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 /* 메뉴박스 */
 .main>.left-side-bar {
@@ -336,7 +340,7 @@ label[for] {
 .main > .left-side-bar > .menu-box > .menu-bar > .home {
     writing-mode: vertical-rl;
     letter-spacing: 10px;
-    font-size: 2.3rem;
+    font-size: 3rem;
     right: 0;
     margin-top: 50px;
 }
@@ -349,7 +353,7 @@ label[for] {
 }
 .main > .left-side-bar > .menu-box > .menu-bar > ul > li {
     padding: 10px;
-    font-size: .9rem;
+    font-size: 1.2rem;
 }
 .main > .left-side-bar > .menu-box > .menu-bar > ul {
     margin-top:50px;

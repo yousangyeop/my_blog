@@ -12,12 +12,22 @@ include "../part/head.php"
 </div>
 <div class="sbs-slider">
     <div class="slides">
-        <div class="active work1" style="background-image:url(../resource/img/work1.jpg)">
-        </div>
-        <div class="work2" style="background-image:url(../resource/img/work2.jpg)">
-        </div>
-        <div class="work3" style="background-image:url(../resource/img/work3.png)">
-        </div>
+        <div class="active work1" style="background-image:url(../resource/img/1.png)"></div>
+        <div class="work2" style="background-image:url(../resource/img/2.png)"></div>
+        <div class="work3" style="background-image:url(../resource/img/3.png)"></div>
+        <div class="work3" style="background-image:url(../resource/img/4.png)"></div>
+        <div class="work3" style="background-image:url(../resource/img/5.png)"></div>
+        <div class="work3" style="background-image:url(../resource/img/6.png)"></div>
+        <div class="work3" style="background-image:url(../resource/img/7.png)"></div>
+        <div class="work3" style="background-image:url(../resource/img/8.png)"></div>
+        <div class="work3" style="background-image:url(../resource/img/9.png)"></div>
+        <div class="work3" style="background-image:url(../resource/img/10.png)"></div>
+        <div class="work3" style="background-image:url(../resource/img/11.png)"></div>
+        <div class="work3" style="background-image:url(../resource/img/12.png)"></div>
+        <div class="work3" style="background-image:url(../resource/img/13.png)"></div>
+        <div class="work3" style="background-image:url(../resource/img/14.png)"></div>
+        <div class="work3" style="background-image:url(../resource/img/15.png)"></div>
+
     </div>
     <div class="side-bars">
         <div>

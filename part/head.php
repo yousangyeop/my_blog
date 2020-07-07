@@ -9,6 +9,7 @@
     <link rel="icon" href="../resource/img/blog.logo.png">
     <link rel="stylesheet" href="/resource/common.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
@@ -27,9 +28,9 @@
                     </div>
                     <ul>
                         <li><a href="/aboutMe.php">저는요</a></li>
-                        <li><a href="/work.php">작업은요</a></li>
+                        <li><a href="/work.php">취미는요</a></li>
                         <li><a href="/communication.php">소통은요</a></li>
-                        <li><a href="/hobby.php">취미는요</a></li>
+                        <li><a href="/hobby.php">작업는요</a></li>
                     </ul>
                 </div>
             </div>

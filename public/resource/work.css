@@ -7,12 +7,16 @@ body, ul, li {
 html, body {
     height:100vh;
 }
+.work > .work-menu {
+    margin-left: 12%;
+}
 
 .sbs-slider {
     height:100%;
-    width: 1000px;
+    width: 600px;
     position:relative;
     user-select:none;
+    margin-right: 15%;
 }
 
 .sbs-slider .side-bars > div {
@@ -62,14 +66,10 @@ html, body {
     background-repeat:no-repeat;
     background-position:center;
     /* cover => 만약에 배경이미지가 엘리먼트 보다 더 작다면 배경이미지를 확대시켜서 덮는다. */
-    background-size:cover;
+    
     /* contain => 만약에 배경이미지가 엘리먼트 보다 더 작다면 배경이미지를 확대시켜서 덮는다. 단 이미지가 짤리지 않는 범위에서 작업한다. */
 }
 
 .sbs-slider > .slides > div.active {
     opacity:1;
-}
-
-.sbs-slider > .slides > div {
-    
 }

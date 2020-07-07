@@ -27,4 +27,6 @@
 
 .list-box-1 > ul > li > a > .title {
     text-align:center;
+    font-weight: bold;
+    padding: 15px;
 }
