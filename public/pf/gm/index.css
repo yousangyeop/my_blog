@@ -341,13 +341,19 @@ nav>.menu>ul>li {
     padding: 10px;
     font-weight: bold;
 }
+.menu > ul > li:hover > a {
+    text-decoration: underline;
+    }
+/* 로그인 */
+
 
 nav>.log-in>ul>li>a {
     font-weight: bold;
 }
-.menu > ul > li:hover > a {
-text-decoration: underline;
+nav > .log-in > ul {
+    width: 40%;
 }
+
 
 /* 배너 */
 .bn>.bn-box>img {

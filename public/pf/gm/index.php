@@ -35,14 +35,14 @@
         </div>
 
         <div class="log-in flex flex-jc-end flex-1-0-0 con">
-            <ul class="flex flex-ai-c">
-                <li class="flex"><a href="#" class="flex">로그인</a></li>
-                <li class="flex"><a href="#" class="flex"><img
-                            src="https://yousangyeop.github.io/img1/blog/article/2020/look.png" alt=""></a></li>
-                <li class="flex"><a href="#" class="flex"><img
-                            src="https://yousangyeop.github.io/img1/blog/article/2020/read.png" alt=""></a></li>
-                <li class="flex"><a href="#" class="flex"><img
-                            src="https://yousangyeop.github.io/img1/blog/article/2020/heart.png" alt=""></a></li>
+            <ul class="flex flex-ai-c flex-jc-end">
+                <li class="flex flex-jc-end"><a href="#" class="flex flex-jc-end">로그인</a></li>
+                <li class="flex flex-jc-end"><a href="#" class="flex flex-jc-end"><img
+                            src="https://yousangyeop.github.io/img1/blog/article/2020/look.png" alt="" width="70%"></a></li>
+                <li class="flex flex-1-0-0"><a href="#" class="flex flex-jc-end"><img
+                            src="https://yousangyeop.github.io/img1/blog/article/2020/read.png" alt="" width="120%"></a></li>
+                <li class="flex flex-jc-end"><a href="#" class="flex flex-jc-end"><img
+                            src="https://yousangyeop.github.io/img1/blog/article/2020/heart.png" alt="" width="30%"></a></li>
             </ul>
         </div>
         </div>
