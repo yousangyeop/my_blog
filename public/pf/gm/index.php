@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <nav class="flex con">
-        <div class="menu-box con flex flex-ai-c flex-1-0-0">
+    <nav class="flex con flex-ai-c">
+        <div class="menu-box con flex flex-1-0-0">
             <a class="logo flex flex-1-0-0 flex-ai-c" href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 15.9">
                     <path
@@ -23,7 +23,7 @@
         </div>
 
         <div class="menu flex flex-jc-c">
-            <ul class="flex flex-ai-c">
+            <ul class="flex">
                 <li class="flex"><a href="#">선글라스</a></li>
                 <li class="flex"><a href="#">안경</a></li>
                 <li class="flex"><a href="#">액세서리</a></li>
@@ -35,14 +35,12 @@
         </div>
 
         <div class="log-in flex flex-jc-end flex-1-0-0 con">
-            <ul class="flex flex-ai-c flex-jc-end">
-                <li class="flex flex-jc-end"><a href="#" class="flex flex-jc-end">로그인</a></li>
-                <li class="flex flex-jc-end"><a href="#" class="flex flex-jc-end"><img
-                            src="https://yousangyeop.github.io/img1/blog/article/2020/look.png" alt="" width="70%"></a></li>
-                <li class="flex flex-1-0-0"><a href="#" class="flex flex-jc-end"><img
-                            src="https://yousangyeop.github.io/img1/blog/article/2020/read.png" alt="" width="120%"></a></li>
-                <li class="flex flex-jc-end"><a href="#" class="flex flex-jc-end"><img
-                            src="https://yousangyeop.github.io/img1/blog/article/2020/heart.png" alt="" width="30%"></a></li>
+            <ul class="flex">
+                <li class="flex"><a href="#">로그인</a></li>
+                <li class="flex"><a href="#"><img src="https://yousangyeop.github.io/img1/blog/article/2020/read.png"
+                            alt=""></a></li>
+                <li class="flex"><a href="#"><img src="https://yousangyeop.github.io/img1/blog/article/2020/heart.png"
+                            alt=""></a></li>
             </ul>
         </div>
         </div>
@@ -53,14 +51,66 @@
             <ul>
                 <li>GENTLE MONSTER X KRIS WU</li>
                 <ul class="text">
-                    <li>젠틀몬스터와 글로벌 아티스트 KRIS WU의 협업으로</li>
-                    <li>이루어진 GENTLE WU 컬렉션을 소개합니다.</li>
+                    <li>젠틀몬스터와 글로벌 아티스트 KRIS WU의 협업으로 <br>
+                        이루어진 GENTLE WU 컬렉션을 소개합니다.
+                    </li>
                 </ul>
-                <div class="btn-1"><a href="#">자세히 보기</a></div>
-                <div class="btn-2"><a href="#">컬렉션 구매하기</a></div>
+                <div class="btn-box flex flex-jc-sb">
+                    <a href="#">자세히 보기</a>
+                    <a href="#">컬렉션 구매하기</a>
+                </div>
             </ul>
-
         </div>
+    </div>
+
+    <div class="sm-bn con flex flex-jc-sb flex-ai-c">
+        <h3 class="flex">신상품-선글라스</h3>
+        <div class="flex">데일리 한 스타일링부터 엣지 있는 스타일링까지,<br>나에게 어울리는 프레임을 만나보세요.</div>
+    </div>
+    <div class="sm-bn-1">
+        <a href="#">선글라스 모두보기</a>
+    </div>
+
+
+
+    <div class="mid-bn con">
+        <ul class="row">
+            <li class="cell">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W01.jpg" alt="">
+                    <div class="prod-name">블링 02</div>
+                    <div class="prod-price">260,000원</div>
+                </div>
+            </li>
+            <li class="cell">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W02.jpg" alt="">
+                    <div class="prod-name">랭 01(k)</div>
+                    <div class="prod-price">249,000원</div>
+                </div>
+            </li>
+            <li class="cell">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W03_r.jpg" alt="">
+                    <div class="prod-name">칼로 032(M)</div>
+                    <div class="prod-price">320,000원</div>
+                </div>
+            </li>
+            <li class="cell">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W04.jpg" alt="">
+                    <div class="prod-name">허 01</div>
+                    <div class="prod-price">259,000원</div>
+                </div>
+            </li>
+            <li class="cell">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W05.jpg" alt="">
+                    <div class="prod-name">솔로 01</div>
+                    <div class="prod-price">249,000원</div>
+                </div>
+            </li>
+        </ul>
     </div>
 </body>
 

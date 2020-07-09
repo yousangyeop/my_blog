@@ -285,6 +285,10 @@ label[for] {
     align-items: center;
 }
 
+*>.flex-jc-sb {
+    display: flex;
+    justify-content: space-between;
+}
 *>.flex-ai-start {
     display: flex;
     align-items: flex-start;
@@ -317,6 +321,29 @@ label[for] {
 }
 
 
+/* 라이브러리 */
+.con {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.cell {
+    float:left;
+    box-sizing:border-box;
+}
+
+.row::after {
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.img-box > img {
+    width:100%;
+    display:block;
+}
+
+
 
 /* 커스텀 */
 body {
@@ -327,7 +354,9 @@ body {
     width: 1850px;
 }
 
-nav {}
+nav {
+    height: 70px;
+}
 
 .menu-box>.logo {
     width: 400px;
@@ -347,13 +376,20 @@ nav>.menu>ul>li {
 /* 로그인 */
 
 
-nav>.log-in>ul>li>a {
+
+nav>.log-in>ul>li{
     font-weight: bold;
+
 }
-nav > .log-in > ul {
-    width: 40%;
+nav>.log-in>ul>li > a {
+    width:50px;
 }
 
+
+nav>.log-in>ul>li > a >img {
+    width:50%;
+    display: block;
+}
 
 /* 배너 */
 .bn>.bn-box>img {
@@ -365,32 +401,79 @@ nav > .log-in > ul {
     top: 65%;
     left: 7%;
     color: white;
-    line-height: 200%;
 }
 
 .bn>.bn-box {
     position: relative;
 }
 
-.bn>.bn-box>ul>div {
-    display: inline-block;
-    padding: 5px 50px;
-    background-color: white;
+.bn>.bn-box .btn-box {
+    margin-top: 20px;
+}
+
+.bn>.bn-box>ul .btn-box {
+    
     color: black;
-    margin-right: 20px;
     font-size: .7rem;
 }
+
+
 
 .bn>.bn-box>ul>li:first-child {
     font-weight: bold;
     font-size: 1.5rem;
 }
 
-.bn>.bn-box>ul>div:hover {
+.bn>.bn-box>ul .btn-box > a {
+    display: block;
+    padding:10px 50px;
+    
+    background-color: white;
+}
+
+.bn>.bn-box>ul .btn-box > a:hover {
     background-color: black;
     color: white;
     cursor: pointer;
 }
 .bn > .bn-box > ul > .text {
 font-size: .8rem;
+}
+/* 작은 배너 */
+.sm-bn {
+    margin-top: 2%;
+}
+.sm-bn > h3 {
+    margin-left: 5%;    
+}
+.sm-bn > div {
+    margin-right: 5%;
+    font-size: .9rem;
+}
+
+.sm-bn-1 {
+    margin-left: 6.3%;
+}
+.sm-bn-1 > a {
+    border: 1px solid black;
+    padding:10px 30px;
+    font-size: .7rem;
+}
+.sm-bn-1 > a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* 미드 배너*/
+.mid-bn > ul > li {
+    width: calc(100% / 5);
+}
+.mid-bn > ul > li {
+    padding: 40px;
+}
+
+.mid-bn > ul > li > .img-box > div {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
 }
