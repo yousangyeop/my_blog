@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <script src="./index.js"></script>
 </head>
 
@@ -73,40 +79,89 @@
 
 
 
-    <div class="mid-bn con">
-        <ul class="row">
-            <li class="cell">
+    <div class="my-slider-1 con">
+        <ul class="owl-carousel owl-theme">
+            <li class="cell item">
                 <div class="img-box">
                     <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W01.jpg" alt="">
                     <div class="prod-name">블링 02</div>
                     <div class="prod-price">260,000원</div>
                 </div>
             </li>
-            <li class="cell">
+            <li class="cell item">
                 <div class="img-box">
                     <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W02.jpg" alt="">
                     <div class="prod-name">랭 01(k)</div>
                     <div class="prod-price">249,000원</div>
                 </div>
             </li>
-            <li class="cell">
+            <li class="cell item">
                 <div class="img-box">
                     <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W03_r.jpg" alt="">
                     <div class="prod-name">칼로 032(M)</div>
                     <div class="prod-price">320,000원</div>
                 </div>
             </li>
-            <li class="cell">
+            <li class="cell item">
                 <div class="img-box">
                     <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W04.jpg" alt="">
                     <div class="prod-name">허 01</div>
                     <div class="prod-price">259,000원</div>
                 </div>
             </li>
-            <li class="cell">
+            <li class="cell item">
                 <div class="img-box">
                     <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W05.jpg" alt="">
                     <div class="prod-name">솔로 01</div>
+                    <div class="prod-price">249,000원</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W06.jpg" alt="">
+                    <div class="prod-name">모드모02</div>
+                    <div class="prod-price">279,000원</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W07.jpg" alt="">
+                    <div class="prod-name">단스 02(BR))</div>
+                    <div class="prod-price">280,000원</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W08.jpg" alt="">
+                    <div class="prod-name">마이 마 BC4</div>
+                    <div class="prod-price">249,000원</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W09.jpg" alt="">
+                    <div class="prod-name">카르마 02</div>
+                    <div class="prod-price">320,000원</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W10.jpg" alt="">
+                    <div class="prod-name">무무 PC1</div>
+                    <div class="prod-price">260,000원</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W11.jpg" alt="">
+                    <div class="prod-name">미오미오 02(OR)</div>
+                    <div class="prod-price">280,000원</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W12.jpg" alt="">
+                    <div class="prod-name">드리머 17 GC2</div>
                     <div class="prod-price">249,000원</div>
                 </div>
             </li>

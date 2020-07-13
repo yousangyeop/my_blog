@@ -477,3 +477,11 @@ font-size: .8rem;
     font-weight: bold;
     font-size: 0.8rem;
 }
+.my-slider-1 .item {
+    border:10px solid red;
+    height:80vh;
+    font-size:15rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
