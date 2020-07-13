@@ -79,8 +79,8 @@
 
 
 
-    <div class="my-slider-1 con">
-        <ul class="owl-carousel owl-theme">
+    <div class="my-slider-1 con flex">
+        <ul class="owl-carousel owl-theme flex">
             <li class="cell item">
                 <div class="img-box">
                     <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W01.jpg" alt="">
