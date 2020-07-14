@@ -289,6 +289,10 @@ label[for] {
     display: flex;
     justify-content: space-between;
 }
+*>.flex-jc-sa {
+    display: flex;
+    justify-content: space-around;
+}
 *>.flex-ai-start {
     display: flex;
     align-items: flex-start;
@@ -360,6 +364,23 @@ body, html{
 .menu-bar > ul > li{
     padding: 30px;
 }
+.menu-bar > ul > li:hover > a::before {
+    content: "●";
+    color:red;
+    position: absolute;
+    top:20%;
+    left: 10%;
+} 
+.menu-bar > ul > li {
+    position: relative;
+}
+
+
+
+
+
+
+
 /* 슬라이드 */
 .sbs-slider {
     position:relative;
@@ -479,6 +500,11 @@ body, html{
     border-radius: 100%;
     border: 1px solid red;
     transform: translate(-50%, -50%);
+}
+/* 배너 */
+
+.bn-bar > .bn-text-2 {
+    margin-bottom: 100px;
 }
 
 

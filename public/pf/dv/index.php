@@ -23,10 +23,10 @@
         </div>
         <div class="menu-bar flex flex-ai-c flex-jc-end flex-grow-1 ">
             <ul class="flex flex-jc-end">
-                <li><a href="#" class="block"></a>About</li>
-                <li><a href="#" class="block"></a>Service</li>
-                <li><a href="#" class="block"></a>Portfolio</li>
-                <li><a href="#" class="block"></a>Contact</li>
+                <li><a href="#" class="block">About</a></li>
+                <li><a href="#" class="block">Service</a></li>
+                <li><a href="#" class="block">Portfolio</a></li>
+                <li><a href="#" class="block">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -88,7 +88,7 @@
         <div class="bn-text-2">
             디지털 컨텐츠 제작 부터 홍보 마케팅까지 통합 서비스를 제공합니다.
         </div>
-        <div class=".bn-image flex flex-jc-c">
+        <div class=".bn-image flex flex-jc-c flex-jc-sa">
             <div class="image-1 flex"><img src="http://www.di-in.co.kr/img/new2020/main-service-1.png" alt=""></div>
             <div class="image-2 flex"><img src="http://www.di-in.co.kr/img/new2020/main-service-2.png" alt=""></div>
             <div class="image-3 flex"><img src="http://www.di-in.co.kr/img/new2020/main-service-3.png" alt=""></div>
