@@ -345,7 +345,10 @@ label[for] {
 
 /* 커스텀 */
 .con {
-    max-width: 1348px;
+    max-width: 1763px;
+}
+body, html{
+    height: 100vh;
 }
 /* 상단 메뉴 */
 .menu-box {
@@ -358,21 +361,158 @@ label[for] {
     padding: 30px;
 }
 /* 슬라이드 */
-.slide-1 {
+.sbs-slider {
+    position:relative;
+    margin: 0 70px;
+    min-width: 1200px;
+    user-select:none;
+}
+.sbs-slider::after{
+    content: "";
+    display: block;
+    padding-bottom: 45.763%;
+}
+.sbs-slider .side-bars{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* 슬라이드 바*/
+.sbs-slider .side-bars > div > span {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
+.sbs-slider .side-bars > div:first-child > span {
+    left:100px;
+}
+.sbs-slider .side-bars > div:last-child > span {
+    right: 100px;
+}
+
+.sbs-slider .side-bars > div:active > span {
+    transform:translateY(-40%);
+}
+/* 슬라이드 이미지 */
+.sbs-slider > .slides > div {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    /* 완전투명하게 만든다. */
+    opacity:0;
+    overflow: hidden;
+}
+.sbs-slider > .slides > div.active {
+    opacity:1;
+}
+.sbs-slider > .slides > div > img{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slide1 {
     background-color: powderblue;
 }
-.slide-2 {
+.slide2{
     background-color: palegoldenrod;
 }
-.slide-3 {
+.slide3{
     background-color: palevioletred;
 }
-.slide-4 {
+.slide4{
     background-color: papayawhip;
 }
-.my-slider-1 .item {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
- 
+.sbs-slider > .slides > .slide1 > div {
+    position: absolute;
+    margin-top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sbs-slider > .slides > .slide2 > div {
+    position: absolute;
+    margin-top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sbs-slider > .slides > .slide3 > div {
+    position: absolute;
+    margin-top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sbs-slider > .slides > .slide4 > div {
+    position: absolute;
+    margin-top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* 버튼 슬라이드 */
+.btn-slide {
+    position: absolute;
+    width: 200px;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn-slide > div {
+    position: relative;
+    cursor: pointer;
+}
+.btn-slide > div > img {
+    visibility: hidden;
+    z-index: 5;
+}
+.btn-slide > div.active > img {
+    visibility: visible;
+}
+.btn-slide > div > .dot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid red;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 배너 */
+.bn-bar {
+    background-color: pink;
+    text-align: center;
+}
+.bn-bar > .bn-text {
+    font-size: 3rem;
+    padding: 30px;
+    font-weight: bold;
+    color: white;
+}
+.bn-bar > .bn-text-2 {
+    color: white;
+}
+.bn-bar > .bn-image {
+    width: 400px;
+}
