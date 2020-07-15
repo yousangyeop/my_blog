@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 /* 폰트적용 */
+=======
+>>>>>>> f3246158d8392e6c1cd28b87cb0970d844f29161
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 
 html {
+<<<<<<< HEAD
     font-family: 'Noto Sans KR', sans-serif;
+=======
+    font-family: 'Gamja Flower', cursive;
+>>>>>>> f3246158d8392e6c1cd28b87cb0970d844f29161
 }
 
 /* 노말라이즈 */
@@ -311,6 +318,7 @@ label[for] {
     flex: 1 0 0;
 }
 
+<<<<<<< HEAD
 /* 커스텀 */
 body {
     width: 1900px;
@@ -341,4 +349,17 @@ body {
 .right-menu > li {
     padding: 10px;
     background-color: orange;
+=======
+
+
+/* 커스텀 */
+body {
+    min-height: 100%;
+    width: 1900px;
+    overflow: hidden;
+}
+
+.con {
+    width: 1400px;
+>>>>>>> f3246158d8392e6c1cd28b87cb0970d844f29161
 }

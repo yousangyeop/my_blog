@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>stco</title>
+=======
+    <title>STCO</title>
+>>>>>>> f3246158d8392e6c1cd28b87cb0970d844f29161
     <link rel="stylesheet" href="./index.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./index.js"></script>
@@ -12,6 +16,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
     <div class="con flex-ai-c">
         <ul class="flex left-menu flex-1-0-0">
             <li class="flex">
@@ -52,6 +57,37 @@
             <li><img src="" alt=""></li>
         </ul>
     </div>
+=======
+    <div class="con">
+        <ul class="left-menu flex">
+            <li>
+                <a href="#"><img src="http://localhost:8077/resource/img/toggle-bar.png" alt="">
+                <span>전체메뉴</span>
+                </a>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="main flex -jc-c">
+            <a href="#">STCO ONLINE MALL</a>
+        </div>
+        <ul class="right-menu flex fle-jc-end">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+>>>>>>> f3246158d8392e6c1cd28b87cb0970d844f29161
 </body>
 
 </html>
