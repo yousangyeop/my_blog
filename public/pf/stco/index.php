@@ -9,6 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 </head>
 
 <body>
@@ -42,28 +43,39 @@
             <li class="slide2"><img src="http://localhost:8077/resource/img/stco-bn-2.jpg" alt=""></li>
             <li class="slide3"><img src="http://localhost:8077/resource/img/stco-bn-3.jpg" alt=""></li>
             <li class="slide4"><img src="http://localhost:8077/resource/img/stco-bn-4.jpg" alt=""></li>
-            <li class="slide5"><img src="http://localhost:8077/resource/img/stco-bn-5.jpg" alt=""></li>
-            <li class="slide6"><img src="http://localhost:8077/resource/img/stco-bn-6.jpg" alt=""></li>
-            <li class="slide7"><img src="http://localhost:8077/resource/img/stco-bn-7.jpg" alt=""></li>
-            <li class="slide8"><img src="http://localhost:8077/resource/img/stco-bn-8.jpg" alt=""></li>
-            <li class="slide9"><img src="http://localhost:8077/resource/img/stco-bn-9.jpg" alt=""></li>
-            <li class="slide10"><img src="http://localhost:8077/resource/img/stco-bn-10.jpg" alt=""></li>
-            <li class="slide11"><img src="http://localhost:8077/resource/img/stco-bn-11.jpg" alt=""></li>
-            <li class="slide12"><img src="http://localhost:8077/resource/img/stco-bn-12.jpg" alt=""></li>
         </ul>
-    </div>
-    <div class="side-bars">
+        <div class="side-bars">
             <div>
                 <span>
-                    <img src="http://www.di-in.co.kr/img/new2020/btn-main-v-prev.png" alt="">
+                    <i class="fas fa-angle-left"></i>
                 </span>
             </div>
             <div>
                 <span>
-                    <img src="http://www.di-in.co.kr/img/new2020/btn-main-v-next.png" alt="">
+                    <i class="fas fa-angle-right"></i>
                 </span>
             </div>
         </div>
+        <div class="btn-slide flex flex-jc-sb">
+            <div class="btn1 flex fle-jc-sb active">
+                <div class="dot"></div>
+                <i class="fas fa-circle"></i>
+            </div>
+            <div class="btn2 flex">
+                <div class="dot"></div>
+                <i class="fas fa-circle"></i>
+            </div>
+            <div class="btn3 flex">
+                <div class="dot"></div>
+                <i class="fas fa-circle"></i>
+            </div>
+            <div class="btn4 flex">
+                <div class="dot"></div>
+                <i class="fas fa-circle"></i>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
