@@ -314,7 +314,7 @@ label[for] {
 /* 커스텀 */
 body {
     width: 1900px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .con {
     width: 1400px;
