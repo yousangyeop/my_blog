@@ -16,14 +16,14 @@
     <div class="con flex-ai-c">
         <ul class="flex left-menu flex-1-0-0">
             <li class="flex">
-                <img src="http://localhost:8077/resource/img/toggle-bar.png" alt="" width="27">
+                <img src="https://yousangyeop.github.io/img1/pf/stco/toggle-bar.png" alt="" width="27">
                 <a href="#">전체메뉴</a>
             </li>
             <li class="flex"><a href="#">아울렛</a></li>
             <li class="flex"><a href="#">Editor's PICK</a></li>
             <li class="flex"><a href="#">사이즈추천</a></li>
             <li class="flex">
-                <img src="http://localhost:8077/resource/img/look.png" alt="" width="25">
+                <img src="https://yousangyeop.github.io/img1/pf/stco/look.png" alt="" width="25">
                 <a href="#">메뉴</a></li>
         </ul>
         <div class="main flex flex-jc-c flex-1-0-0">
@@ -39,10 +39,10 @@
     </div>
     <div class="sbs-slider">
         <ul class="slides">
-            <li class="active slide1"><img src="http://localhost:8077/resource/img/stco-bn-1.jpg" alt=""></li>
-            <li class="slide2"><img src="http://localhost:8077/resource/img/stco-bn-2.jpg" alt=""></li>
-            <li class="slide3"><img src="http://localhost:8077/resource/img/stco-bn-3.jpg" alt=""></li>
-            <li class="slide4"><img src="http://localhost:8077/resource/img/stco-bn-4.jpg" alt=""></li>
+            <li class="active slide1"><img src="https://yousangyeop.github.io/img1/pf/stco/stco-bn-1.jpg" alt=""></li>
+            <li class="slide2"><img src="https://yousangyeop.github.io/img1/pf/stco/stco-bn-2.jpg" alt=""></li>
+            <li class="slide3"><img src="https://yousangyeop.github.io/img1/pf/stco/stco-bn-3.jpg" alt=""></li>
+            <li class="slide4"><img src="https://yousangyeop.github.io/img1/pf/stco/stco-bn-4.jpg" alt=""></li>
         </ul>
         <div class="side-bars">
             <div>
