@@ -61,6 +61,8 @@
         <div class="slide-bars">
             <div>
                 <i class="fas fa-angle-left"></i>
+            </div>
+            <div>
                 <i class="fas fa-angle-right"></i>
             </div>
         </div>

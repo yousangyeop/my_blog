@@ -422,12 +422,19 @@ body {
     opacity:1;
 }
 /* 슬라이드 바 */
-.slider > .slide-bars > div {
+.slider > .slide-bars > div > i {
     position: absolute;
     font-size: 3rem;
     bottom: 178px;
     color:white;
     margin-left: 500px;
+}
+.slider > .slide-bars > div:last-child > i {
+    left: 50px;
+} 
+.slider > .slide-bars > div:active > i {
+    transform:translateY(-20%);
+    
 }
 /* 버튼 슬라이드 */
 .btn-slide {
@@ -446,9 +453,6 @@ body {
     padding: 5px;
     color:white;
     
-}
-.btn-slide > div {
-    background-color: red;
 }
 .btn-slide > div > .dot {
     position: absolute;
