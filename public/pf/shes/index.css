@@ -467,3 +467,36 @@ body {
 .btn-slide > div.active > i {
     visibility: visible;
 }
+/* 배너 */
+.bn-bar {
+    background-color: #F8F8F8;
+    width: 100%;
+}
+.bn-bar > .bn-box {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 40px;
+}
+.bn-bar > .bn-box > div {
+    display: inline-block;
+    margin-left: 30px;
+    text-align: center;
+}
+.bn-bar > .bn-box > span {
+    position: absolute;
+    writing-mode: vertical-rl;
+    left: -80px;
+    text-transform: uppercase;
+    font-weight: 450;
+    transform-origin: 0 0;
+}
+.bn-bar > .bn-box > span > span {
+    background-color: lightgray;
+    width: 10%;
+    height: 252px;
+    position: absolute;
+    left :50%;
+    transform: translatex(-50%);
+    margin-top: 10px;
+}

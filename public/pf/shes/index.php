@@ -81,6 +81,17 @@
             </div>
         </div>
     </div>
+    <div class="bn-bar">
+        <div class="bn-box">
+            <span>SHE’S LINE EVENT <span></span></span>
+            <div class="">
+                <img src="http://shes-line.co.kr/_upfiles/main/20181126112711_main.jpg" alt="">
+            </div>
+            <div class="">
+                <img src="http://shes-line.co.kr/_upfiles/main/2018112614026_main.jpg" alt="">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
