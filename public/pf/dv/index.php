@@ -59,7 +59,7 @@
         </div>
         <div class="btn-slide flex flex-jc-sb">
             <div class="btn1 flex fle-jc-sb active">
-                <div class="dot ca"></div>
+                <div class="dot"></div>
                 <img src="http://www.di-in.co.kr/img/new2020/main-visual-dot-01.png" alt="">
             </div>
             <div class="btn2 flex">

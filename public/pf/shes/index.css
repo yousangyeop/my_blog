@@ -289,10 +289,12 @@ label[for] {
     display: flex;
     justify-content: space-between;
 }
+
 *>.flex-jc-sa {
     display: flex;
     justify-content: space-around;
 }
+
 *>.flex-ai-start {
     display: flex;
     align-items: flex-start;
@@ -327,115 +329,133 @@ label[for] {
 
 /* 라이브러리 */
 .con {
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cell {
-    float:left;
-    box-sizing:border-box;
+    float: left;
+    box-sizing: border-box;
 }
 
 .row::after {
-    content:"";
+    content: "";
     display: block;
-    clear:both;
+    clear: both;
 }
 
-.img-box > img {
-    width:100%;
-    display:block;
+.img-box>img {
+    width: 100%;
+    display: block;
 }
+
 /* 커스텀 */
 body {
     max-width: 1900px;
 }
+
 .con {
     width: 1200px;
 }
+
 /* 메뉴 */
 
 .menu-box {
     margin-top: 10px;
 }
-.menu-box ul > li {
+
+.menu-box ul>li {
     padding: 20px;
 }
+
 /* 왼쪽 메뉴 */
 
 /* 로고 */
-.logo > a > img{
+.logo>a>img {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
 }
+
 /* 오른쪽 메뉴*/
 .right-menu {
     margin-left: -5%;
 }
-.right-menu > .lan {
+
+.right-menu>.lan {
     margin-top: 15px;
 }
-.right-menu .lan > li{
+
+.right-menu .lan>li {
     border: 1px solid gray;
     padding: 4px 12px;
 }
-.right-menu .lan > li:not(:first-child) {
+
+.right-menu .lan>li:not(:first-child) {
     display: none;
 }
-.right-menu .lan > li  span {
+
+.right-menu .lan>li span {
     padding: 5px;
 }
-.right-menu .lan > li  span:last-child {
+
+.right-menu .lan>li span:last-child {
     font-size: .3rem;
     color: gray;
 }
 
-.right-menu > .toggle div {
+.right-menu>.toggle div {
     background-color: black;
     height: 1px;
     width: 21px;
     margin: 7px 0px;
 }
-.right-menu > .toggle div:not(:nth-child(2)) {
+
+.right-menu>.toggle div:not(:nth-child(2)) {
     width: 11px;
 }
+
 /* 슬라이드 */
 .slider {
-    position:relative;
+    position: relative;
     min-width: 1200px;
-    user-select:none;
+    user-select: none;
     background-color: green;
-    height:800px;
+    height: 800px;
 }
 
-.slider > .slides > div {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    opacity:0;
+.slider>.slides>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
     overflow: hidden;
 }
-.slider > .slides > div.active {
-    opacity:1;
+
+.slider>.slides>div.active {
+    opacity: 1;
 }
+
 /* 슬라이드 바 */
-.slider > .slide-bars > div > i {
+.slider>.slide-bars>div>i {
     position: absolute;
     font-size: 3rem;
     bottom: 178px;
-    color:white;
+    color: white;
     margin-left: 500px;
 }
-.slider > .slide-bars > div:last-child > i {
+
+.slider>.slide-bars>div:last-child>i {
     left: 50px;
-} 
-.slider > .slide-bars > div:active > i {
-    transform:translateY(-20%);
-    
 }
+
+.slider>.slide-bars>div:active>i {
+    transform: translateY(-20%);
+
+}
+
 /* 버튼 슬라이드 */
 .btn-slide {
     position: absolute;
@@ -443,18 +463,21 @@ body {
     transform: translateX(-50%);
     bottom: 80px;
 }
-.btn-slide > div {
+
+.btn-slide>div {
     position: relative;
     cursor: pointer;
 }
-.btn-slide > div > i {
+
+.btn-slide>div>i {
     visibility: hidden;
     z-index: 5;
     padding: 5px;
-    color:white;
-    
+    color: white;
+
 }
-.btn-slide > div > .dot {
+
+.btn-slide>div>.dot {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -464,26 +487,32 @@ body {
     border: 1px solid white;
     transform: translate(-50%, -50%);
 }
-.btn-slide > div.active > i {
+
+.btn-slide>div.active>i {
     visibility: visible;
 }
+
 /* 배너 */
 .bn-bar {
     background-color: #F8F8F8;
     width: 100%;
 }
-.bn-bar > .bn-box {
+
+.bn-bar>.bn-box {
     width: 1200px;
     margin: 0 auto;
     position: relative;
     padding: 40px;
 }
-.bn-bar > .bn-box > div {
+
+.bn-bar>.bn-box>div {
     display: inline-block;
     margin-left: 30px;
     text-align: center;
 }
-.bn-bar > .bn-box > span {
+
+/* 배너 텍스트 */
+.bn-bar>.bn-box>span {
     position: absolute;
     writing-mode: vertical-rl;
     left: -80px;
@@ -491,12 +520,27 @@ body {
     font-weight: 450;
     transform-origin: 0 0;
 }
-.bn-bar > .bn-box > span > span {
+
+.bn-bar>.bn-box>span>span {
     background-color: lightgray;
     width: 10%;
     height: 252px;
     position: absolute;
-    left :50%;
+    left: 50%;
     transform: translatex(-50%);
     margin-top: 10px;
+}
+
+/* 배너 이미지 */
+.bn-bar>.bn-box>div>.img-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.bn-box>div>.img-box>img {
+    transition: transform 0.4s;
+}
+
+.bn-box>div:hover>.img-box>img {
+    transform: scale(1.2);
 }

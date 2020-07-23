@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>한국쉬즈라인</title>
-    <script src="./index.js"></script>
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <script src="./index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -84,11 +86,11 @@
     <div class="bn-bar">
         <div class="bn-box">
             <span>SHE’S LINE EVENT <span></span></span>
-            <div class="">
-                <img src="http://shes-line.co.kr/_upfiles/main/20181126112711_main.jpg" alt="">
+            <div class="bn-img-1">
+                <div class="img-box"><img src="http://shes-line.co.kr/_upfiles/main/20181126112711_main.jpg" alt=""></div>
             </div>
-            <div class="">
-                <img src="http://shes-line.co.kr/_upfiles/main/2018112614026_main.jpg" alt="">
+            <div class="bn-img-2">
+                <div class="img-box"><img src="http://shes-line.co.kr/_upfiles/main/2018112614026_main.jpg" alt=""></div>
             </div>
         </div>
     </div>
