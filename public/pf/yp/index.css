@@ -401,8 +401,7 @@ body {
     background-color: white;
     width: 10px;
     height: 10px;
-    opacity: 1;
-    z-index: 5;
+    visibility: visible;
 }
 
 /* 배너 바 */
