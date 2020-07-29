@@ -77,6 +77,11 @@
             </ul>
         </nav>
     </div>
+    <div class="line con"></div>
+    <div class="bn-bar-3">
+        <div class="slide"></div>
+        <div class="look"></div>
+    </div>
 </body>
 
 </html>
