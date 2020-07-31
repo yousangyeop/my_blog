@@ -78,10 +78,40 @@
         </nav>
     </div>
     <div class="line con"></div>
-    <div class="bn-bar-3">
-        <div class="slide"></div>
-        <div class="look"></div>
+    <div class="bn-bar-3 con flex-jc-sa">
+        <div class="slide flex">
+            <ul class="slides">
+                <li class="active"><img src="https://yousangyeop.github.io/img1/pf/yp/1-1.jpg" alt=""></li>
+                <li><img src="https://yousangyeop.github.io/img1/pf/yp/1-2.jpg" alt=""></li>
+                <li><img src="https://yousangyeop.github.io/img1/pf/yp/1-3.jpg" alt=""></li>
+                <li><img src="https://yousangyeop.github.io/img1/pf/yp/1-4.jpg" alt=""></li>
+            </ul>
+            <ul class="btn-slide">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="look flex">
+            <ul class="flex"><img src="https://www.yogerpresso.co.kr/skin/img/new_brand/new_store_bg.jpg" alt="">
+                <li class="input-box flex flex-ai-c flex-jc-sa">
+                    <input type="text" placeholder="주변매장찾기">
+                    <img src="https://www.yogerpresso.co.kr/skin/img/brand/ico_search.png" alt="">
+                </li>
+            </ul>
+        </div>
     </div>
+    <div class="bn-bar-4 con">
+        <div>
+            <ul>
+                <li><img src="https://yousangyeop.github.io/img1/pf/yp/2-1.jpg" alt=""></li>
+                <li><img src="https://yousangyeop.github.io/img1/pf/yp/2-2.png" alt=""></li>
+                <li><img src="https://yousangyeop.github.io/img1/pf/yp/2-3.png" alt=""></li>
+            </ul>
+        </div>
+    </div>
+
 </body>
 
 </html>
