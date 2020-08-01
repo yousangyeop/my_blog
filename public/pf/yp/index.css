@@ -554,3 +554,16 @@ body {
 .bn-bar-4 {
     margin-top: 50px;
 }
+.bn-abr-4 > .img {
+    position: relative;
+}
+.bn-bar-4 > ul > .go {
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.bn-bar-4 > ul > .info {
+    position: absolute;
+    top:0;
+    left: 0;
+}

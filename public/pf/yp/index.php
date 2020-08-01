@@ -103,13 +103,13 @@
         </div>
     </div>
     <div class="bn-bar-4 con">
-        <div>
+        <nav class="img">
+            <img src="https://yousangyeop.github.io/img1/pf/yp/2-1.jpg" alt="">
             <ul>
-                <li><img src="https://yousangyeop.github.io/img1/pf/yp/2-1.jpg" alt=""></li>
-                <li><img src="https://yousangyeop.github.io/img1/pf/yp/2-2.png" alt=""></li>
-                <li><img src="https://yousangyeop.github.io/img1/pf/yp/2-3.png" alt=""></li>
+                <li class="go"><img src="https://yousangyeop.github.io/img1/pf/yp/2-2.png" alt=""></li>
+                <li class="info"><img src="https://yousangyeop.github.io/img1/pf/yp/2-3.png" alt=""></li>
             </ul>
-        </div>
+        </nav>
     </div>
 
 </body>
