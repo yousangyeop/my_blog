@@ -12,9 +12,15 @@
     <h1>포트폴리오</h1>
     <ul>
         <li><a href="./gm/index.php">젠틀몬스터</a></li>
+        <li><a href="https://www.gentlemonster.com/">젠틀몬스터(원본)</a></li>
         <li><a href="./dv/index.php">디인비주얼</a></li>
+        <li><a href="http://www.di-in.co.kr/">디인비주얼(원본)</a></li>
         <li><a href="./stco/index.php">stco</a></li>
+        <li><a href="http://www.stco.co.kr/">stco(원본)</a></li>
         <li><a href="./shes/index.php">한국쉬즈라인</a></li>
+        <li><a href="http://shes-line.co.kr/index/">한국쉬즈라인(원본)</a></li>
+        <li><a href="./yp/index.php">요거프레소</a></li>
+        <li><a href="https://www.yogerpresso.co.kr/">요거프레소(원본)</a></li>
     </ul>
     <h1>디자인</h1>
     <ul>

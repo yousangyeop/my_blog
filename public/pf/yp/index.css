@@ -369,7 +369,6 @@ body {
     z-index: 99;
     background-color: #fff;
     min-width: 1280px;
-    /*     overflow: hidden; */
     height: 70px;
 }
 .header > .logo {
@@ -471,7 +470,7 @@ body {
 
 .slider>.slide-btn {
     position: absolute;
-    bottom: 45px;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -591,6 +590,7 @@ body {
     width: 20px;
     height: 100px;
     position: absolute;
+    
 }
 
 .bn-bar-3>.slide>.btn-slide>li {
@@ -599,7 +599,7 @@ body {
     background-color: burlywood;
     border-radius: 100%;
     margin: 8px;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 .bn-bar-3>.slide>.btn-slide>.active {
