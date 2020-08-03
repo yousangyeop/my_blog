@@ -264,7 +264,9 @@ label[for] {
     display: flex;
     flex-flow: column nowrap;
 }
-
+.fle-column-c {
+    display: flex;
+}
 *>.flex-grow-1 {
     flex-grow: 1;
 }
@@ -294,7 +296,7 @@ label[for] {
     align-items: flex-end;
 }
 
-.flex-jc-sa {
+*>.flex-jc-sa {
     display: flex;
     justify-content: space-around;
 }
@@ -356,10 +358,95 @@ body {
 }
 
 /* 메뉴 바 */
-.menu-bar>.menu-box>li {
-    padding: 30px;
-    font-weight: 500;
+.menu-bar {
+    position: relative;
 }
+.header {
+    border-bottom: 2px solid rgb(161, 161, 161);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #fff;
+    min-width: 1280px;
+    /*     overflow: hidden; */
+    height: 70px;
+}
+.header > .logo {
+    position: absolute;
+    left: 450px;
+    top: 20px;
+    z-index: 99;
+}
+.header > .gnb {
+    text-align: center;
+    position: absolute;
+    top: 98px;
+    background-color:white;
+    right: 0;
+    left: 0;
+    top: 0;
+    
+}
+.gnb > .row {
+    display: block;;
+}
+.gnb > .row >.cell {
+    width: 150px;
+    position: relative;
+}
+
+.gnb .dp1 {
+    font-size: 18px;
+    color: #808080;
+    font-weight: bold;
+    letter-spacing: -0.04em;
+    position: relative;
+    z-index: 3;
+    padding-top: 20px;
+    display: block;
+}
+.gnb li:hover > a {
+    color:grey;
+}
+.gnb > ul:hover {
+    border-bottom: 2px solid rgb(200, 200, 200);
+}
+.gnb ul > li{
+    right: -850px;
+}
+.gnb > ul ul > li {
+    margin-top: 10px;
+}
+.gnb > ul ul > li:first-child {
+    margin-top: 40px;
+}
+.gnb > ul > li > ul > li:hover > a {
+    color: rgb(200, 200, 200);
+}
+.gnb > ul > li > ul > li:first-child > a {
+    margin-top:40px;
+}
+.gnb > ul > li > ul > li:hover > a {
+    color :grey;
+}
+.dp1, .gnb > ul > li >  > ul > li > a {
+    transition-duration: 0.2s;
+}
+.gnb ul > li > ul {
+    height:0;
+    overflow-y:hidden;
+    transform:translateY(-20px);
+    opacity:0;
+    transition:height .2s, transform .2s, opacity .2s;
+}
+.gnb ul:hover > li > ul {
+    height:340px;
+    opacity:1;
+    transform:translateY(0);
+    width: 100%;
+}
+
 
 /* 슬라이드 */
 .slider {
@@ -369,7 +456,7 @@ body {
 
 .slider>.slides>li {
     position: absolute;
-    top: 0;
+    top: 30px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -415,6 +502,7 @@ body {
     background-color: burlywood;
     width: 50%;
     position: relative;
+    top: 30px;
 }
 
 .bn-bar>.bn-box1>li {
@@ -430,6 +518,7 @@ body {
     background-color: white;
     width: 50%;
     position: relative;
+    top:30px;
 }
 
 .bn-bar>.bn-box2>li {
@@ -442,7 +531,7 @@ body {
 
 /* 배너 바2*/
 .bn-bar-2 {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .bn-bar-2>nav>ul {
@@ -554,16 +643,77 @@ body {
 .bn-bar-4 {
     margin-top: 50px;
 }
-.bn-abr-4 > .img {
+.bn-bar-4 > .img {
     position: relative;
 }
-.bn-bar-4 > ul > .go {
+.bn-bar-4 > nav > ul {
     position: absolute;
-    top:0;
-    left: 0;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: center;
 }
-.bn-bar-4 > ul > .info {
-    position: absolute;
-    top:0;
-    left: 0;
+.bn-bar-4 > nav > ul > li {
+    margin: 20px
 }
+/* 배너 바5 */
+.bn-bar-5 {
+    margin-top: 50px;
+}
+/* 인스타 */
+.insta > ul {
+    margin: 0 -2px;
+}
+.insta > ul > h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    opacity: .7;
+    text-align: center;
+    margin: 30px;
+
+}
+.insta > ul > li > a > img {
+    width: calc(100%/5 - 4px);
+    float: left;
+    padding: 2px;
+}
+/* 라인 */
+.line-1 {
+    background-color: grey;
+    width: 100%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    opacity: .5;
+    float: left;
+}
+/* 바텀 바 */
+.bottom-bar {
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+}
+.bottom-bar > .foot > ul > li {
+    margin-top: 40px;
+    padding: 10px;
+}
+.bottom-bar > div > ul {
+    margin-top: 20px;
+}
+.bottom-bar > div > ul > li {
+    display: inline-block;
+    color:grey;
+}
+.bottom-bar > .logo {
+    margin: 30px;
+}
+.yp-info ul {
+    margin: -15px;
+}
+.bottom-bar > .copy {
+    padding: 40px;
+    color:rgb(110, 110, 110);
+}
+/* 커스텀  끝 */
+
