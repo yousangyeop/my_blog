@@ -25,6 +25,7 @@
     <h1>디자인</h1>
     <ul>
         <li><a href="https://yousangyeop.github.io/img1/pf/artworks/1/1.png">잔 받침</a></li>
+        <li><a href="https://yousangyeop.github.io/img1/pf/artworks/1/미술관 사이트 디자인( 앱 ).png">잔 받침</a></li>
     </ul>
 
 </body>
