@@ -21,11 +21,12 @@
         <li><a href="http://shes-line.co.kr/index/">한국쉬즈라인(원본)</a></li>
         <li><a href="./yp/index.php">요거프레소</a></li>
         <li><a href="https://www.yogerpresso.co.kr/">요거프레소(원본)</a></li>
+        <li><a href="./paul/index.php">폴로스터즈(창작)</a></li>
     </ul>
     <h1>디자인</h1>
     <ul>
         <li><a href="https://yousangyeop.github.io/img1/pf/artworks/1/1.png">잔 받침</a></li>
-        <li><a href="https://yousangyeop.github.io/img1/pf/artworks/1/미술관 사이트 디자인( 앱 ).png">잔 받침</a></li>
+        <li><a href="https://yousangyeop.github.io/img1/pf/artworks/1/미술관 사이트 디자인( 앱 ).png">앱 사이트 디자인</a></li>
     </ul>
 
 </body>
