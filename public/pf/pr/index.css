@@ -347,6 +347,13 @@ label[for] {
     display:block;
 }
 /* 커스텀 */
+body {
+    width: 100%;
+    height: 100%;
+}
 .section {
-    background-color: red;
+    width: 1440px;
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }

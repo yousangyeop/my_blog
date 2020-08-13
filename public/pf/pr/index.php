@@ -16,11 +16,12 @@
 
 <body>
     <div id="fullpage">
-        <div class="section">페이지 1</div>
-        <div class="section">페이지 2</div>
-        <div class="section">페이지 3</div>
-        <div class="section">페이지 4</div>
-        <div class="section">페이지 5</div>
+        <div class="section" style="background-image:url('https://yousangyeop.github.io/img1/pr_img/1page.png')"></div>
+        <div class="section" style="background-image:url('https://yousangyeop.github.io/img1/pr_img/2page.png')"></div>
+        <div class="section" style="background-image:url('https://yousangyeop.github.io/img1/pr_img/3page.png')"></div>
+        <div class="section" style="background-image:url('https://yousangyeop.github.io/img1/pr_img/4page.png')"></div>
+        <div class="section" style="background-image:url('https://yousangyeop.github.io/img1/pr_img/5page.png')"></div>
+        
     </div>
 </body>
 
