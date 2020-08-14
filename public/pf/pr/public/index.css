@@ -1,0 +1,10 @@
+
+/* about */
+#fullpage .section .txt1 {
+    position: absolute;
+    bottom:100px;
+    right:100px;
+    color:white;
+    font-size:3rem;
+    font-weight: bold;;
+}
