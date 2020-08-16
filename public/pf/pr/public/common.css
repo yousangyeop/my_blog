@@ -284,6 +284,10 @@ label[for] {
     display: flex;
     align-items: center;
 }
+.flex-ai-sb {
+    display: flex;
+    align-items: space-between;
+}
 
 *>.flex-jc-sb {
     display: flex;
@@ -355,17 +359,24 @@ label[for] {
 }
 /* 커스텀 */
 body {
-    width: 100%;
+    width: 100%-300px;
     height: 100%;
     position: relative;
     overflow: hidden;
 }
 /* 배경 */
-.section {
+.section:not(:last-child) {
+    margin:0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.page5 {
     margin:0 auto;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* 사이드 바 */
 .side-bar {
     position: fixed;
