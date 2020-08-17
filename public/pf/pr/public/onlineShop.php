@@ -17,17 +17,21 @@ include "../part/head.php"
         <li class="g200"><img src="https://yousangyeop.github.io/img1/pr_img/200g%20img.png" alt="" width="270"></li>
     </ul>
 </div>
-<div class="single">
-    <ul class="flex flex-jc-sa">
-        <li class="flex-ai-c">single</li>
-        <li><img src="https://yousangyeop.github.io/img1/pr_img/2page-1.png" alt="">과테말라</li>
-        <li><img src="https://yousangyeop.github.io/img1/pr_img/2page-2.png" alt="">에티오피아 워시드</li>
-        <li><img src="https://yousangyeop.github.io/img1/pr_img/2page-3.png" alt="">에티오피아 내츄럴</li>
-        <li><img src="https://yousangyeop.github.io/img1/pr_img/2page-4.png" alt="">케냐</li>
-    </ul>
-</div>
-<div></div>
-<div></div>
+    <div class="single">
+        <ul class="flex flex-jc-sa">
+            <li><img src="https://yousangyeop.github.io/img1/pr_img/2page-1.png" alt="" width="230">과테말라</li>
+            <li><img src="https://yousangyeop.github.io/img1/pr_img/2page-2.png" alt="" width="230">에티오피아 워시드</li>
+            <li><img src="https://yousangyeop.github.io/img1/pr_img/2page-3.png" alt="" width="230">에티오피아 내츄럴</li>
+            <li><img src="https://yousangyeop.github.io/img1/pr_img/2page-4.png" alt="" width="230">케냐</li>
+        </ul>
+    </div>
+    <div class="bag">
+        <img src="https://yousangyeop.github.io/img1/pr_img/2page-5.png" alt="" width="330">
+    </div>
+    <div class="coldbrew">
+        <img src="https://yousangyeop.github.io/img1/pr_img/2page-6.png" alt="" width="330">
+    </div>
+
 
 <?php
 include "../part/foot.php"

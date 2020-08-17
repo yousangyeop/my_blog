@@ -5,11 +5,21 @@ include "../part/head.php"
 <link rel="stylesheet" href="sub.css">
 <link rel="stylesheet" href="onlineShop.css">
 <script src="../public/onlineShop.js"></script>
-<ul class="wholesale">
-    <li class="contact">CONTACT <br><br>
-        email : paul_roasters@naver.com <br><br>
-        insta : paul_roasters ☞DM <br><br>
-        010 - 1234 - 5678</li>
+
+<ul class="notice"><li>공지사항</li></ul>
+<ul class="line">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    
 </ul>
 
 <?php

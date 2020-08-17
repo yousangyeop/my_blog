@@ -15,6 +15,13 @@ body {
     height: 60vh;
     margin-left: -10%;
 }
+.about > .concept {
+    text-align: center;
+    color:white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 4%;
+}
 /* member */
 .member {
     width: 100%;
@@ -23,13 +30,12 @@ body {
 .member > li{
     display: inline-block;
     width: 33%;
-    background-color: red;
     height: 100%;
     text-align: center;
+    margin-top: 30px;
 }
 /* online */
 .online > .blend {
-    background-color: red;
     width: 100%;
 }
 .online > ul > li {
@@ -38,16 +44,131 @@ body {
     margin-left: -15px;
     font-weight: bold;
 } 
-.online > .blend > .g100 {
-    background-color: blue;
-}
-.online > .blend > .g200 {
-    background-color: gold;
-}
-.single > ul > li:first-child {
-    font-weight: bold;
-    font-size:2rem;
-}
 .single > ul > li {
     padding: 20px;
+}
+.online {
+    height: 25vh;
+}
+.single {
+    height: 25vh;
+    background-color: red;
+}
+.bag {
+    height: 25vh;
+    position: relative;
+    background-color: blue;
+}
+.bag > img {
+    top:50%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 10%;
+}
+.bag > img::after {
+    content: "coffee bag";
+    z-index: 99;
+}
+.coldbrew {
+    height: 25vh;
+    position: relative;
+    background-color: green;
+}
+.coldbrew > img {
+    top:50%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 10%;
+}
+/* wholesale */
+.wholesale {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.wholesale > .contact {
+    position: absolute;
+    top:35%;
+    transform: translateX(-50%);
+    text-align: center;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    font-weight: bold;
+}
+/* class */
+.class {
+    background-color: green;
+}
+.class > li {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.class > li img {
+    width: 100%;
+    height: 50vh;
+}
+.class-1 {
+    position: relative;
+    width:100%;
+    height: 100vh;
+}
+.class-1 > .contact {
+    position: absolute;
+    top:10%;
+    transform: translateX(-50%);
+    text-align: center;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/* notice */
+.notice {
+    position: relative;
+    width: 100vw;
+    height: 20vh;
+}
+.notice > li {
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    padding-left: 10%;
+
+}
+.line {
+    width: 100%;
+    height: 100%;
+}
+.line > li {
+    background-color: black;
+    height: 2px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 60px;
+}
+.line > li:first-child {
+    background-color: black;
+    height: 3px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 60px;
+}
+.line > li:nth-child(9) {
+    background-color: black;
+    height: 3px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 60px;
+}
+.line > li:nth-child(10) {
+    background-color: black;
+    height: 3px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 60px; 
 }
