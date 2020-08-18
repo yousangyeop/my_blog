@@ -1,17 +1,16 @@
 <?php
+$pageName = 'class';
 include "../part/head.php"
 ?>
 <link rel="stylesheet" href="../public/common.css">
 <link rel="stylesheet" href="sub.css">
-<link rel="stylesheet" href="onlineShop.css">
-<script src="../public/onlineShop.js"></script>
 
 <div>
     <ul class="class flex">
-        <li><img src="https://yousangyeop.github.io/img1/pr_img/4page-1.png" alt="">자격증</li>
-        <li><img src="https://yousangyeop.github.io/img1/pr_img/4page-2.png" alt="">핸드드립</li>
-        <li><img src="https://yousangyeop.github.io/img1/pr_img/4page-3.png" alt="">커핑</li>
-        <li><img src="https://yousangyeop.github.io/img1/pr_img/4page-4.png" alt="">로스팅</li>
+        <li><img src="https://yousangyeop.github.io/img1/pr_img/4page-1.png" alt=""><span>자격증</span></li>
+        <li><img src="https://yousangyeop.github.io/img1/pr_img/4page-2.png" alt=""><span>핸드드립</span></li>
+        <li><img src="https://yousangyeop.github.io/img1/pr_img/4page-3.png" alt=""><span>커핑</span></li>
+        <li><img src="https://yousangyeop.github.io/img1/pr_img/4page-4.png" alt=""><span>로스팅</span></li>
     </ul>
 </div>
 <div>

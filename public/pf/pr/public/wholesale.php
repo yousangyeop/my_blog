@@ -1,4 +1,5 @@
 <?php
+$pageName = 'wholesale';
 include "../part/head.php"
 ?>
 <link rel="stylesheet" href="../public/common.css">

@@ -3,7 +3,10 @@ function FullPage__init() {
         verticalCentered:false,
         navigation: true,
         navigationPosition: 'right',
-        anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5']
+        anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5'],
+        afterLoad:function(origin, destination, direction) {
+            $('html').attr('data-fullpage-index', destination.index);
+        }
     });
 }
 

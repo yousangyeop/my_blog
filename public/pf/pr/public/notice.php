@@ -1,4 +1,5 @@
 <?php
+$pageName = 'notice';
 include "../part/head.php"
 ?>
 <link rel="stylesheet" href="../public/common.css">

@@ -1,5 +1,6 @@
 <?php
-include "../part/head.php"
+$pageName = 'about';
+include "../part/head.php";
 ?>
 
 <link rel="stylesheet" href="../public/sub.css">

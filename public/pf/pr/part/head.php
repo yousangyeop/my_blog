@@ -1,7 +1,13 @@
+<?php
+if ( isset($pageName) == false ) {
+    $pageName = '';
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head data-fullpage-index="0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>폴로스터즈</title>
@@ -20,10 +26,10 @@
     <div class="side-bar">
         <div class="logo"><a href="http://localhost:8077/pf/pr/public/index.php"><img src="https://yousangyeop.github.io/img1/pr_img/logo.png" alt=""></a></div>
         <ul class="menu-bar">
-            <li><a href="about.php">about</a></li>
-            <li><a href="onlineShop.php">online shop</a></li>
-            <li><a href="wholesale.php">wholesale</a></li>
-            <li><a href="class.php">class</a></li>
-            <li><a href="notice.php">notice</a></li>
+            <li class="menu-1 <?=$pageName == 'about' ? 'active' : ''?>"><a href="about.php">about</a></li>
+            <li class="menu-2 <?=$pageName == 'onlineShop' ? 'active' : ''?>"><a href="onlineShop.php">online shop</a></li>
+            <li class="menu-3 <?=$pageName == 'wholesale' ? 'active' : ''?>"><a href="wholesale.php">wholesale</a></li>
+            <li class="menu-4 <?=$pageName == 'class' ? 'active' : ''?>"><a href="class.php">class</a></li>
+            <li class="menu-5 <?=$pageName == 'notice' ? 'active' : ''?>"><a href="notice.php">notice</a></li>
         </ul>
     </div>
