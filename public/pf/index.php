@@ -27,7 +27,9 @@
     <ul>
         <li><a href="https://yousangyeop.github.io/img1/pf/artworks/1/1.png">잔 받침</a></li>
         <li><a href="https://yousangyeop.github.io/img1/pf/artworks/1/미술관 사이트 디자인( 앱 ).png">앱 사이트 디자인</a></li>
-        <li><a href="https://yousangyeop.github.io/img1/pr_img/paul.png">폴로스터즈( 창작 )</a></li>
+        <li><a href="https://yousangyeop.github.io/img1/pr_img/paul.png">폴로스터즈 사이트 구상( 창작 )</a></li>
+        <li><a href="https://yousangyeop.github.io/img1/pr_img/logo.png">폴로스터즈 로고 ver1 ( 창작 )</a></li>
+        <li><a href="https://yousangyeop.github.io/img1/pr_img/logo-1.png">폴로스터즈 로고 ver2 ( 창작 )</a></li>
     </ul>
 
 </body>

@@ -7,10 +7,10 @@ include "../part/head.php"
 
 <div>
     <ul class="class flex">
-        <li><img src="https://yousangyeop.github.io/img1/pr_img/4page-1.png" alt=""><span>자격증</span></li>
-        <li><img src="https://yousangyeop.github.io/img1/pr_img/4page-2.png" alt=""><span>핸드드립</span></li>
-        <li><img src="https://yousangyeop.github.io/img1/pr_img/4page-3.png" alt=""><span>커핑</span></li>
-        <li><img src="https://yousangyeop.github.io/img1/pr_img/4page-4.png" alt=""><span>로스팅</span></li>
+        <li><img src="https://yousangyeop.github.io/img1/pr_img/4page-1.png" alt=""><span>Certification</span></li>
+        <li><img src="https://yousangyeop.github.io/img1/pr_img/4page-2.png" alt=""><span>Hand Drip</span></li>
+        <li><img src="https://yousangyeop.github.io/img1/pr_img/4page-3.png" alt=""><span>Cupping</span></li>
+        <li><img src="https://yousangyeop.github.io/img1/pr_img/4page-4.png" alt=""><span>Roasting</span></li>
     </ul>
 </div>
 <div>

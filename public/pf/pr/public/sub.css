@@ -35,38 +35,88 @@ body {
     margin-top: 30px;
 }
 /* online */
-.online > .blend {
-    width: 100%;
-    height: 25vh;
+.online-1 > li {
+    padding:0  150px;
+    position: relative;
 }
-.online > .blend > li {
-    margin-top: 20px;
+.online-1 > li > img {
+    transition: transform .3s;
 }
-.single {
-    height: 25vh;
+.online-2 > li {
+    padding:0  150px;
+    position: relative;
 }
-.bag {
-    height: 25vh;
+.online-2 > li > img {
+    transition: transform .3s;
 }
-.bag > img {
-    padding: 25px;
-    margin-left: 100px;
-}
-.coldbrew > img {
-    padding: 20px;
-    margin-left: 100px;
-}
-.coldbrew {
-    height: 25vh;
-}
-.online > ul > li {
-    font-size:20px;
-    text-align: center;
-    margin-left: -15px;
+.online-1 > .blend:hover::after {
+    position: absolute;
+    content: "blend";
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
     font-weight: bold;
-} 
-.single > ul > li {
-    padding: 20px;
+    border:3px solid white;
+    color:white;
+    padding: 5px 8px;
+    border-radius: 10px;
+    z-index: 2;
+    transition: transform .3s;
+}
+.online-1 > .single:hover::after {
+    position: absolute;
+    content: "single";
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-weight: bold;
+    border:3px solid white;
+    color:white;
+    padding: 5px 8px;
+    border-radius: 10px;
+    z-index: 2;
+    transition: transform .3s;
+}
+.online-2 > .dripbag:hover::after {
+    position: absolute;
+    content: "dripbag";
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-weight: bold;
+    border:3px solid white;
+    color:white;
+    padding: 5px 8px;
+    border-radius: 10px;
+    z-index: 2;
+    transition: transform .3s;
+}
+.online-2 > .coldbrew:hover::after {
+    position: absolute;
+    content: "coldbrew";
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-weight: bold;
+    border:3px solid white;
+    color:white;
+    padding: 5px 8px;
+    border-radius: 10px;
+    z-index: 2;
+    transition: transform .3s;
+}
+.online-1 > li > img:hover {
+    transform: scale(1.1);
+}
+.online-2 > li > img:hover {
+    transform: scale(1.1);
+}
+.online-2 > li {
+    padding:0  150px;
 }
 
 /* wholesale */
