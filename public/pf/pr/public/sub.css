@@ -38,6 +38,7 @@ body {
 .online-1 > li {
     padding:0  150px;
     position: relative;
+    cursor: pointer;
 }
 .online-1 > li > img {
     transition: transform .3s;
@@ -45,6 +46,7 @@ body {
 .online-2 > li {
     padding:0  150px;
     position: relative;
+    cursor: pointer;
 }
 .online-2 > li > img {
     transition: transform .3s;
