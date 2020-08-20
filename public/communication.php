@@ -8,7 +8,7 @@ include "../part/head.php"
     <div class="article flex-ai-c">
         <img src="../resource/img/blog.logo.png" alt="" width="400">
         <ul class="article-menu flex flex-ai-c flex-column">
-            <li class="block"><a href="/article.php">게시물</a></li>
+            <li class="block"><a href="/pf.php">게시물</a></li>
             <li class="block"><a href="/notice.php">자유게시판</a></li>
         </ul>
     </div>

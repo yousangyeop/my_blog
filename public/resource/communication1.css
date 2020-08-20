@@ -1,0 +1,34 @@
+
+.communication1 {
+    width: 100vw;
+    margin-top: 7%;
+    margin-right: 5%;
+}
+.communication1 > ul {
+    
+}
+.communication1 ul > h1 {
+    font-size: 3rem;
+    user-select: none;
+}
+.communication1 > .port {
+    writing-mode: vertical-rl;
+    width: 50%;
+}
+.communication1 > .design {
+    writing-mode: vertical-rl;
+    width: 35vw;
+}
+.communication1 > ul > li {
+    padding: 30px;
+}
+.communication1 > ul > li > a {
+    font-size: 2rem;
+    margin-top: 5%;
+}
+.communication1 > .port > li > a:hover{
+    color :#dfdfdf;
+}
+.communication1 > .design > li > a:hover{
+    color:#dfdfdf;
+}
