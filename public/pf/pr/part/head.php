@@ -24,7 +24,7 @@ if ( isset($pageName) == false ) {
 
 <body>
     <div class="side-bar">
-        <div class="logo"><a href="http://localhost:8077/pf/pr/public/index.php"><img src="https://yousangyeop.github.io/img1/pr_img/logo.png" alt=""></a></div>
+        <div class="logo"><a href="https://site1.blog.oa.gg/pf/pr/public/index.php"><img src="https://yousangyeop.github.io/img1/pr_img/logo.png" alt=""></a></div>
         <ul class="menu-bar">
             <li class="menu-1 <?=$pageName == 'about' ? 'active' : ''?>"><a href="about.php">about</a></li>
             <li class="menu-2 <?=$pageName == 'onlineShop' ? 'active' : ''?>"><a href="onlineShop.php">online shop</a></li>

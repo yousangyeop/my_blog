@@ -7,10 +7,14 @@ include "../part/head.php"
 <div class="communication flex con">
     <div class="article flex-ai-c">
         <img src="../resource/img/blog.logo.png" alt="" width="400">
-        <ul class="article-menu flex flex-ai-c flex-column">
-            <li class="block"><a href="/pf.php">게시물</a></li>
-            <li class="block"><a href="/notice.php">자유게시판</a></li>
-        </ul>
+        <div class="sns">
+            <a href="https://www.instagram.com/yeobb/">
+                <img src="../resource/img/insta.png" alt="">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100003823120605">
+                <img src="../resource/img/facebook.png" alt="">
+            </a>
+        </div>
     </div>
 </div>
 <?php

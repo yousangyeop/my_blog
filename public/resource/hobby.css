@@ -1,32 +1,26 @@
-.list-box-1 {
-    min-height: 100vh;
+
+
+.slider-1 {
+    width:1000px;
 }
 
-.list-box-1 > ul {
-    flex-wrap:wrap;
+.slider-1 > .owl-carousel {
+    position: relative;
+    height: 100%;
 }
 
-.list-box-1 > ul > li {
-    width:33.3333%;
+.slider-1 > .owl-carousel.owl-theme > .owl-nav {
+    text-align:center;;
 }
 
-.list-box-1 > ul > li:hover > a > .title {
-    text-decoration: underline;;
+.slider-1 > .owl-carousel.owl-theme > .owl-nav > button > span {
+    font-size:4rem;
 }
 
-.list-box-1 > ul > li > a {
-    display: block;
-    padding:20px 0;
+.slider-1 > .owl-carousel.owl-theme > .owl-nav > button {
+    outline:none;
 }
 
-.list-box-1 > ul > li > a > img {
-    display: block;
-    width:200px;
-    margin:0 auto;
-}
-
-.list-box-1 > ul > li > a > .title {
-    text-align:center;
-    font-weight: bold;
-    padding: 15px;
+.slider-1 .item {
+    width:300px;
 }

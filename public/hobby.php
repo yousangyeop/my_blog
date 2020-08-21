@@ -1,64 +1,25 @@
 <?php
 include "../part/head.php";
-
-// 전화번호 세팅
-$dbHost = "site1.blog.oa.gg";
-$dbPort = 3306;
-$dbId = "site1";
-$dbPw = "sbs123414";
-$dbName = 'site1';
-
-// 전화걸기
-$dbConn = mysqli_connect($dbHost, $dbId, $dbPw, $dbName, $dbPort) or die("DB CONNECTION ERROR");
-
-// 전화연결이 성공했다면 이 부분 실행됨
-
-$cateItemId = 5;
-
-$sql = "
-SELECT name
-FROM cateItem
-WHERE id = '{$cateItemId}'
-";
-$rs = mysqli_query($dbConn, $sql);
-$row = mysqli_fetch_assoc($rs);
-$cateItemName = $row['name'];
-
-// 상대방에게 할말 적기
-$sql = "
-SELECT *
-FROM article
-WHERE cateItemId = '{$cateItemId}'
-ORDER BY id DESC
-";
-
-// 말하고 응답받기
-$rs = mysqli_query($dbConn, $sql);
-$rows = [];
-while ( true ) {
-    $row = mysqli_fetch_assoc($rs);
-    if ( $row == null ) {
-        break;
-    }
-    $rows[] = $row;
-}
 ?>
+
 <link rel="stylesheet" href="/resource/hobby.css">
+<script src="/resource/hobby.js"></script>
 
-<div><?=$cateItemName?></div>
-
-<nav class="list-box-1 flex flex-ai-c">
-    <ul class="flex">
-        <?php foreach ( $rows as $row ) { ?>
-        <li>
-            <a href="detail.php?id=<?=$row['id']?>">
-                <img src="<?=$row['thumbImgUrl']?>" alt="" >
-                <div class="title"><?=$row['title']?></div>
-            </a>
-        </li>
-        <?php } ?>
-    </ul>
-</nav>
+<div class="page-1 flex-1-0-0 flex flex-jc-c flex-ai-c">
+    <div class="slider-1">
+        <ul class="owl-carousel owl-theme">
+            <li class="item"><img src="https://yousangyeop.github.io/img1/blog/article/2020/1.png"></li>
+            <li class="item"><img src="https://yousangyeop.github.io/img1/blog/article/2020/2.png"></li>
+            <li class="item"><img src="https://yousangyeop.github.io/img1/blog/article/2020/3.png"></li>
+            <li class="item"><img src="https://yousangyeop.github.io/img1/blog/article/2020/4.png"></li>
+            <li class="item"><img src="https://yousangyeop.github.io/img1/blog/article/2020/5.png"></li>
+            <li class="item"><img src="https://yousangyeop.github.io/img1/blog/article/2020/6.png"></li>
+            <li class="item"><img src="https://yousangyeop.github.io/img1/blog/article/2020/7.png"></li>
+            <li class="item"><img src="https://yousangyeop.github.io/img1/blog/article/2020/8.png"></li>
+            <li class="item"><img src="https://yousangyeop.github.io/img1/blog/article/2020/9.png"></li>
+        </ul>
+    </div>
+</div>
 
 <?php
 include "../part/foot.php";
