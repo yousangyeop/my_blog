@@ -22,12 +22,13 @@ include "../part/head.php"
         <li class="flex pr"><a href="https://site1.blog.oa.gg/pf/pr/public/index.php"><img
                     src="https://yousangyeop.github.io/img1/blog/article/pf/pr.png" alt=""></a></li>
     </ul>
+    <h1>디자인</h1>
     <ul class="design">
-        <h1>디자인</h1>
-        <li><a href="https://yousangyeop.github.io/img1/pf/artworks/1/1.png">잔 받침</a></li>
-        <li><a href="https://yousangyeop.github.io/img1/pr_img/paul.png">폴로스터즈 시안</a></li>
-        <li><a href="https://yousangyeop.github.io/img1/pr_img/logo.png">폴로스터즈 로고</a></li>
-        <li><a href="https://yousangyeop.github.io/img1/pf/artworks/1/미술관 사이트 디자인( 앱 ).png">앱 사이트 시안</a></li>
+        <li class="cup"><img src="https://yousangyeop.github.io/img1/blog/article/pf/cup.png" alt="" width="300"></a></li>
+        <li class="draft"><img src="https://yousangyeop.github.io/img1/pr_img/paul.png" alt="" width="500"></a></li>
+        <li class="logo"><img src="https://yousangyeop.github.io/img1/blog/article/pf/logo.png" alt="" width="300"></a></li>
+        <li class="logo-1"><img src="https://yousangyeop.github.io/img1/blog/article/pf/logo-1.png" alt="" width="300"></a></li>
+        <li class="app"><img src="https://yousangyeop.github.io/img1/pf/artworks/1/미술관 사이트 디자인( 앱 ).png" alt="" width="300"></a></li>
     </ul>
 </nav>
 

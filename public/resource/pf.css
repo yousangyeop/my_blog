@@ -93,4 +93,13 @@ nav {
     color: white;
     font-weight: bold;
 }
-
+/* 디자인 */
+.design {
+    display: inline-block;
+}
+.design > .cup {
+    background-color: red;
+}
+.design > .draft {
+    background-color: blue;
+}
