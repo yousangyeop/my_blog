@@ -1,10 +1,15 @@
+
 .communication > .article {
-    margin-left: -62%;
+   margin-left: -15%;
+    width: 100vw;
 }
-.communication > .article > ul > li {
-    padding: 20px;
+.communication > .article > .sns {
+    margin-left: 5%;
 }
-.communication > .article > ul > li > a {
-    font-size: 1.3rem;
-    font-weight: bold;
+.communication > .article > .sns > a:last-child > img{
+    margin-bottom: 22px;
+    margin-left: 15px;
+}
+.communication > .article > .sns > h1 {
+    margin-left: 50px;
 }
