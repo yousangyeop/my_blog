@@ -6,7 +6,7 @@ function Slider1__init() {
         center:true,
         responsive:{
             0:{
-                items:3
+                items:4
             }
         }
     });

@@ -5,14 +5,22 @@ include "../part/head.php"
 <link rel="stylesheet" href="/resource/common.css">
 
 <nav>
-    <ul class="port">
-        <h1>포트폴리오</h1>
-        <li><a href="/pf/gm/index.php">젠틀몬스터</a></li>
-        <li><a href="/pf/dv/index.php">디인비주얼</a></li>
-        <li><a href="/pf/stco/index.php">에스티씨오</a></li>
-        <li><a href="/pf/yp/index.php">요거프레소</a></li>
-        <li><a href="/pf/shes/index.php">한국쉬즈라인</a></li>
-        <li><a href="https://site1.blog.oa.gg/pf/pr/public/index.php">폴로스터즈</a></li>
+<h1>포트폴리오</h1>
+    <ul class="port flex flex-jc-c flex-ai-c">
+        <li class="flex gm"><a href="/pf/gm/index.php"><img src="https://yousangyeop.github.io/img1/blog/article/pf/gm.png"
+                    alt=""></a></li>
+        <li class="flex dv"><a href="/pf/dv/index.php"><img src="https://yousangyeop.github.io/img1/blog/article/pf/dv.png"
+                    alt=""></a></li>
+        <li class="flex stco"><a href="/pf/stco/index.php"><img
+                    src="https://yousangyeop.github.io/img1/blog/article/pf/stco.png" alt=""></a></li>
+    </ul>
+    <ul class="port-1 flex flex-jc-c flex-ai-c">
+        <li class="flex yp"><a href="/pf/yp/index.php"><img src="https://yousangyeop.github.io/img1/blog/article/pf/yp.png"
+                    alt=""></a></li>
+        <li class="flex shes"><a href="/pf/shes/index.php"><img
+                    src="https://yousangyeop.github.io/img1/blog/article/pf/shes.png" alt=""></a></li>
+        <li class="flex pr"><a href="https://site1.blog.oa.gg/pf/pr/public/index.php"><img
+                    src="https://yousangyeop.github.io/img1/blog/article/pf/pr.png" alt=""></a></li>
     </ul>
     <ul class="design">
         <h1>디자인</h1>

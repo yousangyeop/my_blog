@@ -1,0 +1,96 @@
+nav {
+    margin: 3%;
+}
+.port > li > a > img{
+    width: 300px;
+}
+.port-1 > li > a > img {
+    width: 300px;
+}
+.port > li > a {
+    margin:50px;
+}
+.port-1 > li > a {
+    margin: 50px;
+}
+/* 포트폴리오 */
+.port > li > a {
+    position: relative;
+}
+.port-1 > li > a {
+    position: relative;
+}
+.port li > a > img{
+    transition: all .3s;
+}
+.port-1 li > a > img{
+    transition: all .3s;
+}
+.port li > a > img:hover {
+    transform: scale(1.2);
+}
+.port-1 li > a > img:hover {
+    transform: scale(1.2);
+}
+.port > .gm > a::after {
+    content: "젠틀몬스터";
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.port > .dv > a::after {
+    content: "디인비주얼";
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.port > .stco > a::after {
+    content: "에스티씨오";
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.port-1 > .yp > a::after {
+    content: "요거프레소";
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.port-1 > .shes > a::after {
+    content: "한국쉬즈라인";
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.port-1 > .pr > a::after {
+    content: "폴로스터즈";
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+    position: absolute;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
