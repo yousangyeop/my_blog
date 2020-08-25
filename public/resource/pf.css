@@ -94,12 +94,7 @@ nav {
     font-weight: bold;
 }
 /* 디자인 */
-.design {
-    display: inline-block;
-}
-.design > .cup {
-    background-color: red;
-}
-.design > .draft {
-    background-color: blue;
+.design > li {
+    padding: 10px;
+    font-weight: bold;
 }
