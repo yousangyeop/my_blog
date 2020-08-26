@@ -12,18 +12,47 @@
 </head>
 
 <body>
-    <nav>
-        <h1>portfolio</h1>
-        <ul class="port">
-            <li class="gm"><a href=""><img src="https://yousangyeop.github.io/img1/blog/article/pf/gm.png" alt="">gm</a></li>
-            <li class="stco"><a href=""><img src="https://yousangyeop.github.io/img1/blog/article/pf/stco.png"alt="">stco</a></li>
-            <li class="dv"><a href=""><img src="https://yousangyeop.github.io/img1/blog/article/pf/dv.png" alt="">dv</a></li>
-            <li class="yp"><a href=""><img src="https://yousangyeop.github.io/img1/blog/article/pf/yp.png" alt="">yp</a></li>
-            <li class="shes"><a href=""><img src="https://yousangyeop.github.io/img1/blog/article/pf/shes.png"alt="">shes</a></li>
-            <li class="paul"><a href=""><img src="https://yousangyeop.github.io/img1/blog/article/pf/pr.png"alt="">paul</a></li>
-            <li class="blog"><a href=""><img src="https://yousangyeop.github.io/img1/blog/article/pf/blog.png"alt="">blog</a></li>
+    <div class="box">
+        <div class="port">portfolio</div>
+        <ul class="box-type">
+            <li class="box-type-1 flex">
+                <div>
+                    <a href="/pf/gm/index.php" style="background-color:rgb(180,205,192);" class="gm"><img
+                            src="https://yousangyeop.github.io/img1/blog/article/pf/gm.png" alt=""></a>
+                </div>
+                <div>
+                    <a href="/pf/stco/index.php" style="background-color:rgb(193,174,152);" class="stco"><img
+                            src="https://yousangyeop.github.io/img1/blog/article/pf/stco.png" alt=""></a>
+                </div>
+            </li>
+            <li class="box-type-2 flex">
+                <div>
+                    <a href="/pf/dv/index.php" style="background-color:rgb(153,141,120);" class="dv"><img
+                            src="https://yousangyeop.github.io/img1/blog/article/pf/dv.png" alt=""></a>
+                </div>
+                <div>
+                    <a href="/pf/yp/index.php" style="background-color:rgb(178,179,189);" class="yp"><img
+                            src="https://yousangyeop.github.io/img1/blog/article/pf/yp.png" alt=""></a>
+                </div>
+            </li>
+            <li class="box-type-3">
+                <div>
+                    <a href="/pf/shes/index.php" style="background-color:rgb(171,169,167);" class="shes"><img
+                            src="https://yousangyeop.github.io/img1/blog/article/pf/shes.png" alt=""></a>
+                </div>
+            </li>
+            <li class="box-type-4 flex">
+                <div>
+                    <a href="https://site1.blog.oa.gg/pf/pr/public/index.php" style="background-color:rgb(210,190,196);" class="pr"><img
+                            src="https://yousangyeop.github.io/img1/blog/article/pf/pr.png" alt=""></a>
+                </div>
+                <div>
+                    <a href="https://site1.blog.oa.gg/" style="background-color:rgb(193,182,162);" class="blog"><img
+                            src="https://yousangyeop.github.io/img1/blog/article/pf/blog.png" alt=""></a>
+                </div>
+            </li>
         </ul>
-    </nav>
+    </div>
 
 </body>
 
