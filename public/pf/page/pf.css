@@ -388,19 +388,24 @@ body {
     width:600px;
     height:100%;
     margin:250px 200px;
-
+    position: relative;
+    box-shadow:1px 2px 2px black;
 }
 .box > ul > li > div > .stco {
     display:block;
     width:600px;
     height:100%;
     margin:100px;
+    position: relative;
+    box-shadow:1px 2px 2px black;   
 }
 .box > ul > li > div > .dv {
     display:block;
     width:600px;
     height:100%;
     margin:400px 300px;
+    position: relative;
+    box-shadow:1px 5px 4px black;
 }
 .box > ul > li > div > .yp {
     display:block;
@@ -408,6 +413,7 @@ body {
     height:450px;
     margin:450px 140px;
     position: relative;
+    box-shadow:1px 2px 2px black;
 }
 .box > ul > li > div > .shes {
     display:block;
@@ -415,18 +421,23 @@ body {
     height:100%;
     margin:500px 400px;
     position: relative;
+    box-shadow:2px 2px 1px black;
 }
 .box > ul > li > div > .pr {
     display:block;
     width:600px;
     height:100%;
     margin:150px;
+    position: relative;
+    box-shadow:1px 3px 4px black;
 }
 .box > ul > li > div > .blog {
     display:block;
     width:700px;
     height:303px;
     margin:100px;
+    position: relative;
+    box-shadow:1px 2px 3px black;
 }
 /* 이미지 */ 
 .box > ul > li > div > a > img {
@@ -444,5 +455,135 @@ body {
     left: 50%;
     transform: translate(-50%);
 }
+/* 테이프 */
+/* 테이프 - gm */
+.box > ul > li > div > .gm::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(140,105,87);
+    top:0 ;
+    left: -7%;
+    width: 150px;
+    height: 50px;
+    opacity: 80%;
+    transform: rotate(150deg);
+}
+.box > ul > li > div > .gm::before {
+    position: absolute;
+    content: "";
+    background-color: rgb(140,105,87);
+    top:0 ;
+    right:-7%;
+    width: 150px;
+    height: 50px;
+    opacity: 80%;
+    transform: rotate(50deg);
+}
+/* 테이프 - stco */
+.box > ul > li > div > .stco::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(87, 136, 140);
+    top:0 ;
+    left: -7%;
+    width: 150px;
+    height: 50px;
+    opacity: 80%;
+    transform: rotate(120deg);
+}
+.box > ul > li > div > .stco::before {
+    position: absolute;
+    content: "";
+    background-color: rgb(87, 136, 140);
+    top:0 ;
+    right:-7%;
+    width: 150px;
+    height: 50px;
+    opacity: 80%;
+    transform: rotate(10deg);
+}
+/* 테이프 - dv */
+.box > ul > li > div > .dv::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(99, 74, 46);
+    top:-8% ;
+    left: 35%;
+    width: 170px;
+    height: 50px;
+    opacity: 80%;
+    transform: rotate(5deg);
+}
+/* 테이프 - yp */
+.box > ul > li > div > .yp::after {
+    position: absolute;
+    content: "";
+    top:5% ;
+    left: 50%;
+    background-color: #4e4e4e;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+.box > ul > li > div > .yp::before {
+    position: absolute;
+    content: "";
+    background-color: rgb(167, 130, 138);
+    bottom:-10% ;
+    left: -10%;
+    width: 170px;
+    height: 70px;
+    opacity: 80%;
+    transform: rotate(10deg);
+    z-index: 99;
+}
+/* 테이프 - shes */
+.box > ul > li > div > .shes::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(189, 134, 134);
+    bottom:-8% ;
+    left: 35%;
+    width: 170px;
+    height: 50px;
+    opacity: 80%;
+    transform: rotate(5deg);
+}
+/* 테이프 - pr */
+.box > ul > li > div > .pr::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(181, 189, 145);
+    top:-8% ;
+    left: 35%;
+    width: 170px;
+    height: 50px;
+    opacity: 80%;
+    transform: rotate(5deg);
+}
+/* 테이프 - blog */
+.box > ul > li > div > .blog::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(180, 169, 154);
+    top:-8% ;
+    left:-8%;
+    width: 170px;
+    height: 50px;
+    opacity: 80%;
+    transform: rotate(120deg);
+}
+.box > ul > li > div > .blog::before {
+    position: absolute;
+    content: "";
+    background-color: rgb(180, 169, 154);
+    top:-8% ;
+    right: -8%;
+    width: 170px;
+    height: 50px;
+    opacity: 80%;
+    transform: rotate(5deg);
+}
+
 
 
