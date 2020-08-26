@@ -407,12 +407,14 @@ body {
     width:800px;
     height:450px;
     margin:450px 140px;
+    position: relative;
 }
 .box > ul > li > div > .shes {
     display:block;
     width:700px;
     height:100%;
     margin:500px 400px;
+    position: relative;
 }
 .box > ul > li > div > .pr {
     display:block;
@@ -430,4 +432,17 @@ body {
 .box > ul > li > div > a > img {
     width: 600px;
 }
+.box > ul > li > div > .yp > img {
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.box > ul > li > div > .shes > img {
+    position: absolute;
+    top:15%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 
