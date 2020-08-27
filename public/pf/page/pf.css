@@ -350,7 +350,6 @@ label[for] {
     display:block;
 }
 /* 커스텀 */
-
 body, ul , li {
     list-style:none;
     margin:0;
@@ -365,13 +364,16 @@ body {
     background-color:rgb(208,200,192);
     width:100%;
     height:100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .box > .port {
     font-size:3.5rem;
     font-weight: bold;
     position: absolute;
     top: 100px;
-    left: 100px;
+    left: 200px;
 }
 .box > .box-type {
     width:100%;
@@ -389,7 +391,7 @@ body {
     height:100%;
     margin:250px 200px;
     position: relative;
-    box-shadow:1px 2px 2px black;
+    box-shadow:1px 5px 4px black;
 }
 .box > ul > li > div > .stco {
     display:block;
@@ -397,7 +399,7 @@ body {
     height:100%;
     margin:100px;
     position: relative;
-    box-shadow:1px 2px 2px black;   
+    box-shadow:1px 4px 4px black;   
 }
 .box > ul > li > div > .dv {
     display:block;
@@ -429,7 +431,7 @@ body {
     height:100%;
     margin:150px;
     position: relative;
-    box-shadow:1px 3px 4px black;
+    box-shadow:1px 5px 4px black;
 }
 .box > ul > li > div > .blog {
     display:block;
@@ -437,7 +439,7 @@ body {
     height:303px;
     margin:100px;
     position: relative;
-    box-shadow:1px 2px 3px black;
+    box-shadow:1px 4px 3px black;
 }
 /* 이미지 */ 
 .box > ul > li > div > a > img {
@@ -467,6 +469,7 @@ body {
     height: 50px;
     opacity: 80%;
     transform: rotate(150deg);
+    box-shadow:1px 1px 1px black;
 }
 .box > ul > li > div > .gm::before {
     position: absolute;
@@ -478,6 +481,7 @@ body {
     height: 50px;
     opacity: 80%;
     transform: rotate(50deg);
+    box-shadow:1px 1px 1px black;
 }
 /* 테이프 - stco */
 .box > ul > li > div > .stco::after {
@@ -490,6 +494,7 @@ body {
     height: 50px;
     opacity: 80%;
     transform: rotate(120deg);
+    box-shadow:1px 1px 1px black;
 }
 .box > ul > li > div > .stco::before {
     position: absolute;
@@ -501,6 +506,7 @@ body {
     height: 50px;
     opacity: 80%;
     transform: rotate(10deg);
+    box-shadow:1px 1px 1px black;
 }
 /* 테이프 - dv */
 .box > ul > li > div > .dv::after {
@@ -513,6 +519,7 @@ body {
     height: 50px;
     opacity: 80%;
     transform: rotate(5deg);
+    box-shadow:1px 1px 1px black;
 }
 /* 테이프 - yp */
 .box > ul > li > div > .yp::after {
@@ -524,6 +531,7 @@ body {
     border-radius: 100%;
     width: 30px;
     height: 30px;
+    box-shadow:1px 1px 1px black;
 }
 .box > ul > li > div > .yp::before {
     position: absolute;
@@ -536,6 +544,7 @@ body {
     opacity: 80%;
     transform: rotate(10deg);
     z-index: 99;
+    box-shadow:1px 1px 1px black;
 }
 /* 테이프 - shes */
 .box > ul > li > div > .shes::after {
@@ -548,6 +557,7 @@ body {
     height: 50px;
     opacity: 80%;
     transform: rotate(5deg);
+    box-shadow:1px 1px 1px black;
 }
 /* 테이프 - pr */
 .box > ul > li > div > .pr::after {
@@ -560,6 +570,7 @@ body {
     height: 50px;
     opacity: 80%;
     transform: rotate(5deg);
+    box-shadow:1px 1px 1px black;
 }
 /* 테이프 - blog */
 .box > ul > li > div > .blog::after {
@@ -572,6 +583,7 @@ body {
     height: 50px;
     opacity: 80%;
     transform: rotate(120deg);
+    box-shadow:1px 1px 1px black;
 }
 .box > ul > li > div > .blog::before {
     position: absolute;
@@ -583,7 +595,56 @@ body {
     height: 50px;
     opacity: 80%;
     transform: rotate(5deg);
+    box-shadow:1px 1px 1px black;
 }
+/* 포폴 제목 */
+.box > ul > li > div > .gm > h1 {
+    text-align: center;
+    padding: 30px;
+}
+.box > ul > li > div > .stco > h1 {
+    text-align: center;
+    padding: 30px;
+}
+.box > ul > li > div > .dv > h1 {
+    text-align: center;
+    padding: 30px;
+}
+.box > ul > li > div > .pr > h1 {
+    text-align: center;
+    padding: 30px;
+}
+.box > ul > li > div > .yp > h1 {
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+}
+.box > ul > li > div > .shes > h1 {
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+}
+.box > ul > li > div > .blog > h1 {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    writing-mode: vertical-rl;
+    padding: 20px;
 
-
-
+}
+/* 데코레이션 */
+.box > .button > img {
+    position: absolute;
+    top:40%;
+    left:1%;
+}
+.box > .flower > img {
+    position: absolute;
+    top:60%;
+    right: 7%;
+}
