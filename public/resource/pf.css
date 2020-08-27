@@ -7,10 +7,19 @@ nav {
 .port-1 > li > a > img {
     width: 300px;
 }
+.port-2 > li > a > img {
+    width: 300px;
+}
 .port > li > a {
     margin:50px;
 }
 .port-1 > li > a {
+    margin: 50px;
+}
+.port-2 > li > a > img {
+    width: 300px;
+}
+.port-2 > li > a {
     margin: 50px;
 }
 /* 포트폴리오 */
@@ -20,16 +29,25 @@ nav {
 .port-1 > li > a {
     position: relative;
 }
+.port-2 > li > a {
+    position: relative;
+}
 .port li > a > img{
     transition: all .3s;
 }
 .port-1 li > a > img{
     transition: all .3s;
 }
+.port-2 li > a > img{
+    transition: all .3s;
+}
 .port li > a > img:hover {
     transform: scale(1.2);
 }
 .port-1 li > a > img:hover {
+    transform: scale(1.2);
+}
+.port-2 li > a > img:hover {
     transform: scale(1.2);
 }
 .port > .gm > a::after {
@@ -91,6 +109,16 @@ nav {
     position: absolute;
     font-size: 2rem;
     color: white;
+    font-weight: bold;
+}
+.port-2 > .port > a::after {
+    content: "포폴 페이지";
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    position: absolute;
+    font-size: 2rem;
     font-weight: bold;
 }
 /* 디자인 */

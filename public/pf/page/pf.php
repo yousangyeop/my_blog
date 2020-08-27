@@ -15,7 +15,7 @@
     <div class="box" style="background-image: url('https://yousangyeop.github.io/img1/pf/page/wall.png');">
         <div class="port">portfolio</div>
         <div class="button"><img src="https://yousangyeop.github.io/img1/pf/page/button.png" alt="" width="200"></div>
-        <div class="flower"><img src="https://yousangyeop.github.io/img1/pf/page/flower.png" alt="" width="150"></div>
+        <div class="flower"><img src="https://yousangyeop.github.io/img1/pf/page/flower.png" alt="" width="100"></div>
         <ul class="box-type">
             <li class="box-type-1 flex">
                 <div>
