@@ -1,10 +1,8 @@
 @import url(//https://fonts.googleapis.com/css2?family=Gaegu&display=swap);
 
-
 html {
     font-family: 'Gaegu', cursive;
 }
-
 /* 노말라이즈 */
 body,
 ul,
@@ -350,11 +348,6 @@ label[for] {
     display:block;
 }
 /* 커스텀 */
-body, ul , li {
-    list-style:none;
-    margin:0;
-    padding:0;
-}
 body {
     width:100%;
     height:2400px;
@@ -542,7 +535,7 @@ body {
     height: 70px;
     opacity: 80%;
     transform: rotate(10deg);
-    z-index: 99;
+    z-index: 9;
     box-shadow:1px 1px 1px black;
 }
 /* 테이프 - shes */
@@ -637,6 +630,11 @@ body {
 
 }
 /* 데코레이션 */
+.box > .popup1 > .box > img {
+    width:300px;
+    margin-left: -10px;
+}
+
 .box > .button > img {
     position: absolute;
     top:40%;
@@ -647,3 +645,70 @@ body {
     bottom:25%;
     right: 9%;
 }
+/* 스위치 */
+.img-box > img {
+    width:100%;
+    display:block;
+    padding-right:4px;
+  }
+  .btn-toggle {
+    width:100px;
+  }
+  .btn-toggle img {
+    width:170px;
+    position: absolute;
+    top:60%;
+    left: 5%;
+    user-select: none;
+  }
+  
+  .btn-toggle > img:first-child {
+    padding-top:1px;
+  }
+  
+  .btn-toggle > img:last-child {
+    transform:rotate(180deg);
+    display:none;
+  }
+  
+  .popup1-actived .btn-toggle > img:last-child {
+    display:block;
+  }
+  
+  .popup1-actived .btn-toggle > img:first-child {
+    display:none;
+  }
+  
+  .popup1 {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.6);
+    visibility:hidden;
+    opacity:0;
+    transition: visibility 0.3s, opacity 0.3s;
+    z-index:99;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .popup1-actived .popup1 {
+    visibility:visible;
+    opacity:1;
+  }
+  
+  .popup1 > .box {
+    width:300px;
+    height:300px;
+    background-color:white;
+    border-radius:10px;
+    transform:translateY(-100vh); .3s;
+    transition:transform .3s 0s;
+  }
+  .popup1-actived .popup1 > .box {
+    transform:translateY(0);
+    transition:transform .3s .4s;
+  }
