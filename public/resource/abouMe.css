@@ -3,7 +3,6 @@
     width: 100vw;
 }
 .about_me > .abata {
-    background-color: red;
     width: 30%;
     height: 100%;
 }
@@ -28,7 +27,6 @@
 }
 /* 프로필 */
 .profile-1 {
-    background-color: cornflowerblue;
     width: 30vw;
 }
 .profile-1 > ul {
@@ -62,6 +60,6 @@
 }
 .skills > li > img {
     width: 300px;
-    padding: 0px;
+    margin-left: -20px;
 }
 
