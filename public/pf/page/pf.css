@@ -3,6 +3,7 @@
 html {
     font-family: 'Gaegu', cursive;
 }
+
 /* 노말라이즈 */
 body,
 ul,
@@ -281,6 +282,7 @@ label[for] {
     display: flex;
     align-items: center;
 }
+
 .flex-ai-sb {
     display: flex;
     align-items: space-between;
@@ -290,10 +292,12 @@ label[for] {
     display: flex;
     justify-content: space-between;
 }
+
 *>.flex-jc-sa {
     display: flex;
     justify-content: space-around;
 }
+
 *>.flex-ai-start {
     display: flex;
     align-items: flex-start;
@@ -328,299 +332,352 @@ label[for] {
 
 /* 라이브러리 */
 .con {
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cell {
-    float:left;
-    box-sizing:border-box;
+    float: left;
+    box-sizing: border-box;
 }
 
 .row::after {
-    content:"";
+    content: "";
     display: block;
-    clear:both;
+    clear: both;
 }
 
-.img-box > img {
-    width:100%;
-    display:block;
+.img-box>img {
+    width: 100%;
+    display: block;
 }
+
 /* 커스텀 */
 body {
-    width:100%;
-    height:2400px;
+    width: 100%;
+    height: 2400px;
     position: relative;
 }
+
 .box {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.box > .port {
-    font-size:3.5rem;
+
+.box>.port {
+    font-size: 3.5rem;
     font-weight: bold;
     position: absolute;
     top: 100px;
     left: 200px;
 }
-.box > .box-type {
-    width:100%;
-    height:100%;
+
+.box>.box-type {
+    width: 100%;
+    height: 100%;
 }
-.box > ul > li > div {
-    width:50%;
-    height:400px;
-    box-sizing:border-box;
+
+.box>ul>li>div {
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
 }
+
 /* 액자 */
-.box > ul > li > div > .gm {
-    display:block;
-    width:600px;
-    height:100%;
-    margin:250px 200px;
+.box>ul>li>div>.gm {
+    display: block;
+    width: 600px;
+    height: 100%;
+    margin: 250px 200px;
     position: relative;
-    box-shadow:1px 5px 4px black;
+    box-shadow: 1px 5px 4px black;
+    border: 1px solid black;
 }
-.box > ul > li > div > .stco {
-    display:block;
-    width:600px;
-    height:100%;
-    margin:100px;
+
+.box>ul>li>div>.stco {
+    display: block;
+    width: 600px;
+    height: 100%;
+    margin: 100px;
     position: relative;
-    box-shadow:1px 4px 4px black;   
+    box-shadow: 1px 4px 4px black;
+    border: 1px solid black;
 }
-.box > ul > li > div > .dv {
-    display:block;
-    width:600px;
-    height:100%;
-    margin:400px 300px;
+
+.box>ul>li>div>.dv {
+    display: block;
+    width: 600px;
+    height: 100%;
+    margin: 400px 300px;
     position: relative;
-    box-shadow:1px 5px 4px black;
+    box-shadow: 1px 5px 4px black;
+    border: 1px solid black;
 }
-.box > ul > li > div > .yp {
-    display:block;
-    width:800px;
-    height:450px;
-    margin:450px 140px;
+
+.box>ul>li>div>.yp {
+    display: block;
+    width: 800px;
+    height: 450px;
+    margin: 450px 140px;
     position: relative;
-    box-shadow:1px 2px 2px black;
+    box-shadow: 1px 2px 2px black;
+    border: 1px solid black;
 }
-.box > ul > li > div > .shes {
-    display:block;
-    width:700px;
-    height:100%;
-    margin:500px 400px;
+
+.box>ul>li>div>.shes {
+    display: block;
+    width: 700px;
+    height: 100%;
+    margin: 500px 400px;
     position: relative;
-    box-shadow:2px 2px 1px black;
+    box-shadow: 2px 2px 1px black;
+    border: 1px solid black;
 }
-.box > ul > li > div > .pr {
-    display:block;
-    width:600px;
-    height:100%;
-    margin:150px;
+
+.box>ul>li>div>.pr {
+    display: block;
+    width: 600px;
+    height: 100%;
+    margin: 150px;
     position: relative;
-    box-shadow:1px 5px 4px black;
+    box-shadow: 1px 5px 4px black;
+    border: 1px solid black;
 }
-.box > ul > li > div > .blog {
-    display:block;
-    width:700px;
-    height:303px;
-    margin:100px;
+
+.box>ul>li>div>.blog {
+    display: block;
+    width: 700px;
+    height: 303px;
+    margin: 100px;
     position: relative;
-    box-shadow:1px 4px 3px black;
+    box-shadow: 1px 4px 3px black;
+    border: 1px solid black;
 }
-/* 이미지 */ 
-.box > ul > li > div > a > img {
+
+/* 이미지 */
+.box>ul>li>div>a>img {
     width: 600px;
 }
-.box > ul > li > div > .yp > img {
+
+.box>ul>li>div>.yp>img {
     position: absolute;
-    top:20%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%);
+    border: 2px solid black;
 }
-.box > ul > li > div > .shes > img {
+
+.box>ul>li>div>.shes>img {
     position: absolute;
-    top:15%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%);
+    border: 2px solid black;
 }
+
 /* 테이프 */
 /* 테이프 - gm */
-.box > ul > li > div > .gm::after {
+.box>ul>li>div>.gm::after {
     position: absolute;
     content: "";
-    background-color: rgb(140,105,87);
-    top:0 ;
+    background-color: rgb(180, 169, 154);
+    top: 0;
     left: -7%;
     width: 150px;
     height: 50px;
     opacity: 80%;
     transform: rotate(150deg);
-    box-shadow:1px 1px 1px black;
+    box-shadow: 1px 1px 1px black;
+    border:0.1px solid black;
 }
-.box > ul > li > div > .gm::before {
+
+.box>ul>li>div>.gm::before {
     position: absolute;
     content: "";
-    background-color: rgb(140,105,87);
-    top:0 ;
-    right:-7%;
+    background-color: rgb(180, 169, 154);
+    top: 0;
+    right: -7%;
     width: 150px;
     height: 50px;
     opacity: 80%;
     transform: rotate(50deg);
-    box-shadow:1px 1px 1px black;
+    box-shadow: 1px 1px 1px black;
+    border:0.1px solid black;
 }
+
 /* 테이프 - stco */
-.box > ul > li > div > .stco::after {
+.box>ul>li>div>.stco::after {
     position: absolute;
     content: "";
-    background-color: rgb(87, 136, 140);
-    top:0 ;
+    background-color: rgb(180, 169, 154);
+    top: 0;
     left: -7%;
     width: 150px;
     height: 50px;
     opacity: 80%;
     transform: rotate(120deg);
-    box-shadow:1px 1px 1px black;
+    box-shadow: 1px 1px 1px black;
+    border:0.1px solid black;
 }
-.box > ul > li > div > .stco::before {
+
+.box>ul>li>div>.stco::before {
     position: absolute;
     content: "";
-    background-color: rgb(87, 136, 140);
-    top:0 ;
-    right:-7%;
+    background-color: rgb(180, 169, 154);
+    top: 0;
+    right: -7%;
     width: 150px;
     height: 50px;
     opacity: 80%;
     transform: rotate(10deg);
-    box-shadow:1px 1px 1px black;
+    box-shadow: 1px 1px 1px black;
+    border:0.1px solid black;
 }
+
 /* 테이프 - dv */
-.box > ul > li > div > .dv::after {
+.box>ul>li>div>.dv::after {
     position: absolute;
     content: "";
-    background-color: rgb(99, 74, 46);
-    top:-8% ;
+    background-color: rgb(180, 169, 154);
+    top: -8%;
     left: 35%;
     width: 170px;
     height: 50px;
     opacity: 80%;
     transform: rotate(5deg);
-    box-shadow:1px 1px 1px black;
+    box-shadow: 1px 1px 1px black;
+    border:0.1px solid black;
 }
+
 /* 테이프 - yp */
-.box > ul > li > div > .yp::after {
+.box>ul>li>div>.yp::after {
     position: absolute;
     content: "";
-    top:5% ;
+    top: 5%;
     left: 50%;
     background-color: #4e4e4e;
     border-radius: 100%;
     width: 30px;
     height: 30px;
-    box-shadow:1px 1px 1px black;
+    box-shadow: 1px 1px 1px black;
+    border:0.1px solid black;
 }
-.box > ul > li > div > .yp::before {
+
+.box>ul>li>div>.yp::before {
     position: absolute;
     content: "";
-    background-color: rgb(167, 130, 138);
-    bottom:-10% ;
+    background-color: rgb(180, 169, 154);
+    bottom: -10%;
     left: -10%;
     width: 170px;
     height: 70px;
     opacity: 80%;
     transform: rotate(10deg);
     z-index: 9;
-    box-shadow:1px 1px 1px black;
+    box-shadow: 1px 1px 1px black;
+    border:0.1px solid black;
 }
+
 /* 테이프 - shes */
-.box > ul > li > div > .shes::after {
-    position: absolute;
-    content: "";
-    background-color: rgb(189, 134, 134);
-    bottom:-8% ;
-    left: 35%;
-    width: 170px;
-    height: 50px;
-    opacity: 80%;
-    transform: rotate(5deg);
-    box-shadow:1px 1px 1px black;
-}
-/* 테이프 - pr */
-.box > ul > li > div > .pr::after {
-    position: absolute;
-    content: "";
-    background-color: rgb(181, 189, 145);
-    top:-8% ;
-    left: 35%;
-    width: 170px;
-    height: 50px;
-    opacity: 80%;
-    transform: rotate(5deg);
-    box-shadow:1px 1px 1px black;
-}
-/* 테이프 - blog */
-.box > ul > li > div > .blog::after {
+.box>ul>li>div>.shes::after {
     position: absolute;
     content: "";
     background-color: rgb(180, 169, 154);
-    top:-8% ;
-    left:-8%;
+    bottom: -8%;
+    left: 35%;
+    width: 170px;
+    height: 50px;
+    opacity: 80%;
+    transform: rotate(5deg);
+    box-shadow: 1px 1px 1px black;
+    border:0.1px solid black;
+}
+
+/* 테이프 - pr */
+.box>ul>li>div>.pr::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(180, 169, 154);
+    top: -8%;
+    left: 35%;
+    width: 170px;
+    height: 50px;
+    opacity: 80%;
+    transform: rotate(5deg);
+    box-shadow: 1px 1px 1px black;
+    border:0.1px solid black;
+}
+
+/* 테이프 - blog */
+.box>ul>li>div>.blog::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(180, 169, 154);
+    top: -8%;
+    left: -8%;
     width: 170px;
     height: 50px;
     opacity: 80%;
     transform: rotate(120deg);
-    box-shadow:1px 1px 1px black;
+    box-shadow: 1px 1px 1px black;
+    border:0.1px solid black;
 }
-.box > ul > li > div > .blog::before {
+
+.box>ul>li>div>.blog::before {
     position: absolute;
     content: "";
     background-color: rgb(180, 169, 154);
-    top:-8% ;
+    top: -8%;
     right: -8%;
     width: 170px;
     height: 50px;
     opacity: 80%;
     transform: rotate(5deg);
-    box-shadow:1px 1px 1px black;
+    box-shadow: 1px 1px 1px black;
+    border:0.1px solid black;
 }
+
 /* 포폴 제목 */
-.box > ul > li > div > .gm > h1 {
+.box>ul>li>div>.gm>h1 {
     text-align: center;
     padding: 30px;
 }
-.box > ul > li > div > .stco > h1 {
+
+.box>ul>li>div>.stco>h1 {
     text-align: center;
     padding: 30px;
 }
-.box > ul > li > div > .dv > h1 {
+
+.box>ul>li>div>.dv>h1 {
     text-align: center;
     padding: 30px;
 }
-.box > ul > li > div > .pr > h1 {
+
+.box>ul>li>div>.pr>h1 {
     text-align: center;
     padding: 30px;
 }
-.box > ul > li > div > .yp > h1 {
+
+.box>ul>li>div>.yp>h1 {
     position: absolute;
-    bottom:0;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     padding: 20px;
 }
-.box > ul > li > div > .shes > h1 {
+
+.box>ul>li>div>.shes>h1 {
     position: absolute;
-    bottom:0;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px;
 }
-.box > ul > li > div > .blog > h1 {
+
+.box>ul>li>div>.blog>h1 {
     position: absolute;
     right: 0;
     top: 50%;
@@ -629,86 +686,93 @@ body {
     padding: 20px;
 
 }
+
 /* 데코레이션 */
-.box > .popup1 > .box > img {
-    width:300px;
+.box>.popup1>.box>img {
+    width: 300px;
     margin-left: -10px;
 }
 
-.box > .button > img {
+.box>.button>img {
     position: absolute;
-    top:40%;
-    left:1%;
+    top: 40%;
+    left: 1%;
 }
-.box > .flower > img {
+
+.box>.flower>img {
     position: absolute;
-    bottom:25%;
+    bottom: 25%;
     right: 9%;
 }
+
 /* 스위치 */
-.img-box > img {
-    width:100%;
-    display:block;
-    padding-right:4px;
-  }
-  .btn-toggle {
-    width:100px;
-  }
-  .btn-toggle img {
-    width:170px;
+.img-box>img {
+    width: 100%;
+    display: block;
+    padding-right: 4px;
+}
+
+.btn-toggle {
+    width: 100px;
+}
+
+.btn-toggle img {
+    width: 170px;
     position: absolute;
-    top:60%;
+    top: 60%;
     left: 5%;
     user-select: none;
-  }
-  
-  .btn-toggle > img:first-child {
-    padding-top:1px;
-  }
-  
-  .btn-toggle > img:last-child {
-    transform:rotate(180deg);
-    display:none;
-  }
-  
-  .popup1-actived .btn-toggle > img:last-child {
-    display:block;
-  }
-  
-  .popup1-actived .btn-toggle > img:first-child {
-    display:none;
-  }
-  
-  .popup1 {
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background-color:rgba(0,0,0,0.6);
-    visibility:hidden;
-    opacity:0;
+}
+
+.btn-toggle>img:first-child {
+    padding-top: 1px;
+}
+
+.btn-toggle>img:last-child {
+    transform: rotate(180deg);
+    display: none;
+}
+
+.popup1-actived .btn-toggle>img:last-child {
+    display: block;
+}
+
+.popup1-actived .btn-toggle>img:first-child {
+    display: none;
+}
+
+.popup1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    visibility: hidden;
+    opacity: 0;
     transition: visibility 0.3s, opacity 0.3s;
-    z-index:99;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  
-  .popup1-actived .popup1 {
-    visibility:visible;
-    opacity:1;
-  }
-  
-  .popup1 > .box {
-    width:300px;
-    height:300px;
-    background-color:white;
-    border-radius:10px;
-    transform:translateY(-100vh); .3s;
-    transition:transform .3s 0s;
-  }
-  .popup1-actived .popup1 > .box {
-    transform:translateY(0);
-    transition:transform .3s .4s;
-  }
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup1-actived .popup1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup1>.box {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    transform: translateY(-100vh);
+    .3s;
+    transition: transform .3s 0s;
+}
+
+.popup1-actived .popup1>.box {
+    transform: translateY(0);
+    transition: transform .3s .4s;
+}
