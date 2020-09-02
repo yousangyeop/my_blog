@@ -687,7 +687,7 @@ body {
 
 .box>ul>li>div>.ver2>h4 {
     position: absolute;
-    bottom: -5%;
+    bottom: -6%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -696,7 +696,7 @@ body {
 
 .box>ul>li>div>.app>h4 {
     position: absolute;
-    bottom: 0%;
+    bottom: -1%;
     left: 55%;
     transform: translateX(-50%);
     letter-spacing: 20px;
@@ -718,7 +718,7 @@ body {
 .box>ul>li>div>.pp>h4 {
     position: absolute;
     bottom: 0%;
-    left: 50%;
+    left:52%;
     transform: translateX(-50%);
     letter-spacing: 10px;
     font-size: 1.3rem;
