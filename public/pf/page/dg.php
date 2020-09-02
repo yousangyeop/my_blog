@@ -19,9 +19,6 @@
             </div>
         </div>
         <div class="btn-toggle img-box">
-            <div class="ment">
-                <span>갈 땐 가더라도 불 꺼</span>
-            </div>
             <img src="https://yousangyeop.github.io/img1/pf/page/button.png" alt="" width="200">
             <img src="https://yousangyeop.github.io/img1/pf/page/button.png" alt="" width="200">
         </div>
@@ -32,14 +29,14 @@
                 <div>
                     <a href="https://yousangyeop.github.io/img1/blog/article/pf/cup.png" style="background-color:white;"
                         class="cup"><img src="https://yousangyeop.github.io/img1/blog/article/pf/cup.png" alt="">
-                        <h1>saucer</h1>
+                        <h4>saucer</h4>
                     </a>
                 </div>
                 <div>
                     <a href="https://yousangyeop.github.io/img1/blog/article/pf/logo.png"
                         style="background-color:white;" class="ver1"><img
                             src="https://yousangyeop.github.io/img1/blog/article/pf/logo.png" alt="">
-                        <h1>logo ver1</h1>
+                        <h4>logo ver1</h4>
                     </a>
                 </div>
             </li>
@@ -48,15 +45,13 @@
                     <a href="https://yousangyeop.github.io/img1/blog/article/pf/logo-1.png"
                         style="background-color:white;" class="ver2"><img
                             src="https://yousangyeop.github.io/img1/blog/article/pf/logo-1.png" alt="">
-                        <h1>logo ver2</h1>
+                        <h4>logo ver2</h4>
                     </a>
                 </div>
                 <div>
-                    <a href="https://yousangyeop.github.io/img1/pf/artworks/1/app.png"
-                        style="background-color:white;" class="app"><img
-                            src="https://yousangyeop.github.io/img1/pf/artworks/1/app.png"
-                            alt="">
-                        <h1>app design</h1>
+                    <a href="https://yousangyeop.github.io/img1/pf/artworks/1/app.png" style="background-color:white;"
+                        class="app"><img src="https://yousangyeop.github.io/img1/pf/artworks/1/app.png" alt="">
+                        <h4>app design</h4>
                     </a>
                 </div>
             </li>
@@ -64,7 +59,7 @@
                 <div>
                     <a href="https://yousangyeop.github.io/img1/pr_img/paul.png" style="background-color:white;"
                         class="paul"><img src="https://yousangyeop.github.io/img1/pr_img/paul.png" alt="">
-                        <h1>paul roasters draft</h1>
+                        <h4>paul roasters draft</h4>
                     </a>
                 </div>
             </li>
@@ -72,13 +67,13 @@
                 <div>
                     <a href="https://yousangyeop.github.io/img1/pf/page/portfolio.png" style="background-color:white;"
                         class="pp"><img src="https://yousangyeop.github.io/img1/pf/page/portfolio.png" alt="">
-                        <h1>portfolio page</h1>
+                        <h4>portfolio page</h4>
                     </a>
                 </div>
                 <div>
                     <a href="https://yousangyeop.github.io/img1/pf/page/design.png" style="background-color:white;"
                         class="dp"><img src="https://yousangyeop.github.io/img1/pf/page/design.png" alt="">
-                        <h1>design page</h1>
+                        <h4>design page</h4>
                     </a>
                 </div>
             </li>

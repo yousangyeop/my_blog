@@ -29,13 +29,13 @@
                 <div>
                     <a href="/pf/gm/index.php" style="background-color:white;" class="gm"><img
                             src="https://yousangyeop.github.io/img1/blog/article/pf/gm.png" alt="">
-                        <h1>gentle monster</h1>
+                        <h4>gentle monster</h4>
                     </a>
                 </div>
                 <div>
                     <a href="/pf/stco/index.php" style="background-color:white;" class="stco"><img
                             src="https://yousangyeop.github.io/img1/blog/article/pf/stco.png" alt="">
-                        <h1>stco</h1>
+                        <h4>stco</h4>
                     </a>
                 </div>
             </li>
@@ -43,13 +43,13 @@
                 <div>
                     <a href="/pf/dv/index.php" style="background-color:white;" class="dv"><img
                             src="https://yousangyeop.github.io/img1/blog/article/pf/dv.png" alt="">
-                        <h1>di-in visual</h1>
+                        <h4>di-in visual</h4>
                     </a>
                 </div>
                 <div>
                     <a href="/pf/yp/index.php" style="background-color:white;" class="yp"><img
                             src="https://yousangyeop.github.io/img1/blog/article/pf/yp.png" alt="">
-                        <h1>yogerpresso</h1>
+                        <h4>yogerpresso</h4>
                     </a>
                 </div>
             </li>
@@ -57,7 +57,7 @@
                 <div>
                     <a href="/pf/shes/index.php" style="background-color:white;" class="shes"><img
                             src="https://yousangyeop.github.io/img1/blog/article/pf/shes.png" alt="">
-                        <h1>shes-line</h1>
+                        <h4>shes-line</h4>
                     </a>
                 </div>
             </li>
@@ -65,13 +65,13 @@
                 <div>
                     <a href="https://site1.blog.oa.gg/pf/pr/public/index.php" style="background-color:white;"
                         class="pr"><img src="https://yousangyeop.github.io/img1/blog/article/pf/pr.png" alt="">
-                        <h1>paul roasters</h1>
+                        <h4>paul roasters</h4>
                     </a>
                 </div>
                 <div>
                     <a href="https://site1.blog.oa.gg/" style="background-color:white;" class="blog"><img
                             src="https://yousangyeop.github.io/img1/blog/article/pf/blog.png" alt="">
-                        <h1>my blog</h1>
+                        <h4>my blog</h4>
                     </a>
                 </div>
             </li>

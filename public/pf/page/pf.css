@@ -1,7 +1,7 @@
-@import url(//https://fonts.googleapis.com/css2?family=Gaegu&display=swap);
+@import url(//fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
 
 html {
-    font-family: 'Gaegu', cursive;
+    font-family: 'Indie Flower', cursive;
 }
 
 /* 노말라이즈 */
@@ -233,7 +233,7 @@ label[for] {
 
 .table-row.row::after {
     display: inline;
-    clear: non;
+    clear: none;
 }
 
 .table-row>.cell {
@@ -372,7 +372,7 @@ body {
     font-weight: bold;
     position: absolute;
     top: 100px;
-    left: 200px;
+    left: 100px;
 }
 
 .box>.box-type {
@@ -389,93 +389,87 @@ body {
 /* 액자 */
 .box>ul>li>div>.gm {
     display: block;
-    width: 600px;
-    height: 100%;
+    width: 400px;
+    height: 80%;
     margin: 250px 200px;
     position: relative;
-    box-shadow: 1px 5px 4px black;
-    border: 1px solid black;
+    box-shadow: 1px 7px 5px rgb(20, 20, 20);
+
 }
 
 .box>ul>li>div>.stco {
     display: block;
-    width: 600px;
-    height: 100%;
+    width: 400px;
+    height: 80%;
     margin: 100px;
     position: relative;
-    box-shadow: 1px 4px 4px black;
-    border: 1px solid black;
+    box-shadow: 1px 7px 5px rgb(20, 20, 20);
+
 }
 
 .box>ul>li>div>.dv {
     display: block;
-    width: 600px;
-    height: 100%;
+    width: 400px;
+    height: 80%;
     margin: 400px 300px;
     position: relative;
-    box-shadow: 1px 5px 4px black;
-    border: 1px solid black;
+    box-shadow: 1px 7px 5px rgb(20, 20, 20);
+
 }
 
 .box>ul>li>div>.yp {
     display: block;
-    width: 800px;
-    height: 450px;
+    width: 400px;
+    height: 80%;
     margin: 450px 140px;
     position: relative;
-    box-shadow: 1px 2px 2px black;
-    border: 1px solid black;
+    box-shadow: 1px 7px 5px rgb(20, 20, 20);
 }
 
 .box>ul>li>div>.shes {
     display: block;
-    width: 700px;
-    height: 100%;
-    margin: 500px 400px;
+    width: 400px;
+    height: 80%;
+    margin: 500px 650px;
     position: relative;
-    box-shadow: 2px 2px 1px black;
-    border: 1px solid black;
+    box-shadow: 2px 7px 5px rgb(20, 20, 20);
 }
 
 .box>ul>li>div>.pr {
     display: block;
-    width: 600px;
-    height: 100%;
+    width: 400px;
+    height: 80%;
     margin: 150px;
     position: relative;
-    box-shadow: 1px 5px 4px black;
-    border: 1px solid black;
+    box-shadow: 1px 7px 5px rgb(20, 20, 20);
 }
 
 .box>ul>li>div>.blog {
     display: block;
-    width: 700px;
-    height: 303px;
+    width: 400px;
+    height: 80%;
     margin: 100px;
     position: relative;
-    box-shadow: 1px 4px 3px black;
-    border: 1px solid black;
+    box-shadow: 1px 7px 5px rgb(20, 20, 20);
 }
 
 /* 이미지 */
 .box>ul>li>div>a>img {
-    width: 600px;
+    width: 400px;
 }
 
 .box>ul>li>div>.yp>img {
     position: absolute;
-    top: 20%;
+    top: 0;
     left: 50%;
     transform: translate(-50%);
-    border: 2px solid black;
 }
 
 .box>ul>li>div>.shes>img {
     position: absolute;
-    top: 15%;
+    top: 0;
     left: 50%;
     transform: translate(-50%);
-    border: 2px solid black;
 }
 
 /* 테이프 */
@@ -491,7 +485,6 @@ body {
     opacity: 80%;
     transform: rotate(150deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
 }
 
 .box>ul>li>div>.gm::before {
@@ -505,7 +498,6 @@ body {
     opacity: 80%;
     transform: rotate(50deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
 }
 
 /* 테이프 - stco */
@@ -520,7 +512,6 @@ body {
     opacity: 80%;
     transform: rotate(120deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
 }
 
 .box>ul>li>div>.stco::before {
@@ -534,7 +525,6 @@ body {
     opacity: 80%;
     transform: rotate(10deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
 }
 
 /* 테이프 - dv */
@@ -549,36 +539,21 @@ body {
     opacity: 80%;
     transform: rotate(5deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
 }
 
 /* 테이프 - yp */
 .box>ul>li>div>.yp::after {
     position: absolute;
     content: "";
-    top: 5%;
-    left: 50%;
-    background-color: #4e4e4e;
-    border-radius: 100%;
-    width: 30px;
-    height: 30px;
-    box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
-}
-
-.box>ul>li>div>.yp::before {
-    position: absolute;
-    content: "";
+    top: -13%;
+    left: 30%;
+    transform: translateX(-50%);
     background-color: rgb(180, 169, 154);
-    bottom: -10%;
-    left: -10%;
-    width: 170px;
-    height: 70px;
-    opacity: 80%;
-    transform: rotate(10deg);
-    z-index: 9;
+    width: 150px;
+    height: 50px;
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
+    opacity: 80%;
+    transform: rotate(5deg);
 }
 
 /* 테이프 - shes */
@@ -586,14 +561,13 @@ body {
     position: absolute;
     content: "";
     background-color: rgb(180, 169, 154);
-    bottom: -8%;
+    top: -8%;
     left: 35%;
     width: 170px;
     height: 50px;
     opacity: 80%;
     transform: rotate(5deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
 }
 
 /* 테이프 - pr */
@@ -602,13 +576,12 @@ body {
     content: "";
     background-color: rgb(180, 169, 154);
     top: -8%;
-    left: 35%;
+    left: 30%;
     width: 170px;
     height: 50px;
     opacity: 80%;
     transform: rotate(5deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
 }
 
 /* 테이프 - blog */
@@ -616,14 +589,13 @@ body {
     position: absolute;
     content: "";
     background-color: rgb(180, 169, 154);
-    top: -8%;
-    left: -8%;
-    width: 170px;
+    top: -5%;
+    left: -5%;
+    width: 120px;
     height: 50px;
     opacity: 80%;
     transform: rotate(120deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
 }
 
 .box>ul>li>div>.blog::before {
@@ -632,59 +604,65 @@ body {
     background-color: rgb(180, 169, 154);
     top: -8%;
     right: -8%;
-    width: 170px;
+    width: 150px;
     height: 50px;
     opacity: 80%;
     transform: rotate(5deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
 }
 
 /* 포폴 제목 */
-.box>ul>li>div>.gm>h1 {
+.box>ul>li>div>.gm>h4 {
     text-align: center;
-    padding: 30px;
+    letter-spacing: 10px;
+    transform: rotate(-8deg);
+    font-size: 2rem;
 }
 
-.box>ul>li>div>.stco>h1 {
+.box>ul>li>div>.stco>h4 {
     text-align: center;
-    padding: 30px;
+    font-size: 2rem;
+    letter-spacing: 10px;
 }
 
-.box>ul>li>div>.dv>h1 {
+.box>ul>li>div>.dv>h4 {
     text-align: center;
-    padding: 30px;
+    transform: rotate(5deg);
+    letter-spacing: 15px;
+    font-size: 2.3rem;
 }
 
-.box>ul>li>div>.pr>h1 {
+.box>ul>li>div>.pr>h4 {
     text-align: center;
-    padding: 30px;
+    font-size: 2rem;
+    letter-spacing: 10px;
+    transform: rotate(-5deg);
 }
 
-.box>ul>li>div>.yp>h1 {
+.box>ul>li>div>.yp>h4 {
+    position: absolute;
+    bottom: 3%;
+    right: -1%;
+    transform: rotate(-10deg);
+    letter-spacing: 20px;
+    font-size: 2rem;
+}
+
+.box>ul>li>div>.shes>h4 {
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    padding: 20px;
+    letter-spacing: 9px;
+    font-size: 2rem;
 }
 
-.box>ul>li>div>.shes>h1 {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px;
-}
 
-.box>ul>li>div>.blog>h1 {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    writing-mode: vertical-rl;
-    padding: 20px;
-
+.box>ul>li>div>.blog>h4 {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 15px;
+    transform: rotate(-7deg);
 }
 
 /* 데코레이션 */

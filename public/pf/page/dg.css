@@ -1,7 +1,7 @@
-@import url(//https://fonts.googleapis.com/css2?family=Gaegu&display=swap);
+@import url(//fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
 
 html {
-    font-family: 'Gaegu', cursive;
+    font-family: 'Indie Flower', cursive;
 }
 
 /* 노말라이즈 */
@@ -389,108 +389,118 @@ body {
 /* 액자 */
 .box>ul>li>div>.cup {
     display: block;
-    width: 400px;
-    height: 440px;
+    width: 300px;
+    height: 350px;
     margin: 200px 200px;
     position: relative;
     box-shadow: 1px 7px 5px black;
-    border: 1px solid black;
 }
 
 .box>ul>li>div>.ver1 {
     display: block;
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 380px;
     margin: 100px;
     position: relative;
     box-shadow: 1px 7px 4px black;
-    border: 1px solid black;
 }
 
 .box>ul>li>div>.ver2 {
     display: block;
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 380px;
     margin: 250px 450px;
     position: relative;
     box-shadow: 1px 7px 4px black;
-    border: 1px solid black;
+
 }
 
 .box>ul>li>div>.app {
     display: block;
-    width: 600px;
-    height: 730px;
+    width: 300px;
+    height: 530px;
     margin: 300px 140px;
     position: relative;
     box-shadow: 1px 2px 2px black;
-    border: 1px solid black;
+
 }
 
 .box>ul>li>div>.paul {
     display: block;
-    width: 500px;
-    height: 700px;
+    width: 300px;
+    height: 600px;
     margin: 400px 300px;
     position: relative;
     box-shadow: 2px 2px 1px black;
-    border: 1px solid black;
+
 }
 
 .box>ul>li>div>.pp {
     display: block;
-    width: 500px;
-    height: 566px;
+    width: 300px;
+    height: 530px;
     margin: 180px 650px;
     position: relative;
     box-shadow: 1px 7px 5px black;
-    border: 1px solid black;
+
 }
 
 .box>ul>li>div>.dp {
     display: block;
-    width: 400px;
-    height: 700px;
+    width: 300px;
+    height: 530px;
     margin: 0 300px;
     position: relative;
     box-shadow: 1px 7px 5px black;
-    border: 1px solid black;
 }
 
 /* 이미지 */
 .box>ul>li>div>a>img {
-    width: 400px;
+    width: 300px;
 }
+
 .box>ul>li>div>.ver1>img {
     position: absolute;
-    top: 3%;
+    top: 0%;
     left: 50%;
     transform: translate(-50%);
-    border: 2px solid black;
 }
+
 .box>ul>li>div>.ver2>img {
     position: absolute;
-    top: 5%;
+    top: 0%;
     left: 50%;
     transform: translate(-50%);
-    border: 2px solid black;
 }
 
 .box>ul>li>div>.app>img {
     position: absolute;
-    top: 10%;
+    top: 0%;
     left: 50%;
     transform: translate(-50%);
-    border: 2px solid black;
     overflow: hidden;
 }
 
 .box>ul>li>div>.paul>img {
     position: absolute;
-    top: 15%;
+    top: 0%;
     left: 50%;
     transform: translate(-50%);
-    border: 2px solid black;
+
+}
+
+.box>ul>li>div>.pp>img {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.box>ul>li>div>.dp>img {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 /* 테이프 */
@@ -506,7 +516,7 @@ body {
     opacity: 80%;
     transform: rotate(150deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
+    border: 0.1px solid black;
 }
 
 .box>ul>li>div>.cup::before {
@@ -520,7 +530,7 @@ body {
     opacity: 80%;
     transform: rotate(50deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
+    border: 0.1px solid black;
 }
 
 /* 테이프 - ver1 */
@@ -535,7 +545,7 @@ body {
     opacity: 80%;
     transform: rotate(120deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
+    border: 0.1px solid black;
 }
 
 .box>ul>li>div>.ver1::before {
@@ -549,7 +559,7 @@ body {
     opacity: 80%;
     transform: rotate(10deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
+    border: 0.1px solid black;
     z-index: 10;
 }
 
@@ -565,7 +575,7 @@ body {
     opacity: 80%;
     transform: rotate(5deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
+    border: 0.1px solid black;
 }
 
 /* 테이프 - app */
@@ -579,7 +589,7 @@ body {
     width: 30px;
     height: 30px;
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
+    border: 0.1px solid black;
 }
 
 .box>ul>li>div>.app::before {
@@ -594,7 +604,7 @@ body {
     transform: rotate(10deg);
     z-index: 9;
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
+    border: 0.1px solid black;
 }
 
 /* 테이프 - paul */
@@ -609,7 +619,7 @@ body {
     opacity: 80%;
     transform: rotate(5deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
+    border: 0.1px solid black;
 }
 
 /* 테이프 - pp */
@@ -624,7 +634,7 @@ body {
     opacity: 80%;
     transform: rotate(5deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
+    border: 0.1px solid black;
 }
 
 /* 테이프 - dp */
@@ -639,7 +649,7 @@ body {
     opacity: 80%;
     transform: rotate(120deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
+    border: 0.1px solid black;
 }
 
 .box>ul>li>div>.dp::before {
@@ -653,58 +663,74 @@ body {
     opacity: 80%;
     transform: rotate(5deg);
     box-shadow: 1px 1px 1px black;
-    border:0.1px solid black;
+    border: 0.1px solid black;
 }
 
 /* 포폴 제목 */
-.box>ul>li>div>.cup>h1 {
+.box>ul>li>div>.cup>h4 {
     position: absolute;
-    bottom: 5%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.box>ul>li>div>.ver1>h1 {
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.box>ul>li>div>.ver2>h1 {
-    position: absolute;
-    bottom: 2%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.box>ul>li>div>.app>h1 {
-    position: absolute;
-    bottom: 3%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.box>ul>li>div>.paul>h1 {
-    position: absolute;
-    top: 3%;
+    bottom: -5%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    font-size: 2rem;
 }
 
-.box>ul>li>div>.pp>h1 {
+.box>ul>li>div>.ver1>h4 {
     position: absolute;
-    bottom: 17%;
-    right: 5%;
-    transform: translateY(-50%);
-    writing-mode: vertical-rl;
+    bottom: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 2rem;
 }
 
-.box>ul>li>div>.dp>h1 {
+.box>ul>li>div>.ver2>h4 {
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.box>ul>li>div>.app>h4 {
+    position: absolute;
+    bottom: 0%;
+    left: 55%;
+    transform: translateX(-50%);
+    letter-spacing: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.box>ul>li>div>.paul>h4 {
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 2rem;
+
+}
+
+.box>ul>li>div>.pp>h4 {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    letter-spacing: 10px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.box>ul>li>div>.dp>h4 {
     position: absolute;
     right: 8%;
-    bottom: 7%;
+    bottom: 0%;
     transform: translateX(-50%);
+    font-size: 1.3rem;
 }
 
 /* 데코레이션 */
@@ -743,20 +769,22 @@ body {
     left: 5%;
     user-select: none;
 }
-.btn-toggle > .ment {
+
+.btn-toggle>.ment {
     position: relative;
     background-color: white;
     position: absolute;
-    top:55%;
+    top: 55%;
     left: 5%;
     width: 170px;
     height: 100px;
 }
-.btn-toggle > .ment > span {
+
+.btn-toggle>.ment>span {
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 10;
 }
 
