@@ -39,11 +39,16 @@ include "../part/head.php"
             <div class="profile-2">
                 <ul class="award">
                     <li class="title">AWARD</li>
-                    <li>수상</li>
+                    <li>- 수상</li>
+                    <li>- 수상</li>
+                    <li>- 수상</li>
                 </ul>
                 <ul class="actives">
                     <li class="title">ACTIVES</li>
-                    <li>프로젝트활동</li>
+                    <li>- 프로젝트활동</li>
+                    <li>- 프로젝트활동</li>
+                    <li>- 프로젝트활동</li>
+
                 </ul>
             </div>
     </div>

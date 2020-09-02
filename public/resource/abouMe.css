@@ -34,8 +34,11 @@
     text-align: center;
 }
 .profile-2 {
-    background-color: cyan;
     width: 30vw;
+}
+.profile-2 > ul {
+    padding: 15px;
+    text-align: center;
 }
 /* 학력 */
 .profile-1 > .edu > .title {
@@ -61,5 +64,20 @@
 .skills > li > img {
     width: 300px;
     margin-left: -20px;
+}
+/* 수상 */
+.profile-2 > .award > .title {
+    font-size: 2rem;
+}
+.profile-2 > .award > li {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.profile-2 > .actives > .title {
+    font-size: 2rem;
+}
+.profile-2 > .actives > li {
+    padding: 10px;
+    font-size: 1.5rem;
 }
 

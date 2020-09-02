@@ -19,6 +19,9 @@
             </div>
         </div>
         <div class="btn-toggle img-box">
+            <div class="ment">
+                <span>갈 땐 가더라도 불 꺼</span>
+            </div>
             <img src="https://yousangyeop.github.io/img1/pf/page/button.png" alt="" width="200">
             <img src="https://yousangyeop.github.io/img1/pf/page/button.png" alt="" width="200">
         </div>
@@ -59,7 +62,7 @@
             </li>
             <li class="box-type-3">
                 <div>
-                    <a href="https://yousangyeop.github.io/img1/pr_img/paul.pngg" style="background-color:white;"
+                    <a href="https://yousangyeop.github.io/img1/pr_img/paul.png" style="background-color:white;"
                         class="paul"><img src="https://yousangyeop.github.io/img1/pr_img/paul.png" alt="">
                         <h1>paul roasters draft</h1>
                     </a>
