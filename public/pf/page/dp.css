@@ -233,7 +233,7 @@ label[for] {
 
 .table-row.row::after {
     display: inline;
-    clear: none;
+    clear: non;
 }
 
 .table-row>.cell {
@@ -355,7 +355,7 @@ label[for] {
 /* 커스텀 */
 body {
     width: 100%;
-    height: 2400px;
+    height: 2530px;
     position: relative;
 }
 
@@ -387,282 +387,186 @@ body {
 }
 
 /* 액자 */
-.box>ul>li>div>.gm {
+.box>ul>li>div>.cup {
     display: block;
-    width: 400px;
-    height: 80%;
-    margin: 250px 200px;
+    width: 300px;
+    height: 350px;
+    margin: 200px 200px;
     position: relative;
-    box-shadow: 1px 7px 5px rgb(20, 20, 20);
-
+    box-shadow: 1px 8px 5px black;
 }
 
-.box>ul>li>div>.stco {
+.box>ul>li>div>.ver1 {
     display: block;
-    width: 400px;
-    height: 80%;
+    width: 300px;
+    height: 380px;
     margin: 100px;
     position: relative;
-    box-shadow: 1px 7px 5px rgb(20, 20, 20);
+    box-shadow: 1px 10px 4px black;
+}
+
+.box>ul>li>div>.ver2 {
+    display: block;
+    width: 300px;
+    height: 380px;
+    margin: 250px 450px;
+    position: relative;
+    box-shadow: 1px 9px 4px black;
 
 }
 
-.box>ul>li>div>.dv {
+.box>ul>li>div>.app {
     display: block;
-    width: 400px;
-    height: 80%;
+    width: 300px;
+    height: 530px;
+    margin: 300px 140px;
+    position: relative;
+    box-shadow: 1px 8px 4px black;
+
+}
+
+.box>ul>li>div>.paul {
+    display: block;
+    width: 300px;
+    height: 600px;
     margin: 400px 300px;
     position: relative;
-    box-shadow: 1px 7px 5px rgb(20, 20, 20);
+    box-shadow: 1px 8px 3px black;
 
 }
 
-.box>ul>li>div>.yp {
+.box>ul>li>div>.pp {
     display: block;
-    width: 400px;
-    height: 80%;
-    margin: 450px 140px;
+    width: 300px;
+    height: 530px;
+    margin: 180px 650px;
     position: relative;
-    box-shadow: 1px 7px 5px rgb(20, 20, 20);
+    box-shadow: 1px 8px 5px black;
+
 }
 
-.box>ul>li>div>.shes {
+.box>ul>li>div>.dp {
     display: block;
-    width: 400px;
-    height: 80%;
-    margin: 500px 650px;
+    width: 300px;
+    height: 530px;
+    margin: 0 300px;
     position: relative;
-    box-shadow: 2px 7px 5px rgb(20, 20, 20);
-}
-
-.box>ul>li>div>.pr {
-    display: block;
-    width: 400px;
-    height: 80%;
-    margin: 150px;
-    position: relative;
-    box-shadow: 1px 7px 5px rgb(20, 20, 20);
-}
-
-.box>ul>li>div>.blog {
-    display: block;
-    width: 400px;
-    height: 80%;
-    margin: 100px;
-    position: relative;
-    box-shadow: 1px 7px 5px rgb(20, 20, 20);
+    box-shadow: 1px 7px 5px black;
 }
 
 /* 이미지 */
 .box>ul>li>div>a>img {
-    width: 400px;
+    width: 300px;
 }
 
-.box>ul>li>div>.yp>img {
+.box>ul>li>div>.ver1>img {
     position: absolute;
-    top: 0;
+    top: 0%;
     left: 50%;
     transform: translate(-50%);
 }
 
-.box>ul>li>div>.shes>img {
+.box>ul>li>div>.ver2>img {
     position: absolute;
-    top: 0;
+    top: 0%;
     left: 50%;
     transform: translate(-50%);
 }
 
-/* 테이프 */
-/* 테이프 - gm */
-.box>ul>li>div>.gm::after {
+.box>ul>li>div>.app>img {
     position: absolute;
-    content: "";
-    background-color: rgb(180, 169, 154);
-    top: 0;
-    left: -7%;
-    width: 150px;
-    height: 50px;
-    opacity: 80%;
-    transform: rotate(150deg);
-    box-shadow: 1px 1px 1px black;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    overflow: hidden;
 }
 
-.box>ul>li>div>.gm::before {
+.box>ul>li>div>.paul>img {
     position: absolute;
-    content: "";
-    background-color: rgb(180, 169, 154);
-    top: 0;
-    right: -7%;
-    width: 150px;
-    height: 50px;
-    opacity: 80%;
-    transform: rotate(50deg);
-    box-shadow: 1px 1px 1px black;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+
 }
 
-/* 테이프 - stco */
-.box>ul>li>div>.stco::after {
+.box>ul>li>div>.pp>img {
     position: absolute;
-    content: "";
-    background-color: rgb(180, 169, 154);
-    top: 0;
-    left: -7%;
-    width: 150px;
-    height: 50px;
-    opacity: 80%;
-    transform: rotate(120deg);
-    box-shadow: 1px 1px 1px black;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
-.box>ul>li>div>.stco::before {
+.box>ul>li>div>.dp>img {
     position: absolute;
-    content: "";
-    background-color: rgb(180, 169, 154);
-    top: 0;
-    right: -7%;
-    width: 150px;
-    height: 50px;
-    opacity: 80%;
-    transform: rotate(10deg);
-    box-shadow: 1px 1px 1px black;
-}
-
-/* 테이프 - dv */
-.box>ul>li>div>.dv::after {
-    position: absolute;
-    content: "";
-    background-color: rgb(180, 169, 154);
-    top: -8%;
-    left: 35%;
-    width: 170px;
-    height: 50px;
-    opacity: 80%;
-    transform: rotate(5deg);
-    box-shadow: 1px 1px 1px black;
-}
-
-/* 테이프 - yp */
-.box>ul>li>div>.yp::after {
-    position: absolute;
-    content: "";
-    top: -13%;
-    left: 30%;
-    transform: translateX(-50%);
-    background-color: rgb(180, 169, 154);
-    width: 150px;
-    height: 50px;
-    box-shadow: 1px 1px 1px black;
-    opacity: 80%;
-    transform: rotate(5deg);
-}
-
-/* 테이프 - shes */
-.box>ul>li>div>.shes::after {
-    position: absolute;
-    content: "";
-    background-color: rgb(180, 169, 154);
-    top: -8%;
-    left: 35%;
-    width: 170px;
-    height: 50px;
-    opacity: 80%;
-    transform: rotate(5deg);
-    box-shadow: 1px 1px 1px black;
-}
-
-/* 테이프 - pr */
-.box>ul>li>div>.pr::after {
-    position: absolute;
-    content: "";
-    background-color: rgb(180, 169, 154);
-    top: -8%;
-    left: 30%;
-    width: 170px;
-    height: 50px;
-    opacity: 80%;
-    transform: rotate(5deg);
-    box-shadow: 1px 1px 1px black;
-}
-
-/* 테이프 - blog */
-.box>ul>li>div>.blog::after {
-    position: absolute;
-    content: "";
-    background-color: rgb(180, 169, 154);
-    top: -5%;
-    left: -5%;
-    width: 120px;
-    height: 50px;
-    opacity: 80%;
-    transform: rotate(120deg);
-    box-shadow: 1px 1px 1px black;
-}
-
-.box>ul>li>div>.blog::before {
-    position: absolute;
-    content: "";
-    background-color: rgb(180, 169, 154);
-    top: -8%;
-    right: -8%;
-    width: 150px;
-    height: 50px;
-    opacity: 80%;
-    transform: rotate(5deg);
-    box-shadow: 1px 1px 1px black;
-}
-
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+}   
 /* 포폴 제목 */
-.box>ul>li>div>.gm>h4 {
-    text-align: center;
-    letter-spacing: 10px;
-    transform: rotate(-8deg);
-    font-size: 2rem;
-}
-
-.box>ul>li>div>.stco>h4 {
-    text-align: center;
-    font-size: 2rem;
-    letter-spacing: 10px;
-}
-
-.box>ul>li>div>.dv>h4 {
-    text-align: center;
-    transform: rotate(5deg);
-    letter-spacing: 15px;
-    font-size: 2.3rem;
-}
-
-.box>ul>li>div>.pr>h4 {
-    text-align: center;
-    font-size: 2rem;
-    letter-spacing: 10px;
-    transform: rotate(-5deg);
-}
-
-.box>ul>li>div>.yp>h4 {
+.box>ul>li>div>.cup>h4 {
     position: absolute;
-    bottom: 3%;
-    right: -1%;
-    transform: rotate(-10deg);
-    letter-spacing: 20px;
-    font-size: 2rem;
-}
-
-.box>ul>li>div>.shes>h4 {
-    position: absolute;
-    bottom: 0;
+    bottom: -5%;
     left: 50%;
     transform: translateX(-50%);
-    letter-spacing: 9px;
+    text-align: center;
     font-size: 2rem;
 }
 
-
-.box>ul>li>div>.blog>h4 {
+.box>ul>li>div>.ver1>h4 {
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     font-size: 2rem;
-    letter-spacing: 15px;
-    transform: rotate(-7deg);
+}
+
+.box>ul>li>div>.ver2>h4 {
+    position: absolute;
+    bottom: -6%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.box>ul>li>div>.app>h4 {
+    position: absolute;
+    bottom: -1%;
+    left: 55%;
+    transform: translateX(-50%);
+    letter-spacing: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.box>ul>li>div>.paul>h4 {
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 2rem;
+
+}
+
+.box>ul>li>div>.pp>h4 {
+    position: absolute;
+    bottom: 0%;
+    left:52%;
+    transform: translateX(-50%);
+    letter-spacing: 10px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.box>ul>li>div>.dp>h4 {
+    position: absolute;
+    right: 8%;
+    bottom: 0%;
+    transform: translateX(-50%);
+    font-size: 1.3rem;
 }
 
 /* 데코레이션 */
@@ -700,6 +604,14 @@ body {
     top: 60%;
     left: 5%;
     user-select: none;
+}
+
+.btn-toggle>.ment>span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
 }
 
 .btn-toggle>img:first-child {
@@ -753,4 +665,75 @@ body {
 .popup1-actived .popup1>.box {
     transform: translateY(0);
     transition: transform .3s .4s;
+}
+/* 테이프 */
+.tape-1 > img {
+    position: absolute;
+    top: 7%;
+    left: 16%;
+    width: 110px;
+    height: 40px;
+    z-index: 30;
+    transform: rotate(90deg);
+    opacity: 80%;
+}
+.tape-2 > img {
+    position: absolute;
+    top: 3%;
+    right: 34%;
+    width: 110px;
+    height: 40px;
+    z-index: 30;
+    transform: rotate(91deg);
+    opacity: 80%;
+}
+.tape-3 > img {
+    position: absolute;
+    top: 25%;
+    left: 29%;
+    width: 110px;
+    height: 40px;
+    z-index: 30;
+    transform: rotate(90deg);
+    opacity: 80%;
+}
+.tape-4 > img {
+    position: absolute;
+    top: 26.5%;
+    right: 31%;
+    width: 110px;
+    height: 40px;
+    z-index: 30;
+    transform: rotate(10deg);
+    opacity: 80%;
+}
+.tape-5 > img {
+    position: absolute;
+    top: 46%;
+    left: 21%;
+    width: 110px;
+    height: 40px;
+    z-index: 30;
+    transform: rotate(93deg);
+    opacity: 80%;
+}
+.tape-6 > img {
+    position: absolute;
+    bottom: 29%;
+    left: 39%;
+    width: 110px;
+    height: 40px;
+    z-index: 30;
+    transform: rotate(93deg);
+    opacity: 80%;
+}
+.tape-7 > img {
+    position: absolute;
+    bottom: 36%;
+    right: 24%;
+    width: 110px;
+    height: 45px;
+    z-index: 30;
+    transform: rotate(90deg);
+    opacity: 80%;
 }

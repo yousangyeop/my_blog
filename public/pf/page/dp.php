@@ -7,12 +7,19 @@
     <title>디자인 페이지</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="dg.css">
-    <script src="dg.js"></script>
+    <link rel="stylesheet" href="dp.css">
+    <script src="dp.js"></script>
 </head>
 
 <body>
     <div class="box" style="background-image: url('https://yousangyeop.github.io/img1/pf/page/wall.png');">
+    <div class="tape-1"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+    <div class="tape-2"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+    <div class="tape-3"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+    <div class="tape-4"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+    <div class="tape-5"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+    <div class="tape-6"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+    <div class="tape-7"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
         <div class="popup1">
             <div class="box">
                 <img src="https://yousangyeop.github.io/img1/pf/page/contact.png" alt="">
@@ -23,7 +30,8 @@
             <img src="https://yousangyeop.github.io/img1/pf/page/button.png" alt="" width="200">
         </div>
         <div class="port">design</div>
-        <div class="flower"><img src="https://yousangyeop.github.io/img1/pf/page/flower.png" alt="" width="100"></div>
+        <div class="flower"><img src="https://yousangyeop.github.io/img1/pf/page/flower.png" alt="" width="100">
+        </div>
         <ul class="box-type">
             <li class="box-type-1 flex">
                 <div>

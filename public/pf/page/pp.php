@@ -7,12 +7,19 @@
     <title>포트폴리오 페이지</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="pf.css">
-    <script src="pf.js"></script>
+    <link rel="stylesheet" href="pp.css">
+    <script src="pp.js"></script>
 </head>
 
 <body>
     <div class="box" style="background-image: url('https://yousangyeop.github.io/img1/pf/page/wall.png');">
+    <div class="tape-1"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+    <div class="tape-2"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+    <div class="tape-3"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+    <div class="tape-4"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+    <div class="tape-5"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+    <div class="tape-6"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+    <div class="tape-7"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
         <div class="popup1">
             <div class="box">
                 <img src="https://yousangyeop.github.io/img1/pf/page/contact.png" alt="">
