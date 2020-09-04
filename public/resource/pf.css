@@ -111,8 +111,18 @@ nav {
     color: white;
     font-weight: bold;
 }
-.port-2 > .port > a::after {
+.port-2 > .pp > a::after {
     content: "포폴 페이지";
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.port-2 > .dp > a::after {
+    content: "디자인 페이지";
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);

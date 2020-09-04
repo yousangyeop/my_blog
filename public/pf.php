@@ -23,7 +23,8 @@ include "../part/head.php"
                     src="https://yousangyeop.github.io/img1/blog/article/pf/pr.png" alt=""></a></li>
     </ul>
     <ul class="port-2 flex flex-jc-c flex-ai-c">
-        <li class="port"><a href="https://site1.blog.oa.gg/pf/page/pf.php"><img src="https://yousangyeop.github.io/img1/pf/page/port-page.png" alt=""></a></li>
+        <li class="pp"><a href="site1.blog.oa.gg/pf/page/pp.php"><img src="https://yousangyeop.github.io/img1/pf/page/port-page.png" alt=""></a></li>
+        <li class="dp"><a href="site1.blog.oa.gg/pf/page/dp.php"><img src="https://yousangyeop.github.io/img1/pf/page/port-page.png" alt=""></a></li>
     </ul>
     <h1>디자인</h1>
     <ul class="design">
