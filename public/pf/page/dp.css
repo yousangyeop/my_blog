@@ -458,6 +458,12 @@ body {
 .box>ul>li>div>a>img {
     width: 300px;
 }
+.box>ul>li>div>.cofee>img {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+}
 
 .box>ul>li>div>.ver1>img {
     position: absolute;
@@ -742,7 +748,7 @@ body {
 .phone > img {
     position: absolute;
     bottom:20%;
-    left: 10%;
+    left: 40%;
 }
 .note > img {
     position: absolute;
@@ -751,7 +757,7 @@ body {
 }
 .camera > img {
     position: absolute;
-    top:50%;
+    top:40%;
     right:50%;
 }
 .pen > img {
@@ -763,5 +769,20 @@ body {
 .mac > img {
     position: absolute;
     top:50%;
+    right: 0;
+}
+.cloth > img {
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+.coffee > img {
+    position: absolute;
+    top:25%;
+    right: 20%;
+}
+.pad > img {
+    position: absolute;
+    top: 0;
     right: 0;
 }
