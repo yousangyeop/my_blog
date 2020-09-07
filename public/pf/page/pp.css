@@ -566,6 +566,13 @@ body {
     left: 5%;
     user-select: none;
 }
+/* 멘트 */
+.ment > img {
+    position: absolute;
+    top:57%;
+    left: 2%;
+    width: 400px;
+}
 
 .btn-toggle>img:first-child {
     padding-top: 1px;
@@ -691,7 +698,7 @@ body {
     opacity: 80%;
 }
 /* 배경 데코 */
-.phone > img {
+.camera > img {
     position: absolute;
     bottom:20%;
     left: 40%;
@@ -701,10 +708,10 @@ body {
     top:0;
     left: 25%;
 }
-.camera > img {
+.phone > img {
     position: absolute;
-    top:50%;
-    left: 10%;
+    top:35%;
+    left:2%;
 }
 .pen > img {
     position: absolute;
