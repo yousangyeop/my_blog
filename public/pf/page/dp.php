@@ -20,14 +20,14 @@
         <div class="tape-5"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
         <div class="tape-6"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
         <div class="tape-7"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
-        <div class="phone"><img src="https://yousangyeop.github.io/img1/pf/page/phone.png" alt=""></div>
-        <div class="note"><img src="https://yousangyeop.github.io/img1/pf/page/note.png" alt=""></div>
-        <div class="camera"><img src="https://yousangyeop.github.io/img1/pf/page/camera.png" alt=""></div>
-        <div class="pen"><img src="https://yousangyeop.github.io/img1/pf/page/pen.png" alt=""></div>
+        <div class="phone"><img src="https://yousangyeop.github.io/img1/pf/page/phone.png" alt="" width="200"></div>
+        <div class="note"><img src="https://yousangyeop.github.io/img1/pf/page/note.png" alt="" width="500"></div>
+        <div class="camera"><img src="https://yousangyeop.github.io/img1/pf/page/camera.png" alt="" width="330"></div>
+        <div class="pen"><img src="https://yousangyeop.github.io/img1/pf/page/pen.png" alt=""width="300"></div>
         <div class="mac"><img src="https://yousangyeop.github.io/img1/pf/page/mac.png" alt=""></div>
         <div class="cloth"><img src="https://yousangyeop.github.io/img1/pf/page/cloth.png" alt=""></div>
-        <div class="coffee"><img src="https://yousangyeop.github.io/img1/pf/page/cup.png" alt=""></div>
-        <div class="pad"><img src="https://yousangyeop.github.io/img1/pf/page/pad.png" alt=""></div>
+        <div class="coffee"><img src="https://yousangyeop.github.io/img1/pf/page/cup.png" alt="" width="200"></div>
+        <div class="pad"><img src="https://yousangyeop.github.io/img1/pf/page/pad.png" alt="" width="400"></div>
         <div class="popup1">
             <div class="box">
                 <img src="https://yousangyeop.github.io/img1/pf/page/contact.png" alt="">

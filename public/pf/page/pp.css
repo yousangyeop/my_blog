@@ -699,12 +699,12 @@ body {
 .note > img {
     position: absolute;
     top:0;
-    left: 40%;
+    left: 25%;
 }
 .camera > img {
     position: absolute;
-    top:40%;
-    right:50%;
+    top:50%;
+    left: 10%;
 }
 .pen > img {
     position: absolute;

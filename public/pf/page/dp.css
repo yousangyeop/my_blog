@@ -753,22 +753,22 @@ body {
 .note > img {
     position: absolute;
     top:0;
-    left: 40%;
+    left: 25%;
 }
 .camera > img {
     position: absolute;
-    top:40%;
-    right:50%;
+    top:50%;
+    right:40%;
 }
 .pen > img {
     position: absolute;
-    bottom:10%;
-    right: 10%;
+    bottom:5%;
+    right: 20%;
     transform: rotate(50deg);
 }
 .mac > img {
     position: absolute;
-    top:50%;
+    top:30%;
     right: 0;
 }
 .cloth > img {
@@ -779,7 +779,7 @@ body {
 .coffee > img {
     position: absolute;
     top:25%;
-    right: 20%;
+    left: 10%;
 }
 .pad > img {
     position: absolute;
