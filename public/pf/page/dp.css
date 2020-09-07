@@ -596,6 +596,7 @@ body {
 
 .btn-toggle {
     width: 100px;
+    cursor: pointer;
 }
 
 .btn-toggle img {
@@ -736,4 +737,31 @@ body {
     z-index: 30;
     transform: rotate(90deg);
     opacity: 80%;
+}
+/* 배경 데코 */
+.phone > img {
+    position: absolute;
+    bottom:20%;
+    left: 10%;
+}
+.note > img {
+    position: absolute;
+    top:0;
+    left: 40%;
+}
+.camera > img {
+    position: absolute;
+    top:50%;
+    right:50%;
+}
+.pen > img {
+    position: absolute;
+    bottom:10%;
+    right: 10%;
+    transform: rotate(50deg);
+}
+.mac > img {
+    position: absolute;
+    top:50%;
+    right: 0;
 }

@@ -13,13 +13,18 @@
 
 <body>
     <div class="box" style="background-image: url('https://yousangyeop.github.io/img1/pf/page/wall.png');">
-    <div class="tape-1"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
-    <div class="tape-2"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
-    <div class="tape-3"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
-    <div class="tape-4"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
-    <div class="tape-5"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
-    <div class="tape-6"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
-    <div class="tape-7"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+        <div class="tape-1"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+        <div class="tape-2"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+        <div class="tape-3"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+        <div class="tape-4"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+        <div class="tape-5"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+        <div class="tape-6"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+        <div class="tape-7"><img src="https://yousangyeop.github.io/img1/pf/page/tape.png" alt=""></div>
+        <div class="phone"><img src="https://yousangyeop.github.io/img1/pf/page/phone.png" alt="" width="100"></div>
+        <div class="note"><img src="https://yousangyeop.github.io/img1/pf/page/note.png" alt="" width="280"></div>
+        <div class="camera"><img src="https://yousangyeop.github.io/img1/pf/page/camera.png" alt="" width="200"></div>
+        <div class="pen"><img src="https://yousangyeop.github.io/img1/pf/page/pen.png" alt=""width="150"></div>
+        <div class="mac"><img src="https://yousangyeop.github.io/img1/pf/page/mac.png" alt="" width="250"></div>
         <div class="popup1">
             <div class="box">
                 <img src="https://yousangyeop.github.io/img1/pf/page/contact.png" alt="">
@@ -30,7 +35,8 @@
             <img src="https://yousangyeop.github.io/img1/pf/page/button.png" alt="" width="200">
         </div>
         <div class="port">portfolio</div>
-        <div class="flower"><img src="https://yousangyeop.github.io/img1/pf/page/flower.png" alt="" width="100"></div>
+        <div class="flower"><img src="https://yousangyeop.github.io/img1/pf/page/flower.png" alt="" width="100">
+        </div>
         <ul class="box-type">
             <li class="box-type-1 flex">
                 <div>
