@@ -7,7 +7,7 @@
     <title>젠틀몬스터</title>
     <link rel="stylesheet" href="./index.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
@@ -163,6 +163,69 @@
                     <img src="https://www.gentlemonster.com/img/main_200615/product/WORLD/product_sun_W12.jpg" alt="">
                     <div class="prod-name">드리머 17 GC2</div>
                     <div class="prod-price">249,000원</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="banner"
+        style="background-image: url('http://www.gentlemonster.com/img/main_200130/main_banner/pc/BANNER_02_pc.jpg');">
+        <ul class="con banner-text">
+            <li class="text1">2020 티-옵티컬 시리즈</li>
+            <li class="text2">풀 ‘티타늄(Titanium)’ 소재로 제작된 젠틀몬스터의 새로운 안경
+                <br>
+                시리즈를 만나보세요.</li>
+            <li class="glasses">안경 구매하기</li>
+            <li class="collection">컬렉션 만나보기</li>
+        </ul>
+    </div>
+    <ul class="banner-2">
+        <li class="new">신상품 – 안경</li>
+        <li class="info">가벼운 메탈 프레임부터 감각적인 스타일의 콤비 프레임까지 <br>
+            새로운 안경 시리즈를 만나보세요.</li>
+        <li class="all">선글라스 모두보기</li>
+    </ul>
+    <div class="my-slider-2 con flex">
+        <ul class="owl-carousel owl-theme flex">
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200130/t_optical/opt_product_06.jpg" alt="">
+                    <div class="prod-name">톰 21 M01</div>
+                    <div class="prod-price">320,000원</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200130/t_optical/opt_product_02.jpg" alt="">
+                    <div class="prod-name">톰 21 M02</div>
+                    <div class="prod-price">320,000원</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200130/t_optical/opt_product_01.jpg" alt="">
+                    <div class="prod-name">하바나 B4</div>
+                    <div class="prod-price">330,000원</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200130/t_optical/opt_product_03.jpg" alt="">
+                    <div class="prod-name">가타 01</div>
+                    <div class="prod-price">375,000원</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200130/t_optical/opt_product_04.jpg" alt="">
+                    <div class="prod-name">톰 22 A01</div>
+                    <div class="prod-price">320,000원</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200130/t_optical/opt_product_05.jpg" alt="">
+                    <div class="prod-name">웨스트코스트 01</div>
+                    <div class="prod-price">330,000원</div>
                 </div>
             </li>
         </ul>
