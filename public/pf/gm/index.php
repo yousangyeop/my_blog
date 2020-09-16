@@ -230,6 +230,100 @@
             </li>
         </ul>
     </div>
+    <div class="video-top">
+        <video class="gm-video" playsinline="" autoplay="" muted="" loop=""
+            poster="https://www.gentlemonster.com/stories/re-definition/img/poster/redefinition_main_PC_2560×1158.jpg"
+            style="width: 100%; height: 100%;">
+            <source src="https://yousangyeop.github.io/img1/pf/gm/gmvideo.mp4">
+        </video>
+        <ul class="txt-box">
+            <li class="video-text1">REDEFINITION OF EYEWEAR</li>
+            <li class="video-text2">아이웨어에 대한 탐구와 실험을 멈추지 않는 젠틀몬스터의 <br>
+                새로운 아트 프로젝트 ‘Redefinition of Eyewear’를 소개합니다.</li>
+            <li class="video-text3">컬렉션 모두보기</li>
+        </ul>
+    </div>
+    <div class="my-slider-3 con flex">
+        <ul class="owl-carousel owl-theme flex">
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200731/product_01.jpg" alt="">
+                    <div class="prod-name">IKEUCHI HIROTO</div>
+                    <div class="prod-price">VR Goggles</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200731/product_02.jpg" alt="">
+                    <div class="prod-name">JAMES MERRY</div>
+                    <div class="prod-price">Sacrum</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200731/product_03.jpg" alt="">
+                    <div class="prod-name">DAIEN BLOTTIERE</div>
+                    <div class="prod-price">Thinking of glasses</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200731/product_04.jpg" alt="">
+                    <div class="prod-name">SHALVA NIKVASHVIKLI</div>
+                    <div class="prod-price">MZE</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200731/product_05.jpg" alt="">
+                    <div class="prod-name">LIZ SEXTON</div>
+                    <div class="prod-price">Raccoon reframed</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200731/product_06.jpg" alt="">
+                    <div class="prod-name">DAISY MAY COLLINGRIDGE</div>
+                    <div class="prod-price">Clem</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200731/product_07.jpg" alt="">
+                    <div class="prod-name">GENTLE MONSTER</div>
+                    <div class="prod-price">Tangible Light</div>
+                </div>
+            </li>
+            <li class="cell item">
+                <div class="img-box">
+                    <img src="https://www.gentlemonster.com/img/main_200731/product_08.jpg" alt="">
+                    <div class="prod-name">ESMAY WAGEMANS</div>
+                    <div class="prod-price">Artificial Fluidity</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="banner-3"
+        style="background-image: url('http://www.gentlemonster.com/img/main_200130/main_banner/pc/banner_03_pc.jpg');">
+        <ul class="text-box">
+            <li class="acc">악세서리 컬렉션</li>
+            <li class="info">새롭게 선보이는 젠틀몬스터의 아이웨어 액세서리 <br>
+                컬렉션을 만나보세요.</li>
+            <li class="all">악세서리 모두보기</li>
+        </ul>
+    </div>
+    <nav class="banner-4">
+        <ul class="acc">
+            <li class="item1"><img src="https://www.gentlemonster.com/img/main_200130/acc/acc_01.jpg" alt=""></li>
+            <li class="item2"><img src="https://www.gentlemonster.com/img/main_200130/acc/acc_02.jpg" alt=""></li>
+            <li class="item3"><img src="https://www.gentlemonster.com/img/main_200130/acc/acc_03.jpg" alt=""></li>
+            <li class="item4"><img src="https://www.gentlemonster.com/img/main_200130/acc/acc_04_final.jpg" alt=""></li>
+        </ul>
+    </nav>
+
+
+
+
 </body>
 
 </html>

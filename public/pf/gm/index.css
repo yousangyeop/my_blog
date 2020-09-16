@@ -576,3 +576,121 @@ nav>.log-in>ul>li > a >img {
   .my-slider-2 > ul {
       margin-top: 130px;
   }
+/* 비디오 */
+.video-top {
+    position: relative;
+}
+.video-top > .txt-box {
+    position: absolute;
+    bottom:15%;
+    left:5%;
+}
+.video-top > .txt-box > .video-text1 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.video-top > .txt-box > .video-text2 {
+    margin-top: 20px; 
+} 
+.video-top > .txt-box > .video-text3 {
+    background-color: white;
+    border: 1px solid black;
+    width: 130px;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: .7rem;
+    margin-top: 20px;
+}
+.video-top > .txt-box > .video-text3:hover {
+    background-color: black;
+    border: 1px solid black;
+    width: 130px;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: .7rem;
+    margin-top: 20px;
+    color:white;
+    cursor: pointer;
+}
+/* 슬라이드 3 */
+.my-slider-3 > ul li > .img-box > div {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.my-slider-3 .item {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .my-slider-3 > ul li {
+      margin: 10px;
+  }
+  .my-slider-3 > ul {
+      margin-top: 130px;
+  }
+/* 배너3 */
+.banner-3 {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.banner-3 >.text-box {
+    position: absolute;
+    top:63%;
+    left: 5%;
+}
+.banner-3 >.text-box > li {
+    padding: 10px;
+}
+.banner-3 > .text-box >.acc {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.banner-3 > .text-box > .info {
+    font-size: 0.9rem;
+}
+.banner-3 > .text-box > .all {
+    background-color: white;
+    width: 150px;
+    padding: 15px;
+    color:black;
+    top:63%;
+    left: 5%;
+    text-align: center;
+    font-size: .7rem;
+}
+.banner-3 > .text-box > .all:hover {
+    background-color: black;
+    width: 150px;
+    padding: 15px;
+    color:white;
+    top:63%;
+    left: 5%;
+    text-align: center;
+    font-size: .7rem;
+    cursor: pointer;
+}
+/* 배너-4 */
+.banner-4 {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    position: relative;
+}
+.banner-4 > ul {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.banner-4> ul > li > img {
+    width: 100%;
+}
