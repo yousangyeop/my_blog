@@ -314,10 +314,22 @@
     </div>
     <nav class="banner-4">
         <ul class="acc">
-            <li class="item1"><img src="https://www.gentlemonster.com/img/main_200130/acc/acc_01.jpg" alt=""></li>
-            <li class="item2"><img src="https://www.gentlemonster.com/img/main_200130/acc/acc_02.jpg" alt=""></li>
-            <li class="item3"><img src="https://www.gentlemonster.com/img/main_200130/acc/acc_03.jpg" alt=""></li>
-            <li class="item4"><img src="https://www.gentlemonster.com/img/main_200130/acc/acc_04_final.jpg" alt=""></li>
+            <li class="item1"><img src="https://www.gentlemonster.com/img/main_200130/acc/acc_01.jpg" alt="">
+                <div class="prod-name">고흐 SV</div>
+                <div class="prod-price">260,000원</div>
+            </li>
+            <li class="item2"><img src="https://www.gentlemonster.com/img/main_200130/acc/acc_02.jpg" alt="">
+                <div class="prod-name">스키모 OR</div>
+                <div class="prod-price">160,000원</div>
+            </li>
+            <li class="item3"><img src="https://www.gentlemonster.com/img/main_200130/acc/acc_03.jpg" alt="">
+                <div class="prod-name">지지 GD</div>
+                <div class="prod-price">170,000원</div>
+            </li>
+            <li class="item4"><img src="https://www.gentlemonster.com/img/main_200130/acc/acc_04_final.jpg" alt="">
+                <div class="prod-name">네오 BK</div>
+                <div class="prod-price">55,000원</div>
+            </li>
         </ul>
     </nav>
 

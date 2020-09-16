@@ -681,15 +681,20 @@ nav>.log-in>ul>li > a >img {
 .banner-4 {
     width: 100vw;
     height: 100vh;
-    background-color: blue;
     position: relative;
 }
 .banner-4 > ul {
     position: absolute;
-    top:50%;
+    top:30%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    text-align: center;
+}
+.banner-4> ul > li {
+    width: 15%;
+    display: inline-block;
+    padding: 20px;
 }
 .banner-4> ul > li > img {
     width: 100%;
