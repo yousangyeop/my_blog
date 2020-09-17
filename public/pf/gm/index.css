@@ -680,12 +680,12 @@ nav>.log-in>ul>li > a >img {
 /* 배너-4 */
 .banner-4 {
     width: 100vw;
-    height: 100vh;
-    position: relative;
+    height: 700px;
+    position: relative; 
 }
 .banner-4 > ul {
     position: absolute;
-    top:30%;
+    top:40%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -698,4 +698,158 @@ nav>.log-in>ul>li > a >img {
 }
 .banner-4> ul > li > img {
     width: 100%;
+}
+.banner-4 > .acc-all {
+    position: absolute;
+    top:80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    background-color: white;
+    padding: 20px;
+    font-size: .8rem;
+    text-align: center;
+    border: 1px solid black;
+}
+.banner-4 > .acc-all:hover {
+    position: absolute;
+    top:80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    background-color: black;
+    padding: 20px;
+    font-size: .8rem;
+    text-align: center;
+    border: 1px solid black;
+    user-select: none;
+    color:white;
+    cursor: pointer;
+}
+/* 이미지 */
+.img {
+    width: 100%;
+    height: 100%;
+}
+.img > a > img{
+    width: 100vw;
+}
+/* 배너-5 */
+.banner-5 {
+    width: 100%;
+    height: 165px;
+    display: block;
+    background-color: white;
+    margin-top: 50px;
+}
+.banner-5 > li {
+    text-align: center;
+    padding: 5px;
+}
+.banner-5 > .store {
+    border: 1px solid black;
+    width: 150px;
+    padding: 10px;
+    background-color: white;
+    margin: 0 auto;
+    font-size: .8rem;
+    margin-top: 10px;
+}
+.banner-5 > .store:hover {
+    border: 1px solid black;
+    width: 150px;
+    padding: 10px;
+    background-color: black;
+    margin: 0 auto;
+    font-size: .8rem;
+    margin-top: 10px;
+    color:white;
+}
+/* 슬라이드-4 */
+.my-slider-4 {
+    width: 100vw;
+    height: 600px;
+    position: relative; 
+    margin-top: 30px;
+}
+.my-slider-4 > ul {
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+.my-slider-4> ul > li {
+    width: 417px;
+    height: 508px;
+    display: inline-block;
+    padding: 10px;
+}
+.my-slider-4 > ul > li > img {
+    width: 100%;
+    height: 100%;
+}
+/* 배너-6 */
+.banner-6 {
+    width: 100%;
+    height: 165px;
+    display: block;
+    background-color: white;
+    margin-top: -50px;
+}
+.banner-6 > li {
+    text-align: center;
+    padding: 5px;
+}
+.banner-6 > .story {
+    border: 1px solid black;
+    width: 150px;
+    padding: 10px;
+    background-color: white;
+    margin: 0 auto;
+    font-size: .8rem;
+    margin-top: 10px;
+}
+.banner-6 > .story:hover {
+    border: 1px solid black;
+    width: 150px;
+    padding: 10px;
+    background-color: black;
+    margin: 0 auto;
+    font-size: .8rem;
+    margin-top: 10px;
+    color:white;
+}
+/* foot */
+.foot {
+    border-top: 1px solid lightgray;
+    width: 100%;
+    height: 310px;
+    background-color: white;
+}
+.foot > ul {
+    width: 100%;
+    height: 100%;
+}
+.foot > ul ul {
+    padding: 30px;
+    margin: 0 50px;
+}
+.foot > ul ul > li {
+    padding: 5px;
+}
+.foot > ul ul > li:first-child {
+    font-weight: bold;
+}
+/* footer */
+.footer {
+    padding: 50px;
+}
+.footer > li:first-child {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.footer > li {
+    font-size: .7rem;
 }

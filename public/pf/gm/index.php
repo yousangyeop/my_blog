@@ -331,7 +331,62 @@
                 <div class="prod-price">55,000원</div>
             </li>
         </ul>
+        <div class="acc-all">악세서리 모두보기</div>
     </nav>
+    <div class="img"><a href="https://www.gentlemonster.com/store/KR_Seoul_Hongdae/"><img
+                src="https://www.gentlemonster.com/img/store/KR_Seoul_Hongdae/200526/store_Hongdae_main_carousel.jpg"
+                alt=""></a></div>
+    <ul class="banner-5">
+        <li>가까운 매장을 방문해보세요.</li>
+        <li>매장을 방문하여 젠틀몬스터의 다양한 컬렉션을 만나보세요.</li>
+        <li class="store">매장 찾기</li>
+    </ul>
+    <div class="my-slider-4">
+        <ul>
+            <li><img src="https://yousangyeop.github.io/img1/pf/gm/cowboy.jpg" alt=""></li>
+            <li><img src="https://www.gentlemonster.com/img/main_200615/COLLECTION_kris_thumb.jpg" alt=""></li>
+            <li><img src="https://www.gentlemonster.com/img/main_200409/pc/collection_pc.jpg" alt=""></li>
+        </ul>
+    </div>
+    <ul class="banner-6">
+        <li>스토리</li>
+        <li>젠틀몬스터 스토리를 만나보세요.</li>
+        <li class="story">스토리 더보기</li>
+    </ul>
+    <div class="foot flex">
+        <ul class="flex flex-jc-c">
+            <li class="flex">
+                <ul>
+                    <li>고객 서비스</li>
+                    <li>문의</li>
+                    <li>배송</li>
+                    <li>교환 및 반품</li>
+                    <li>주문 조회</li>
+                    <li>수리 서비스 가이드</li>
+                </ul>
+            </li>
+            <li class="flex">
+                <ul>
+                    <li>법적 고지</li>
+                    <li>이용약관</li>
+                    <li>개인정보처리방침</li>
+                </ul>
+            </li>
+            <li class="flex">
+                <ul>
+                    <li>코드핑크</li>
+                    <li>
+                        코드핑크는 젠틀몬스터의 글로벌 가품근절 캠페인입니다 젠틀몬스터는 <br>‘가품유통 근절’ 정책을 통해 브랜드 명예를 실추시키는 가품유통망 적발과 <br> 지속적인 모니터링을 실시하고
+                        있습니다.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <ul class="footer flex flex-jc-sb">
+        <li class="flex">© 2020 GENTLE MONSTER</li>
+        <li class="flex">주) 아이아이컴바인드 대표자명: 김한국 사업자 번호: 119-86-38589 통신판매신고번호: 제 2014-서울마포-1050 호 (사업자 정보 확인) 이메일 문의: cs@gentlemonster.com 주소: 서울특별시 마포구 어울마당로5길 41 전화번호: 1600-2126</li>
+    </ul>
 
 
 
