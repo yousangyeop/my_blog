@@ -76,7 +76,7 @@
             </div>
         </div>
     </div>
-    <div class="bn-bar con">
+    <div class="bn-bar">
         <div class="bn-text">
             Service
         </div>
@@ -88,6 +88,19 @@
             <div class="image-2 flex"><img src="http://www.di-in.co.kr/img/new2020/main-service-2.png" alt=""></div>
             <div class="image-3 flex"><img src="http://www.di-in.co.kr/img/new2020/main-service-3.png" alt=""></div>
             <div class="image-4 flex"><img src="http://www.di-in.co.kr/img/new2020/main-service-4.png" alt=""></div>
+        </div>
+    </div>
+    <ul class="banner-2">
+        <li><img src="http://www.di-in.co.kr/img/new2020/main-portfolio-line-t-b.png" alt=""></li>
+        <li><img src="http://www.di-in.co.kr/img/new2020/main-portfolio-line-2.png" alt=""></li>
+        <li><img src="http://www.di-in.co.kr/img/new2020/main-portfolio-line-3.png" alt=""></li>
+    </ul>
+    <div class="contact-back">
+        <div class="contact">
+            <img src="http://www.di-in.co.kr/img/new2020/main-contactus.png" alt="">
+        </div>
+        <div class="contact-write">
+        
         </div>
     </div>
 

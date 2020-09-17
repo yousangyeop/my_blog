@@ -377,7 +377,7 @@ body, html{
 /* 슬라이드 */
 .sbs-slider {
     position:relative;
-    margin: 0 70px;
+    margin:70px;
     min-width: 1200px;
     user-select:none;
 }
@@ -496,33 +496,17 @@ body, html{
     transform: translate(-50%, -50%);
 }
 /* 배너 */
-
 .bn-bar > .bn-text-2 {
     margin-bottom: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* 배너 */
 .bn-bar {
     background-color: pink;
     text-align: center;
+    width: 100%;
+    height: 800px;
 }
 .bn-bar > .bn-text {
     font-size: 3rem;
@@ -535,4 +519,50 @@ body, html{
 }
 .bn-bar > .bn-image {
     width: 400px;
+}
+/* 배너-2 */
+.banner-2 {
+    position: relative;
+    height: 910px;
+    background: #ffefea;
+    text-align: center;
+    overflow: hidden;
+}
+.banner-2 > li {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 1920px;
+    height: 910px;
+    margin-left: -960px;
+    z-index: 1;
+}
+/* 문의 */
+.contact-back {
+    position: relative;
+    height: 891px;
+    background: #d9cbc2;
+}
+.contact-back > .contact {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 464px;
+    height: 635px;
+}
+.contact-back > .contact > ul > li {
+    padding: 10px;
+}
+.contact-back > .contact > ul > .text-1 {
+    font-weight: bold;
+    background-color: red;
+    border-radius: 30px;
+    width: 130px;
+    text-align: center;
+    padding: 5px;
+    color:white;
+}
+.contact-back > .contact > ul > .text-2 {
+    font-size: 3rem;
+    font-weight: bold;
 }
