@@ -83,24 +83,29 @@
         <div class="bn-text-2">
             디지털 컨텐츠 제작 부터 홍보 마케팅까지 통합 서비스를 제공합니다.
         </div>
-        <div class=".bn-image flex flex-jc-c flex-jc-sa">
-            <div class="image-1 flex"><img src="http://www.di-in.co.kr/img/new2020/main-service-1.png" alt=""></div>
-            <div class="image-2 flex"><img src="http://www.di-in.co.kr/img/new2020/main-service-2.png" alt=""></div>
-            <div class="image-3 flex"><img src="http://www.di-in.co.kr/img/new2020/main-service-3.png" alt=""></div>
-            <div class="image-4 flex"><img src="http://www.di-in.co.kr/img/new2020/main-service-4.png" alt=""></div>
-        </div>
+        <ul id="list" class=".bn-image flex flex-jc-c flex-jc-sa">
+            <li class="image-1 flex"><img src="http://www.di-in.co.kr/img/new2020/main-service-1.png" alt=""></li>
+            <li class="image-2 flex"><img src="http://www.di-in.co.kr/img/new2020/main-service-2.png" alt=""></li>
+            <li class="image-3 flex"><img src="http://www.di-in.co.kr/img/new2020/main-service-3.png" alt=""></li>
+            <li class="image-4 flex"><img src="http://www.di-in.co.kr/img/new2020/main-service-4.png" alt=""></li>
+        </ul>
     </div>
     <ul class="banner-2">
         <li><img src="http://www.di-in.co.kr/img/new2020/main-portfolio-line-t-b.png" alt=""></li>
         <li><img src="http://www.di-in.co.kr/img/new2020/main-portfolio-line-2.png" alt=""></li>
+        <li class="img1"><img src="http://www.di-in.co.kr/img/new2020/main-portfolio-web.png" alt=""></li>
+        <li class="img2"><img src="http://www.di-in.co.kr/img/new2020/main-portfolio-mobile.png" alt=""></li>
+        <li class="img3"><img src="http://www.di-in.co.kr/img/new2020/main-portfolio-app.png" alt=""></li>
         <li><img src="http://www.di-in.co.kr/img/new2020/main-portfolio-line-3.png" alt=""></li>
+        <li class="img4"><img src="http://www.di-in.co.kr/img/new2020/main-portfolio-marketing.png" alt=""></li>
+        <li class="img5"><img src="http://www.di-in.co.kr/img/new2020/main-portfolio-maintenance.png" alt=""></li>
     </ul>
     <div class="contact-back">
         <div class="contact">
             <img src="http://www.di-in.co.kr/img/new2020/main-contactus.png" alt="">
         </div>
         <div class="contact-write">
-        
+
         </div>
     </div>
 
