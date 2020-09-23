@@ -1,0 +1,158 @@
+
+/* 커스텀 */
+/* 배경 - 유성효과*/
+.meteor-field {
+    min-height:100vh;
+    overflow:hidden;
+    position:relative;
+    margin:0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.desert {
+    min-height:100vh;
+    overflow:hidden;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.meteor {
+    position:absolute;
+    top:20%;
+    left:80%;
+    width:150px;
+    height:3px;
+    pointer-events:none;
+    opacity: 0;
+}
+
+.meteor.active {
+    animation: star 1s forwards;
+}
+@keyframes star {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: .5;
+    }
+    100%{
+        opacity: .2;
+    }
+}
+.meteor.active > div{
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.meteor > div {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.meteor > div > div {
+    height:1px;
+    width:auto;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    background-image:linear-gradient(to right, #fff, #afafaf);
+}
+
+.meteor > div > div:nth-child(1) {
+    top:0;
+}
+
+.meteor > div > div:nth-child(2) {
+    top:1px;
+}
+
+.meteor > div > div:nth-child(3) {
+    top:2px;
+}
+
+.meteor > div > div:not(:nth-child(2)) {
+    left:1px;
+    right:3px;
+    background-image:linear-gradient(to right, #fff, #454545);
+}
+
+.meteor-1 {
+    transform:rotate(-45deg);
+}
+
+.meteor-2 {
+    top:calc(30% - 300px);
+    left:calc(30% + 100px);
+    transform:rotate(-42deg);
+    width:100px;
+}
+
+.meteor-4 {
+    top:calc(20% - 300px);
+    left:calc(30% + 100px);
+    transform:rotate(-43deg);
+    width:90px;
+}
+.meteor-5 {
+    top:calc(25% - 300px);
+    left:calc(70% + 100px);
+    transform:rotate(-45deg);
+    width:80px;
+}
+.meteor-6 {
+    top:calc(30% - 300px);
+    left:calc(60% + 100px);
+    transform:rotate(-44deg);
+    width:100px;
+
+}
+.meteor-7 {
+    top:calc(10% - 300px);
+    left:calc(100% + 100px);
+    transform:rotate(-46deg);
+    width:90px;
+}
+
+
+.meteor-2 > div {
+    opacity:0.7;
+}
+/* 배경 - 라인 */
+#fullpage {
+    position: relative;
+}
+
+#fullpage > .line {
+    height: 100vh;
+    width: 0.6px;
+    background-color: white;
+    position: absolute;
+    left: 10%;
+    top:0;
+    z-index: 100;
+}
+#fullpage > .line-1 {
+    height: 100vh;
+    width: 0.6px;
+    background-color: white;
+    position: absolute;
+    right: 10%;
+    top: 0;
+    z-index: 100;
+}
+/* 배경 텍스트 */
+.top-text li {
+    color:white;
+    position: absolute;
+}
