@@ -1,0 +1,485 @@
+/* 폰트적용 */
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+
+html {
+    font-family: 'Noto Sans KR', cursive;
+}
+
+/* 노말라이즈 */
+body,
+ul,
+li,
+h1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+label[for] {
+    cursor: pointer;
+    user-select: none;
+}
+
+/* 라이브러리 */
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.absolute-left {
+    position: absolute;
+    left: 0;
+}
+
+.absolute-right {
+    position: absolute;
+    right: 0;
+}
+
+.absolute-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.absolute-top {
+    position: absolute;
+    top: 0;
+}
+
+.absolute-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.absolute-middle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.absolute-middle.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.relative {
+    position: relative;
+}
+
+.cell {
+    float: left;
+    box-sizing: border-box;
+}
+
+.cell-right {
+    float: right;
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.img-box>img {
+    width: 100%;
+    display: block;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-0-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.line-height-0 {
+    line-height: 0;
+}
+
+.line-height-0>* {
+    line-height: normal;
+}
+
+.width-30px {
+    width: 30px;
+}
+
+.width-35px {
+    width: 35px;
+}
+
+.width-40px {
+    width: 35px;
+}
+
+.width-45px {
+    width: 35px;
+}
+
+.width-50px {
+    width: 50px;
+}
+
+.width-80px {
+    width: 80px;
+}
+
+.width-100px {
+    width: 100px;
+}
+
+.width-100p {
+    width: 100%;
+}
+
+.width-60p {
+    width: 60%;
+}
+
+.width-55p {
+    width: 55%;
+}
+
+.width-50p {
+    width: 50%;
+}
+
+.width-45p {
+    width: 45%;
+}
+
+.width-40p {
+    width: 40%;
+}
+
+.width-30p {
+    width: 30%;
+}
+
+.width-35p {
+    width: 35%;
+}
+
+.width-100p-except-30px {
+    width: calc(100% - 30px);
+}
+
+.width-100p-except-35px {
+    width: calc(100% - 35px);
+}
+
+.width-100p-except-40px {
+    width: calc(100% - 40px);
+}
+
+.width-100p-except-50px {
+    width: calc(100% - 50px);
+}
+
+.width-100p-except-80px {
+    width: calc(100% - 80px);
+}
+
+.width-100p-except-100px {
+    width: calc(100% - 100px);
+}
+
+.height-100p {
+    height: 100%;
+}
+
+.height-50p {
+    height: 50%;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.font-size-dot-8rem {
+    font-size: .8rem;
+}
+
+.table-row {
+    display: table;
+}
+
+.table-row.row::after {
+    display: inline;
+    clear: non;
+}
+
+.table-row>.cell {
+    float: none;
+    display: table-cell;
+}
+
+.border-red {
+    border: 3px solid red;
+}
+
+.border-black {
+    border: 3px solid black;
+}
+
+/* 라이브러리 - flex */
+*>.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-flow: column;
+}
+
+*>.flex-column-nowrap {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+*>.flex-grow-1 {
+    flex-grow: 1;
+}
+
+*>.flex-jc-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*>.flex-jc-c {
+    display: flex;
+    justify-content: center;
+}
+
+*>.flex-ai-c {
+    display: flex;
+    align-items: center;
+}
+
+*>.flex-jc-sb {
+    display: flex;
+    justify-content: space-between;
+}
+*>.flex-jc-sa {
+    display: flex;
+    justify-content: space-around;
+}
+*>.flex-ai-start {
+    display: flex;
+    align-items: flex-start;
+}
+
+*>.flex-ai-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+*>.flex-as-c {
+    align-self: center;
+}
+
+*>.flex-row-nowrap {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+*>.flex-ch-basis-0 {
+    display: flex;
+}
+
+.flex-ch-basis-0>* {
+    flex-basis: 0;
+}
+
+*>.flex-1-0-0 {
+    flex: 1 0 0;
+}
+
+
+/* 라이브러리 */
+.con {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.cell {
+    float:left;
+    box-sizing:border-box;
+}
+
+.row::after {
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.img-box > img {
+    width:100%;
+    display:block;
+}
+
+/* 커스텀 */
+body {
+    margin:0;
+}
+
+.meteor-field {
+    min-height:100vh;
+    overflow:hidden;
+    position:relative;
+    margin:0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.desert {
+    min-height:100vh;
+    overflow:hidden;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.meteor {
+    position:absolute;
+    top:20%;
+    left:80%;
+    width:150px;
+    height:3px;
+    pointer-events:none;
+    opacity: 0;
+}
+
+.meteor.active {
+    animation: star 1s forwards;
+}
+@keyframes star {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: .5;
+    }
+    100%{
+        opacity: .2;
+    }
+}
+.meteor.active > div{
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.meteor > div {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.meteor > div > div {
+    height:1px;
+    width:auto;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    background-image:linear-gradient(to right, #fff, #afafaf);
+}
+
+.meteor > div > div:nth-child(1) {
+    top:0;
+}
+
+.meteor > div > div:nth-child(2) {
+    top:1px;
+}
+
+.meteor > div > div:nth-child(3) {
+    top:2px;
+}
+
+.meteor > div > div:not(:nth-child(2)) {
+    left:1px;
+    right:3px;
+    background-image:linear-gradient(to right, #fff, #454545);
+}
+
+.meteor-1 {
+    transform:rotate(-45deg);
+}
+
+.meteor-2 {
+    top:calc(30% - 300px);
+    left:calc(30% + 100px);
+    transform:rotate(-42deg);
+    width:100px;
+}
+.meteor-3 {
+    top:calc(15% - 300px);
+    left:calc(90% + 100px);
+    transform:rotate(-45deg);
+    width:195px;
+}
+.meteor-4 {
+    top:calc(20% - 300px);
+    left:calc(30% + 100px);
+    transform:rotate(-43deg);
+    width:90px;
+}
+.meteor-5 {
+    top:calc(25% - 300px);
+    left:calc(70% + 100px);
+    transform:rotate(-45deg);
+    width:80px;
+}
+.meteor-6 {
+    top:calc(30% - 300px);
+    left:calc(60% + 100px);
+    transform:rotate(-44deg);
+    width:100px;
+}
+.meteor-7 {
+    top:calc(10% - 300px);
+    left:calc(100% + 100px);
+    transform:rotate(-46deg);
+    width:90px;
+}
+
+
+.meteor-2 > div {
+    opacity:0.7;
+}
