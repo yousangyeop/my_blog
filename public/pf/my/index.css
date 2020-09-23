@@ -348,10 +348,7 @@ label[for] {
 }
 
 /* 커스텀 */
-body {
-    margin:0;
-}
-
+/* 배경 - 유성효과*/
 .meteor-field {
     min-height:100vh;
     overflow:hidden;
@@ -448,12 +445,7 @@ body {
     transform:rotate(-42deg);
     width:100px;
 }
-.meteor-3 {
-    top:calc(15% - 300px);
-    left:calc(90% + 100px);
-    transform:rotate(-45deg);
-    width:195px;
-}
+
 .meteor-4 {
     top:calc(20% - 300px);
     left:calc(30% + 100px);
@@ -471,6 +463,7 @@ body {
     left:calc(60% + 100px);
     transform:rotate(-44deg);
     width:100px;
+
 }
 .meteor-7 {
     top:calc(10% - 300px);
@@ -483,3 +476,4 @@ body {
 .meteor-2 > div {
     opacity:0.7;
 }
+/* 배경 - 라인 */

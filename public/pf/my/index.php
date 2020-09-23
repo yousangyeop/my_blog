@@ -28,35 +28,29 @@
                 <div></div>
             </div>
         </div>
-        <div class="meteor meteor-3" data-meteor-delay="3000" data-meteor-duration="5000" data-meteor-x="-3300">
+        
+        <div class="meteor meteor-4" data-meteor-delay="6000" data-meteor-duration="7000" data-meteor-x="-2800">
             <div>
                 <div></div>
                 <div></div>
                 <div></div>
             </div>
         </div>
-        <div class="meteor meteor-4" data-meteor-delay="6000" data-meteor-duration="6000" data-meteor-x="-2500">
+        <div class="meteor meteor-5" data-meteor-delay="8000" data-meteor-duration="5700" data-meteor-x="-2700">
             <div>
                 <div></div>
                 <div></div>
                 <div></div>
             </div>
         </div>
-        <div class="meteor meteor-5" data-meteor-delay="8000" data-meteor-duration="6000" data-meteor-x="-2900">
+        <div class="meteor meteor-6" data-meteor-delay="5000" data-meteor-duration="6100" data-meteor-x="-2000">
             <div>
                 <div></div>
                 <div></div>
                 <div></div>
             </div>
         </div>
-        <div class="meteor meteor-6" data-meteor-delay="5000" data-meteor-duration="6000" data-meteor-x="-2000">
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div class="meteor meteor-7" data-meteor-delay="4000" data-meteor-duration="5000" data-meteor-x="-3000">
+        <div class="meteor meteor-7" data-meteor-delay="4000" data-meteor-duration="5000" data-meteor-x="-2500">
             <div>
                 <div></div>
                 <div></div>
