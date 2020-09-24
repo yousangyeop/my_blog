@@ -155,4 +155,23 @@
 .top-text li {
     color:white;
     position: absolute;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-size: 13px;
+}
+.top-text > .text-1 {
+    top:5%;
+    left: 15%;
+}
+.top-text > .text-2 {
+    top:5%;
+    left: 28%;
+}
+.top-text > .text-3 {
+    top:5%;
+    right: 33%;
+}
+.top-text > .text-4 {
+    top:5%;
+    right: 15%;
 }

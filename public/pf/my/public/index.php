@@ -64,6 +64,11 @@ include "../part/head.php"
             <li class="text-3">by @yeobbook</li>
             <li class="text-4">I record my design memories.</li>
         </ul>
+        <ul class="center-text">
+            <li class="text1">Hello !</li>
+            <li class="text2">Everyone</li>
+            <li class="text3">I'm sangyeop</li>
+        </ul>
     </div>
     <div class="section page2">
         
