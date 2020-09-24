@@ -2,13 +2,23 @@
 include "../part/head.php"
 ?>
 
-<link rel="stylesheet" href="../public/index.css">
 <link rel="stylesheet" href="../public/common.css">
+<link rel="stylesheet" href="../public/index.css">
+
 <script src="../public/index.js"></script>
 
 <div id="fullpage">
     <div class="line"></div>
     <div class="line-1"></div>
+    <ul class="left-text">
+        <li class="text1">S-yeop.portfolio</li>
+        <li class="text2">copyright S-yeop. All Rights Reserved.</li>
+    </ul>
+    <ul class="right-text">
+        <li class="text1">SHARE</li>
+        <li class="text2">_______________________</li>
+        <li class="text3">Instagram/Facebook/Youtube</li>
+    </ul>
     <div class="section page1">
         <div class="meteor-field" style="background-image:url('https://yousangyeop.github.io/img1/pf/my/back.png')">
             <div class="meteor meteor-1" data-meteor-delay="6000" data-meteor-duration="6000" data-meteor-x="-3000">
@@ -71,16 +81,29 @@ include "../part/head.php"
         </ul>
     </div>
     <div class="section page2">
-        
+        <ul class="pillow">
+            <li class="about">
+                <a href=""><img src="https://yousangyeop.github.io/img1/pf/my/about.png" alt=""></a>
+            </li>
+            <li class="me">
+                <a href=""><img src="https://yousangyeop.github.io/img1/pf/my/me.png" alt=""></a>
+            </li>
+        </ul>
+        <div class="bed">
+            <div class="flame"></div>
+            <div class="blanket"></div>
+        </div>
     </div>
     <div class="section page3">
-        
+
+
     </div>
     <div class="section page4">
-        
+
+
     </div>
     <div class="section page5">
-        
+
     </div>
 </div>
 

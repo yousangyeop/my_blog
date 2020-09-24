@@ -141,6 +141,7 @@
     left: 10%;
     top:0;
     z-index: 100;
+    opacity: 0.4;
 }
 #fullpage > .line-1 {
     height: 100vh;
@@ -150,6 +151,7 @@
     right: 10%;
     top: 0;
     z-index: 100;
+    opacity: 0.4;
 }
 /* 배경 텍스트 */
 .top-text li {
@@ -158,6 +160,7 @@
     letter-spacing: 3px;
     font-weight: lighter;
     font-size: 13px;
+    z-index: 100;
 }
 .top-text > .text-1 {
     top:5%;
@@ -174,4 +177,98 @@
 .top-text > .text-4 {
     top:5%;
     right: 15%;
+}
+#fullpage > .left-text > li {
+    writing-mode: vertical-rl;
+    position: absolute;
+    top:20%;
+    left: 3%;
+    color: white;
+    z-index: 100;
+}
+#fullpage > .left-text > .text1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#fullpage > .left-text > .text2 {
+    font-size: .7rem;
+    top:38%;
+    left: 3%;
+    color: white;
+}
+#fullpage > .right-text > li {
+    position: absolute;
+    color: white;
+    transform: rotate(-90deg); 
+    bottom: 15%;
+    right: 3%;
+    z-index: 100;
+}
+#fullpage > .right-text > .text1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+#fullpage > .right-text > .text2 {
+    bottom: 30%;
+    right: 2%;
+}
+#fullpage > .right-text > .text3 {
+    bottom: 50%;
+    right: 0.4%;
+}
+/* 2페이지 */
+.page2 {
+    width: 100%;
+    height: 100%;
+    
+}
+/* 베개 */
+.page2 > .pillow {
+    width: 33%;
+    height: 100%;
+    position: relative;
+}
+.page2 > .pillow > .about {
+    border-left: 1px solid black;
+    width: 100px;
+    height: 150px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top:45%;
+    right: 20%;
+}
+.page2 > .pillow > .me {
+    border-right: 1px solid black;
+    width: 100px;
+    height: 150px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top:55%;
+    right: 0%;
+}
+.page2 > ul > li  {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.page2 > ul > .about > a > img {
+    position: absolute;
+    top:50%;
+    right: 0%;
+    transform: translatey(-50%);
+}
+.page2 > ul > .me > a > img {
+    position: absolute;
+    top:50%;
+    left: 0%;
+    transform: translatey(-50%);
+}
+/* 침대 */
+.bed {
+    width: 100vw;
+    height: 100%;
+    background-color: red;
 }

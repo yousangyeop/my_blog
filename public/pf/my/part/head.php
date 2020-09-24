@@ -24,3 +24,12 @@ if ( isset($pageName) == false ) {
 <body>
     <div class="line1-1"></div>
     <div class="line1-2"></div>
+    <ul class="left-text">
+        <li class="text1">S-yeop.portfolio</li>
+        <li class="text2">copyright S-yeop. All Rights Reserved.</li>
+    </ul>
+    <ul class="right-text">
+        <li class="text1">SHARE</li>
+        <li class="text2">_______________________</li>
+        <li class="text3">Instagram/Facebook/Youtube</li>
+    </ul>
