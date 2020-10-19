@@ -1,9 +1,9 @@
 /* 폰트적용 */
-@import url(//fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+@import url(//fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap);
 
 
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 /* 노말라이즈 */
@@ -93,7 +93,24 @@ label[for] {
     display: block;
     clear: both;
 }
-
+a {
+    text-decoration:none;
+    color:inherit;
+}
+.relative {
+    position:relative;
+}
+.absolute {
+    position:absolute;
+}
+.cell {
+    float:left;
+}
+.row::after {
+    clear:both;
+    display:block;
+    content:"";
+}
 .clear-both {
     clear: both;
 }
@@ -306,7 +323,9 @@ label[for] {
 *>.flex-as-c {
     align-self: center;
 }
-
+*>.flex-wrap-wrap {
+    flex-wrap: wrap;
+}
 *>.flex-row-nowrap {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -384,12 +403,11 @@ body {
 }
 /* 배경 텍스트 */
 .top-text li {
-    color:white;
+    color:black;
     position: absolute;
     letter-spacing: 3px;
     font-weight: lighter;
     font-size: 13px;
-    z-index: 100;
 }
 .top-text > .text-1 {
     top:5%;
@@ -410,38 +428,38 @@ body {
 .left-text > li {
     writing-mode: vertical-rl;
     position: absolute;
-    top:20%;
-    left: 3%;
+    top:150px;
+    left: 50px;
     color: black;
 }
 .left-text > .text1 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 .left-text > .text2 {
     font-size: .7rem;
-    top:38%;
-    left: 3%;
+    top:370px;
+    left: 53px;
     color: black;
 }
 .right-text > li {
     position: absolute;
     color: black;
     transform: rotate(-90deg); 
-    bottom: 15%;
-    right: 3%;
+    bottom: 100px;
+    right: 50px;
 }
 .right-text > .text1 {
     font-size: 2rem;
     font-weight: bold;
 }
 .right-text > .text2 {
-    bottom: 30%;
-    right: 2%;
+    bottom: 260px;
+    right: 10px;
 }
 .right-text > .text3 {
-    bottom: 50%;
-    right: 0.4%;
+    bottom: 480px;
+    right: -10px;
 }
 
 

@@ -1,19 +1,19 @@
-
 /* 커스텀 */
 /* 배경 - 유성효과*/
 .meteor-field {
-    min-height:100vh;
-    overflow:hidden;
-    position:relative;
-    margin:0 auto;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
+
 .desert {
-    min-height:100vh;
-    overflow:hidden;
-    position:absolute;
+    min-height: 100vh;
+    overflow: hidden;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -24,126 +24,135 @@
 }
 
 .meteor {
-    position:absolute;
-    top:20%;
-    left:80%;
-    width:150px;
-    height:3px;
-    pointer-events:none;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    width: 150px;
+    height: 3px;
+    pointer-events: none;
     opacity: 0;
 }
 
 .meteor.active {
     animation: star 1s forwards;
 }
+
 @keyframes star {
-    0%{
+    0% {
         opacity: 0;
     }
-    50%{
+
+    50% {
         opacity: .5;
     }
-    100%{
+
+    100% {
         opacity: .2;
     }
 }
-.meteor.active > div{
+
+.meteor.active>div {
     transform: translate3d(0px, 0px, 0px);
 }
 
-.meteor > div {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
+.meteor>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.meteor > div > div {
-    height:1px;
-    width:auto;
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    background-image:linear-gradient(to right, #fff, #afafaf);
+.meteor>div>div {
+    height: 1px;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to right, #fff, #afafaf);
 }
 
-.meteor > div > div:nth-child(1) {
-    top:0;
+.meteor>div>div:nth-child(1) {
+    top: 0;
 }
 
-.meteor > div > div:nth-child(2) {
-    top:1px;
+.meteor>div>div:nth-child(2) {
+    top: 1px;
 }
 
-.meteor > div > div:nth-child(3) {
-    top:2px;
+.meteor>div>div:nth-child(3) {
+    top: 2px;
 }
 
-.meteor > div > div:not(:nth-child(2)) {
-    left:1px;
-    right:3px;
-    background-image:linear-gradient(to right, #fff, #454545);
+.meteor>div>div:not(:nth-child(2)) {
+    left: 1px;
+    right: 3px;
+    background-image: linear-gradient(to right, #fff, #454545);
 }
 
 .meteor-1 {
-    transform:rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
 .meteor-2 {
-    top:calc(30% - 300px);
-    left:calc(30% + 100px);
-    transform:rotate(-42deg);
-    width:100px;
+    top: calc(30% - 300px);
+    left: calc(30% + 100px);
+    transform: rotate(-42deg);
+    width: 100px;
 }
 
 .meteor-4 {
-    top:calc(20% - 300px);
-    left:calc(30% + 100px);
-    transform:rotate(-43deg);
-    width:90px;
+    top: calc(20% - 300px);
+    left: calc(30% + 100px);
+    transform: rotate(-43deg);
+    width: 90px;
 }
+
 .meteor-5 {
-    top:calc(25% - 300px);
-    left:calc(70% + 100px);
-    transform:rotate(-45deg);
-    width:80px;
+    top: calc(25% - 300px);
+    left: calc(70% + 100px);
+    transform: rotate(-45deg);
+    width: 80px;
 }
+
 .meteor-6 {
-    top:calc(30% - 300px);
-    left:calc(60% + 100px);
-    transform:rotate(-44deg);
-    width:100px;
+    top: calc(30% - 300px);
+    left: calc(60% + 100px);
+    transform: rotate(-44deg);
+    width: 100px;
 
 }
+
 .meteor-7 {
-    top:calc(10% - 300px);
-    left:calc(100% + 100px);
-    transform:rotate(-46deg);
-    width:90px;
+    top: calc(10% - 300px);
+    left: calc(100% + 100px);
+    transform: rotate(-46deg);
+    width: 90px;
 }
 
 
-.meteor-2 > div {
-    opacity:0.7;
+.meteor-2>div {
+    opacity: 0.7;
 }
+
 /* 배경 - 라인 */
 #fullpage {
     position: relative;
 }
 
-#fullpage > .line {
+#fullpage>.line {
     height: 100vh;
     width: 0.6px;
     background-color: white;
     position: absolute;
     left: 10%;
-    top:0;
+    top: 0;
     z-index: 100;
     opacity: 0.4;
 }
-#fullpage > .line-1 {
+
+#fullpage>.line-1 {
     height: 100vh;
     width: 0.6px;
     background-color: white;
@@ -153,122 +162,683 @@
     z-index: 100;
     opacity: 0.4;
 }
+
 /* 배경 텍스트 */
-.top-text li {
-    color:white;
+.page1>.top-text li {
+    color: white;
     position: absolute;
     letter-spacing: 3px;
     font-weight: lighter;
     font-size: 13px;
     z-index: 100;
 }
-.top-text > .text-1 {
-    top:5%;
+
+.top-text>.text-1 {
+    top: 5%;
     left: 15%;
 }
-.top-text > .text-2 {
-    top:5%;
+
+.top-text>.line {
+    top: 5%;
     left: 28%;
 }
-.top-text > .text-3 {
-    top:5%;
+
+.top-text>.text-3 {
+    top: 5%;
     right: 33%;
 }
-.top-text > .text-4 {
-    top:5%;
+
+.top-text>.text-4 {
+    top: 5%;
     right: 15%;
 }
-#fullpage > .left-text > li {
+
+#fullpage>.left-text>li {
     writing-mode: vertical-rl;
     position: absolute;
-    top:20%;
-    left: 3%;
+    top: 150px;
+    left: 50px;
     color: white;
     z-index: 100;
 }
-#fullpage > .left-text > .text1 {
-    font-size: 1.5rem;
+
+#fullpage>.left-text>.text1 {
+    font-size: 1.7rem;
     font-weight: bold;
 }
-#fullpage > .left-text > .text2 {
+
+#fullpage>.left-text>.text2 {
     font-size: .7rem;
-    top:40%;
-    left: 3%;
+    top: 370px;
+    left: 53px;
     color: white;
 }
-#fullpage > .right-text > li {
+
+#fullpage>.right-text>li {
     position: absolute;
     color: white;
-    transform: rotate(-90deg); 
-    bottom: 15%;
-    right: 3%;
+    transform: rotate(-90deg);
+    bottom: 100px;
+    right: 50px;
     z-index: 100;
 }
-#fullpage > .right-text > .text1 {
+
+#fullpage>.right-text>.text1 {
     font-size: 2rem;
     font-weight: bold;
 }
-#fullpage > .right-text > .text2 {
-    bottom: 30%;
-    right: 2%;
+
+#fullpage>.right-text>.text2 {
+    bottom: 260px;
+    right: 10px;
 }
-#fullpage > .right-text > .text3 {
-    bottom: 50%;
-    right: 0.4%;
+
+#fullpage>.right-text>.text3 {
+    bottom: 480px;
+    right: -10px;
 }
+
 /* 2페이지 */
 .page2 {
     width: 100%;
     height: 100%;
-    
+
 }
+
 /* 베개 */
-.page2 > .pillow {
-    width: 33%;
+.page2>.pillow {
+    width: 28%;
     height: 100%;
     position: relative;
 }
-.page2 > .pillow > .about {
+
+.page2>.pillow>.about {
     border-left: 1px solid black;
-    width: 100px;
+    width: 80px;
     height: 150px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    box-shadow: -6px 6px 6px .3px rgba(129, 129, 129, 0.4);
     position: absolute;
-    top:45%;
-    right: 20%;
+    top: 43%;
+    right: 25%;
 }
-.page2 > .pillow > .me {
+
+.page2>.pillow>.me {
     border-right: 1px solid black;
-    width: 100px;
+    width: 80px;
     height: 150px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    box-shadow: -6px 6px 6px .3px rgba(129, 129, 129, 0.4);
     position: absolute;
-    top:55%;
-    right: 0%;
+    top: 53%;
+    right: 5%;
 }
-.page2 > ul > li  {
+
+.page2>ul>li {
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-.page2 > ul > .about > a > img {
+.page2>ul>.about>a>img {
     position: absolute;
-    top:50%;
+    top: 50%;
     right: 0%;
     transform: translatey(-50%);
 }
-.page2 > ul > .me > a > img {
+
+.page2>ul>.me>a>img {
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 0%;
     transform: translatey(-50%);
 }
+
 /* 침대 */
-.bed {
-    width: 100vw;
+.page2>.bed {
+    position: relative;
+    width: 72%;
     height: 100%;
-    background-color: red;
+}
+
+.page2>.bed>.flame {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    bottom: 15%;
+    right: 25%;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: -6px 6px 6px .3px rgba(129, 129, 129, 0.4);
+
+}
+
+.page2>.bed>.blanket {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    bottom: 22%;
+    right: 22%;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: -6px 6px 6px .3px rgba(129, 129, 129, 0.4);
+}
+
+/* 침대 - 내용 */
+.blanket {
+    width: 100%;
+    height: 100%;
+}
+
+.blanket>.content {
+    width: 100%;
+    height: 100%;
+}
+
+.pro>img {
+    height: 130%;
+    margin-left: 5%;
+}
+
+.blanket>.content>.file>.me {
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.blanket>.content>.file>.me>.name>img {
+    position: absolute;
+    top: -8%;
+    left: 0;
+    width: 80%;
+}
+
+.blanket>.content>.file {
+    width: 100%;
+    height: 100%;
+}
+
+.file>ul>li {
+    padding: 10px;
+}
+
+.birth>ul>li:first-child {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.birth>ul>li:nth-child(2) {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.edu>ul>li:first-child {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.edu>ul>li:not(:first-child) {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.skills {
+    width: 100%;
+}
+
+.skills>ul {
+    width: 100%;
+    height: 100%;
+}
+
+.skills>ul>li {
+    box-sizing: border-box;
+    padding: 10px;
+    width: calc(100%/3);
+}
+
+.skills>.title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+/* 3페이지 */
+.page3 {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 100%;
+    padding-top: 6%;
+}
+
+.slider-for {
+    width: 100%;
+    height: 60vh;
+}
+
+.slider-nav {
+    margin-top: 5%;
+}
+
+.slick-next:before {
+    font-size: 30px;
+    opacity: 1;
+    color: black;
+}
+
+.slider-for {
+    position: relative;
+}
+
+.text-box {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+}
+
+.title h1 {
+    font-size: 2.5rem;
+    margin-top: 0%;
+}
+
+.info-3>li>img {
+    width: 50px;
+}
+
+.name {
+    margin-top: 15%;
+}
+
+.name-info>div:first-child {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 5%;
+}
+
+.name-info {
+    margin-top: 10%;
+}
+
+.intro {
+    margin-top: -10px;
+}
+
+.name-info>div>ul>li {
+    padding: 10px;
+}
+
+.name-info>div>ul>li:first-child {
+    font-weight: bold;
+}
+
+.name-info>div>ul>.di {
+    font-weight: bold;
+}
+
+.slick-prev:before {
+    display: none;
+}
+
+/* 4페이지 */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.cell {
+    float: left;
+}
+
+.row::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.list-box {
+    width: 80vw;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.item-list,
+.item-select {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.list-box>.item-list>div>img {
+    width: 180%;
+}
+
+.item-1 {
+    top: 20%;
+    left: 50%;
+}
+
+.item-2 {
+    top: 40%;
+    left: 70%;
+}
+
+.item-3 {
+    top: 15%;
+    left: 40%;
+}
+
+.item-4 {
+    top: 10%;
+    left: 70%;
+}
+
+.item-5 {
+    top: 80%;
+    left: 70%;
+}
+
+.item-6 {
+    top: 10%;
+    left: 0%;
+}
+
+.item-7 {
+    top: 40%;
+    left: 15%;
+}
+
+.item-8 {
+    top: 70%;
+    left: 10%;
+}
+
+.item-list>div {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    opacity: .3;
+    transition: top .3s, left .3s, opacity .3s;
+}
+
+.item-list>div.active {
+    opacity: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+}
+
+.item-select>div {
+    opacity: 0;
+}
+
+.item-select>div.active {
+    opacity: 1;
+}
+
+.item-select>div {
+    top: 15%;
+    left: 5%;
+}
+
+.item-select>div>div {
+    padding-bottom: 50px;
+}
+
+.item-select>div>.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.item-select>div>.sub-title>li {
+    padding-top: 30px;
+}
+
+.item-select>div>ul>.sub-1,
+.sub-3 {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.item-select>div>.tool {
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-top: 20px;
+}
+
+.link-box>li>img {
+    width: 70px;
+    padding: 20px;
+    margin-top: -60px;
+}
+
+/* 5페이지 */
+.page5 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.page5 .line5-3 {
+    background-color: black;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 43%;
+}
+
+.page5 .line5-4 {
+    background-color: black;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 43%;
+}
+
+.page5 .end {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.page5 .end>li:first-child {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.page5 .end>li {
+    padding: 5px;
+}
+
+.page5 .door>li {
+    background-color: black;
+    width: 20%;
+    height: 1px;
+    position: absolute;
+}
+
+.page5 .door>.top {
+    top: 20%;
+    left: 43%;
+}
+
+.page5 .door>.top::after {
+    top: -20%;
+    right: 0%;
+    position: absolute;
+    content: "dream";
+    font-weight: bold;
+}
+
+.page5 .door>.mid {
+    width: 60%;
+    top: 50%;
+    left: 20%;
+    border-right: black;
+}
+
+.page5 .door>.mid::after {
+    content: "EXIT";
+    left: 33%;
+    position: absolute;
+    font-weight: bold;
+}
+
+.page5 .door>.bottom {
+    bottom: 20%;
+    right: 43%;
+}
+
+.page5 .door>.bottom::after {
+    left: 0;
+    content: "space";
+    font-weight: bold;
+}
+
+/* 팝업 */
+.box>.popup1>.box>img {
+    width: 300px;
+    margin-left: -10px;
+}
+
+.box>.button>img {
+    position: absolute;
+    top: 40%;
+    left: 1%;
+}
+
+/* 팝업 */
+
+.btn-toggle {
+    width: 100px;
+    cursor: pointer;
+}
+
+.btn-toggle div {
+    position: absolute;
+    top: 55%;
+    right: 20%;
+    user-select: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.btn-toggle div:hover {
+    text-decoration: underline;
+}
+.btn-toggle .contact1 {
+    
+}
+
+.popup1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s, opacity 0.3s;
+    z-index: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup1.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup1>.box {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform .3s 0s;
+}
+
+.popup1-actived .popup1>.box {
+    transform: translateY(0);
+    transition: transform .3s .4s;
+}
+
+/* 마지막 페이지 */
+.lastdoor {
+    background-color: white;
+    width: 14%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    z-index: 50;
+}
+.lastdoor li {
+    background-color: white;
+    width: 20%;
+    height: 1px;
+    position: absolute;
+}
+
+.lastdoor .top {
+    top: 20%;
+    left: 43%;
+}
+
+.lastdoor .top::after {
+    top: -20%;
+    right: 0%;
+    position: absolute;
+    content: "dream";
+    font-weight: bold;
+}
+
+.lastdoor .mid {
+    width: 60%;
+    top: 50%;
+    left: 20%;
+    border-right: white;
+}
+
+.lastdoor .mid::after {
+    content: "EXIT";
+    left: 33%;
+    position: absolute;
+    font-weight: bold;
+}
+
+.lastdoor .bottom {
+    bottom: 20%;
+    right: 43%;
+}
+
+.lastdoor .bottom::after {
+    left: 0;
+    content: "space";
+    font-weight: bold;
 }
