@@ -1,0 +1,465 @@
+/* 폰트적용 */
+@import url(//fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap);
+
+
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 노말라이즈 */
+body,
+ul,
+li,
+h1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+label[for] {
+    cursor: pointer;
+    user-select: none;
+}
+
+/* 라이브러리 */
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.absolute-left {
+    position: absolute;
+    left: 0;
+}
+
+.absolute-right {
+    position: absolute;
+    right: 0;
+}
+
+.absolute-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.absolute-top {
+    position: absolute;
+    top: 0;
+}
+
+.absolute-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.absolute-middle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.absolute-middle.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.relative {
+    position: relative;
+}
+
+.cell {
+    float: left;
+    box-sizing: border-box;
+}
+
+.cell-right {
+    float: right;
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+a {
+    text-decoration:none;
+    color:inherit;
+}
+.relative {
+    position:relative;
+}
+.absolute {
+    position:absolute;
+}
+.cell {
+    float:left;
+}
+.row::after {
+    clear:both;
+    display:block;
+    content:"";
+}
+.clear-both {
+    clear: both;
+}
+
+.img-box>img {
+    width: 100%;
+    display: block;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-0-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.line-height-0 {
+    line-height: 0;
+}
+
+.line-height-0>* {
+    line-height: normal;
+}
+
+.width-30px {
+    width: 30px;
+}
+
+.width-35px {
+    width: 35px;
+}
+
+.width-40px {
+    width: 35px;
+}
+
+.width-45px {
+    width: 35px;
+}
+
+.width-50px {
+    width: 50px;
+}
+
+.width-80px {
+    width: 80px;
+}
+
+.width-100px {
+    width: 100px;
+}
+
+.width-100p {
+    width: 100%;
+}
+
+.width-60p {
+    width: 60%;
+}
+
+.width-55p {
+    width: 55%;
+}
+
+.width-50p {
+    width: 50%;
+}
+
+.width-45p {
+    width: 45%;
+}
+
+.width-40p {
+    width: 40%;
+}
+
+.width-30p {
+    width: 30%;
+}
+
+.width-35p {
+    width: 35%;
+}
+
+.width-100p-except-30px {
+    width: calc(100% - 30px);
+}
+
+.width-100p-except-35px {
+    width: calc(100% - 35px);
+}
+
+.width-100p-except-40px {
+    width: calc(100% - 40px);
+}
+
+.width-100p-except-50px {
+    width: calc(100% - 50px);
+}
+
+.width-100p-except-80px {
+    width: calc(100% - 80px);
+}
+
+.width-100p-except-100px {
+    width: calc(100% - 100px);
+}
+
+.height-100p {
+    height: 100%;
+}
+
+.height-50p {
+    height: 50%;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.font-size-dot-8rem {
+    font-size: .8rem;
+}
+
+.table-row {
+    display: table;
+}
+
+.table-row.row::after {
+    display: inline;
+    clear: non;
+}
+
+.table-row>.cell {
+    float: none;
+    display: table-cell;
+}
+
+.border-red {
+    border: 3px solid red;
+}
+
+.border-black {
+    border: 3px solid black;
+}
+
+/* 라이브러리 - flex */
+*>.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-flow: column;
+}
+
+*>.flex-column-nowrap {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+*>.flex-grow-1 {
+    flex-grow: 1;
+}
+
+*>.flex-jc-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*>.flex-jc-c {
+    display: flex;
+    justify-content: center;
+}
+
+*>.flex-ai-c {
+    display: flex;
+    align-items: center;
+}
+
+*>.flex-jc-sb {
+    display: flex;
+    justify-content: space-between;
+}
+*>.flex-jc-sa {
+    display: flex;
+    justify-content: space-around;
+}
+*>.flex-ai-start {
+    display: flex;
+    align-items: flex-start;
+}
+
+*>.flex-ai-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+*>.flex-as-c {
+    align-self: center;
+}
+*>.flex-wrap-wrap {
+    flex-wrap: wrap;
+}
+*>.flex-row-nowrap {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+*>.flex-ch-basis-0 {
+    display: flex;
+}
+
+.flex-ch-basis-0>* {
+    flex-basis: 0;
+}
+
+*>.flex-1-0-0 {
+    flex: 1 0 0;
+}
+
+
+/* 라이브러리 */
+.con {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.cell {
+    float:left;
+    box-sizing:border-box;
+}
+
+.row::after {
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.img-box > img {
+    width:100%;
+    display:block;
+}
+/* 배경 - 데코 */
+body {
+    position: relative;
+}
+.line1-1 {
+    height: 100vh;
+    width: 0.6px;
+    background-color: black;
+    position: absolute;
+    left: 10%;
+    top:0;
+}
+.line1-2 {
+    height: 100vh;
+    width: 0.6px;
+    background-color: black;
+    position: absolute;
+    right: 10%;
+    top: 0;
+}
+.center-text > li {
+    position: absolute;
+    color:white;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    left: 58%;
+}
+.center-text > .text1 {
+    bottom:28%;
+}
+.center-text > .text2 {
+    bottom:22%;
+}
+.center-text > .text3 {
+    bottom:16%;
+}
+/* 배경 텍스트 */
+.top-text li {
+    color:black;
+    position: absolute;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-size: 13px;
+}
+.top-text > .text-1 {
+    top:5%;
+    left: 15%;
+}
+.top-text > .text-2 {
+    top:5%;
+    left: 28%;
+}
+.top-text > .text-3 {
+    top:5%;
+    right: 33%;
+}
+.top-text > .text-4 {
+    top:5%;
+    right: 15%;
+}
+.left-text > li {
+    writing-mode: vertical-rl;
+    position: absolute;
+    top:150px;
+    left: 50px;
+    color: black;
+}
+.left-text > .text1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.left-text > .text2 {
+    font-size: .7rem;
+    top:370px;
+    left: 53px;
+    color: black;
+}
+.right-text > li {
+    position: absolute;
+    color: black;
+    transform: rotate(-90deg); 
+    bottom: 100px;
+    right: 50px;
+}
+.right-text > .text1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.right-text > .text2 {
+    bottom: 260px;
+    right: 10px;
+}
+.right-text > .text3 {
+    bottom: 480px;
+    right: -10px;
+}
+
+
