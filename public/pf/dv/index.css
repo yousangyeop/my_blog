@@ -585,6 +585,10 @@ body, html{
     right: 10%;
     top: 0%;
 }
+.banner-2 > .img5 {
+    right: -10%;
+    top: 50%;
+}
 /* 문의 */
 .contact-back {
     position: relative;
