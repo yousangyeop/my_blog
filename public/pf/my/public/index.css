@@ -457,7 +457,30 @@
 .name {
     margin-top: 15%;
 }
+/* 추가 시작 */
+.name::after {
+    content:"";
+    display:block;
+    position:absolute;
+    left:0;
+    width:260px;
+    height:1px;
+    background-color:black;
+    transform:translateY(-20px);
+}
 
+.name::before {
+    content:"";
+    display:block;
+    position:absolute;
+    left:229px;
+    width:30px;
+    height:1px;
+    background-color:black;
+    transform-origin:top right;
+    transform:translateY(22px) rotate(45deg);
+}
+/* 추가 끝 */
 .name-info>div:first-child {
     font-weight: bold;
     font-size: 1.2rem;

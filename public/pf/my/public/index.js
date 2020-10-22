@@ -132,6 +132,7 @@ function popup__view() {
 }
 
 
+
 $(function () {
     FullPage__init();
     Slider__init();
