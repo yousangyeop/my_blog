@@ -135,292 +135,285 @@ include "../part/head.php"
         </ul>
     </div>
     <div class="section page3">
-        <div class="main">
-            <div class="slider slider-for">
-                <div class="slider-in">
-                    <a href="https://site1.blog.oa.gg/pf/gm/index.php"><img
-                            src="https://yousangyeop.github.io/img1/pf/my/gm.png" alt="" width="45%"></a>
-                    <div class="text-box">
-                        <div class="title">
-                            <a href="https://www.gentlemonster.com/">
-                                <h1>GENTLE MONSTER</h1>
-                            </a>
-                        </div>
-                        <div>
-                            <ul class="name">
-                                <li>젠틀몬스터</li>
-                                <li>www.gentlemonster.com</li>
+    <div class="main">
+        <div class="slider slider-for">
+            <div class="slider-in">
+                <a href="https://site1.blog.oa.gg/pf/gm/index.php"><img src="https://yousangyeop.github.io/img1/pf/my/gm.png" alt="" width="45%"></a>
+                <div class="text-box">
+                    <div class="title">
+                        <a href="https://www.gentlemonster.com/">
+                            <h1>GENTLE MONSTER</h1>
+                        </a>
+                    </div>
+                    <div>
+                        <ul class="name">
+                            <li>젠틀몬스터</li>
+                            <li>www.gentlemonster.com</li>
+                        </ul>
+                    </div>
+
+                    <nav class="name-info flex-jc-sb">
+                        <div>Introduction <br> of page </div>
+                        <div class="intro">
+                            <ul class="info-1 flex">
+                                <li>CONCEPT</li>
+                                <li>사슴뿔을 로고로 사용하며 뿔같은 기준이 되는 브랜드라는 의미를 담고 있다.</li>
+                            </ul>
+                            <ul class="info-2 flex">
+                                <li>SITE</li>
+                                <li>안경 브랜드</li>
+                                <li class="di">DIVISION</li>
+                                <li>홈페이지 모작</li>
+                            </ul>
+                            <ul class="info-3 flex">
+                                <li>TOOL</li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/html.png" alt=""></li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/css.png" alt=""></li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/js.png" alt=""></li>
                             </ul>
                         </div>
-
-                        <nav class="name-info flex-jc-sb">
-                            <div>Introduction <br> of page </div>
-                            <div class="intro">
-                                <ul class="info-1 flex">
-                                    <li>CONCEPT</li>
-                                    <li>사슴뿔을 로고로 사용하며 뿔같은 기준이 되는 브랜드라는 의미를 담고 있다.</li>
-                                </ul>
-                                <ul class="info-2 flex">
-                                    <li>SITE</li>
-                                    <li>안경 브랜드</li>
-                                    <li class="di">DIVISION</li>
-                                    <li>홈페이지 모작</li>
-                                </ul>
-                                <ul class="info-3 flex">
-                                    <li>TOOL</li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/html.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/css.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/js.png" alt=""></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
+                    </nav>
                 </div>
-                <div class="slider-in">
-                    <a href="https://site1.blog.oa.gg/pf/dv/index.php"><img
-                            src="https://yousangyeop.github.io/img1/pf/my/dv.png" alt="" width="45%"></a>
-                    <div class="text-box">
-                        <div class="title">
-                            <a href="http://www.di-in.co.kr/">
-                                <h1>DI IN VISUAL</h1>
-                            </a>
-                        </div>
-                        <div>
-                            <ul class="name">
-                                <li>디인 비주얼</li>
-                                <li>www.di-in.co.kr</li>
+            </div>
+            <div class="slider-in">
+                <a href="https://site1.blog.oa.gg/pf/dv/index.php"><img src="https://yousangyeop.github.io/img1/pf/my/dv.png" alt="" width="45%"></a>
+                <div class="text-box">
+                    <div class="title">
+                        <a href="http://www.di-in.co.kr/">
+                            <h1>DI IN VISUAL</h1>
+                        </a>
+                    </div>
+                    <div>
+                        <ul class="name">
+                            <li>디인 비주얼</li>
+                            <li>www.di-in.co.kr</li>
+                        </ul>
+                    </div>
+
+                    <nav class="name-info flex-jc-sb">
+                        <div>Introduction <br> of page </div>
+                        <div class="intro">
+                            <ul class="info-1 flex">
+                                <li>CONCEPT</li>
+                                <li>디지털 마케팅을 주로 맡고 있는 에이전시입니다.</li>
+                            </ul>
+                            <ul class="info-2 flex">
+                                <li>SITE</li>
+                                <li>에이전시</li>
+                                <li class="di">DIVISION</li>
+                                <li>홈페이지 모작</li>
+                            </ul>
+                            <ul class="info-3 flex">
+                                <li>TOOL</li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/html.png" alt=""></li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/css.png" alt=""></li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/js.png" alt=""></li>
                             </ul>
                         </div>
-
-                        <nav class="name-info flex-jc-sb">
-                            <div>Introduction <br> of page </div>
-                            <div class="intro">
-                                <ul class="info-1 flex">
-                                    <li>CONCEPT</li>
-                                    <li>디지털 마케팅을 주로 맡고 있는 에이전시입니다.</li>
-                                </ul>
-                                <ul class="info-2 flex">
-                                    <li>SITE</li>
-                                    <li>에이전시</li>
-                                    <li class="di">DIVISION</li>
-                                    <li>홈페이지 모작</li>
-                                </ul>
-                                <ul class="info-3 flex">
-                                    <li>TOOL</li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/html.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/css.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/js.png" alt=""></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
+                    </nav>
                 </div>
-                <div class="slider-in">
-                    <a href="https://site1.blog.oa.gg/pf/yp/index.php"><img
-                            src="https://yousangyeop.github.io/img1/pf/my/yp.png" alt="" width="45%"></a>
-                    <div class="text-box">
-                        <div class="title">
-                            <a href="https://www.yogerpresso.co.kr/">
-                                <h1>YOGERPRESSO</h1>
-                            </a>
-                        </div>
-                        <div>
-                            <ul class="name">
-                                <li>요거프레소</li>
-                                <li>www.yogerpresso.co.kr</li>
+            </div>
+            <div class="slider-in">
+                <a href="https://site1.blog.oa.gg/pf/yp/index.php"><img src="https://yousangyeop.github.io/img1/pf/my/yp.png" alt="" width="45%"></a>
+                <div class="text-box">
+                    <div class="title">
+                        <a href="https://www.yogerpresso.co.kr/">
+                            <h1>YOGERPRESSO</h1>
+                        </a>
+                    </div>
+                    <div>
+                        <ul class="name">
+                            <li>요거프레소</li>
+                            <li>www.yogerpresso.co.kr</li>
+                        </ul>
+                    </div>
+
+                    <nav class="name-info flex-jc-sb">
+                        <div>Introduction <br> of page </div>
+                        <div class="intro">
+                            <ul class="info-1 flex">
+                                <li>CONCEPT</li>
+                                <li>시대의 변화에 따라 좋은 재료로 맛있는 음료를 제공하는 기업이다.</li>
+                            </ul>
+                            <ul class="info-2 flex">
+                                <li>SITE</li>
+                                <li>커피 프렌차이즈</li>
+                                <li class="di">DIVISION</li>
+                                <li>홈페이지 모작</li>
+                            </ul>
+                            <ul class="info-3 flex">
+                                <li>TOOL</li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/html.png" alt=""></li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/css.png" alt=""></li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/js.png" alt=""></li>
                             </ul>
                         </div>
-
-                        <nav class="name-info flex-jc-sb">
-                            <div>Introduction <br> of page </div>
-                            <div class="intro">
-                                <ul class="info-1 flex">
-                                    <li>CONCEPT</li>
-                                    <li>시대의 변화에 따라 좋은 재료로 맛있는 음료를 제공하는 기업이다.</li>
-                                </ul>
-                                <ul class="info-2 flex">
-                                    <li>SITE</li>
-                                    <li>커피 프렌차이즈</li>
-                                    <li class="di">DIVISION</li>
-                                    <li>홈페이지 모작</li>
-                                </ul>
-                                <ul class="info-3 flex">
-                                    <li>TOOL</li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/html.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/css.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/js.png" alt=""></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
+                    </nav>
                 </div>
-                <div class="slider-in">
-                    <a href="https://site1.blog.oa.gg/pf/shes/index.php"><img
-                            src="https://yousangyeop.github.io/img1/pf/my/shes.png" alt="" width="45%"></a>
-                    <div class="text-box">
-                        <div class="title">
-                            <a href="http://shes-line.co.kr/index/">
-                                <h1>SHES LINE</h1>
-                            </a>
-                        </div>
-                        <div>
-                            <ul class="name">
-                                <li>한국쉬즈라인</li>
-                                <li>shes-line.co.kr</li>
+            </div>
+            <div class="slider-in">
+                <a href="https://site1.blog.oa.gg/pf/shes/index.php"><img src="https://yousangyeop.github.io/img1/pf/my/shes.png" alt="" width="45%"></a>
+                <div class="text-box">
+                    <div class="title">
+                        <a href="http://shes-line.co.kr/index/">
+                            <h1>SHES LINE</h1>
+                        </a>
+                    </div>
+                    <div>
+                        <ul class="name">
+                            <li>한국쉬즈라인</li>
+                            <li>shes-line.co.kr</li>
+                        </ul>
+                    </div>
+
+                    <nav class="name-info flex-jc-sb">
+                        <div>Introduction <br> of page </div>
+                        <div class="intro">
+                            <ul class="info-1 flex">
+                                <li>CONCEPT</li>
+                                <li>"머리에서 발끝까지의 아름다움이"이라는 모토를 둔 미용품 유통하는 브랜드이다. </li>
+                            </ul>
+                            <ul class="info-2 flex">
+                                <li>SITE</li>
+                                <li>유통 회사</li>
+                                <li class="di">DIVISION</li>
+                                <li>홈페이지 모작</li>
+                            </ul>
+                            <ul class="info-3 flex">
+                                <li>TOOL</li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/html.png" alt=""></li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/css.png" alt=""></li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/js.png" alt=""></li>
                             </ul>
                         </div>
-
-                        <nav class="name-info flex-jc-sb">
-                            <div>Introduction <br> of page </div>
-                            <div class="intro">
-                                <ul class="info-1 flex">
-                                    <li>CONCEPT</li>
-                                    <li>"머리에서 발끝까지의 아름다움이"이라는 모토를 둔 미용품 유통하는 브랜드이다. </li>
-                                </ul>
-                                <ul class="info-2 flex">
-                                    <li>SITE</li>
-                                    <li>유통 회사</li>
-                                    <li class="di">DIVISION</li>
-                                    <li>홈페이지 모작</li>
-                                </ul>
-                                <ul class="info-3 flex">
-                                    <li>TOOL</li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/html.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/css.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/js.png" alt=""></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
+                    </nav>
                 </div>
-                <div class="slider-in">
-                    <a href="https://site1.blog.oa.gg/pf/page/pp.php"><img
-                            src="https://yousangyeop.github.io/img1/pf/my/port.png" alt="" width="45%"></a>
-                    <div class="text-box">
-                        <div class="title">
-                            <a href="https://site1.blog.oa.gg/pf/page/pp.php">
-                                <h1>PORTFOLIO PAGE</h1>
-                            </a>
-                        </div>
-                        <div>
-                            <ul class="name">
+            </div>
+            <div class="slider-in">
+                <a href="https://site1.blog.oa.gg/pf/page/pp.php"><img src="https://yousangyeop.github.io/img1/pf/my/port.png" alt="" width="45%"></a>
+                <div class="text-box">
+                    <div class="title">
+                        <a href="https://site1.blog.oa.gg/pf/page/pp.php">
+                            <h1>PORTFOLIO PAGE</h1>
+                        </a>
+                    </div>
+                    <div>
+                        <ul class="name">
+                            <li>포트폴리오 페이지</li>
+                            <li>site1.blog.oa.gg/pf/page/pp.php</li>
+                        </ul>
+                    </div>
+
+                    <nav class="name-info flex-jc-sb">
+                        <div>Introduction <br> of page </div>
+                        <div class="intro">
+                            <ul class="info-1 flex">
+                                <li>CONCEPT</li>
+                                <li>나의 방을 연상시켜 만든 포트폴리오 페이지이다.</li>
+                            </ul>
+                            <ul class="info-2 flex">
+                                <li>SITE</li>
                                 <li>포트폴리오 페이지</li>
-                                <li>site1.blog.oa.gg/pf/page/pp.php</li>
+                                <li class="di">DIVISION</li>
+                                <li>홈페이지 창작</li>
+                            </ul>
+                            <ul class="info-3 flex">
+                                <li>TOOL</li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/html.png" alt=""></li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/css.png" alt=""></li>
                             </ul>
                         </div>
-
-                        <nav class="name-info flex-jc-sb">
-                            <div>Introduction <br> of page </div>
-                            <div class="intro">
-                                <ul class="info-1 flex">
-                                    <li>CONCEPT</li>
-                                    <li>나의 방을 연상시켜 만든 포트폴리오 페이지이다.</li>
-                                </ul>
-                                <ul class="info-2 flex">
-                                    <li>SITE</li>
-                                    <li>포트폴리오 페이지</li>
-                                    <li class="di">DIVISION</li>
-                                    <li>홈페이지 창작</li>
-                                </ul>
-                                <ul class="info-3 flex">
-                                    <li>TOOL</li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/html.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/css.png" alt=""></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
+                    </nav>
                 </div>
-                <div class="slider-in">
-                    <a href="https://site1.blog.oa.gg/pf/stco/index.php"><img
-                            src="https://yousangyeop.github.io/img1/pf/my/stco.png" alt="" width="45%"></a>
-                    <div class="text-box">
-                        <div class="title">
-                            <a href="http://www.stco.co.kr/">
-                                <h1>STCO</h1>
-                            </a>
-                        </div>
-                        <div>
-                            <ul class="name">
-                                <li>에스티씨오</li>
-                                <li>www.stco.co.kr</li>
-                            </ul>
-                        </div>
-
-                        <nav class="name-info flex-jc-sb">
-                            <div>Introduction <br> of page </div>
-                            <div class="intro">
-                                <ul class="info-1 flex">
-                                    <li>CONCEPT</li>
-                                    <li>워크맨들의 라이프스타일을 위한 모던 트래지셔널 브랜드이다.</li>
-                                </ul>
-                                <ul class="info-2 flex">
-                                    <li>SITE</li>
-                                    <li>남성의류 브랜드</li>
-                                    <li class="di">DIVISION</li>
-                                    <li>홈페이지 모작</li>
-                                </ul>
-                                <ul class="info-3 flex">
-                                    <li>TOOL</li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/html.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/css.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/js.png" alt=""></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-                <div class="slider-in">
-                    <a href="https://site1.blog.oa.gg/pf/pr/public/index.php"></a><img
-                        src="https://yousangyeop.github.io/img1/pf/my/paul.png" alt="" width="45%">
-                    <div class="text-box">
-                        <div class="title">
-                            <a href="https://site1.blog.oa.gg/pf/pr/public/index.php"></a>
-                            <h1>PAUL ROASTERS</h1>
-                        </div>
-                        <div>
-                            <ul class="name">
-                                <li>폴로스터즈</li>
-                                <li>site1.blog.oa.gg/pf/pr/public/index.php</li>
-                            </ul>
-                        </div>
-
-                        <nav class="name-info flex-jc-sb">
-                            <div>Introduction <br> of page </div>
-                            <div class="intro">
-                                <ul class="info-1 flex">
-                                    <li>CONCEPT</li>
-                                    <li>성경인물 바울의 영어이름 PAUL, 좋으신 예수님을 알렸던 바울처럼 좋은 커피를 알리려는 의미를 담고있다.</li>
-                                </ul>
-                                <ul class="info-2 flex">
-                                    <li>SITE</li>
-                                    <li>카페</li>
-                                    <li class="di">DIVISION</li>
-                                    <li>홈페이지 창작</li>
-                                </ul>
-                                <ul class="info-3 flex">
-                                    <li>TOOL</li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/html.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/css.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/js.png" alt=""></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-
             </div>
-            <div class="slider slider-nav">
-                <div><img src="https://yousangyeop.github.io/img1/pf/my/gm1.png" alt="" width="60%"></div>
-                <div><img src="https://yousangyeop.github.io/img1/pf/my/dv-1.png" alt="" width="60%"></div>
-                <div><img src="https://yousangyeop.github.io/img1/pf/my/yp1.png" alt="" width="60%"></div>
-                <div><img src="https://yousangyeop.github.io/img1/pf/my/shes1.png" alt="" width="60%"></div>
-                <div><img src="https://yousangyeop.github.io/img1/pf/my/port1.png" alt="" width="60%"></div>
-                <div><img src="https://yousangyeop.github.io/img1/pf/my/stco1.png" alt="" width="60%"></div>
-                <div><img src="https://yousangyeop.github.io/img1/pf/my/paul1.png" alt="" width="60%"></div>
+            <div class="slider-in">
+                <a href="https://site1.blog.oa.gg/pf/stco/index.php"><img src="https://yousangyeop.github.io/img1/pf/my/stco.png" alt="" width="45%"></a>
+                <div class="text-box">
+                    <div class="title">
+                        <a href="http://www.stco.co.kr/">
+                            <h1>STCO</h1>
+                        </a>
+                    </div>
+                    <div>
+                        <ul class="name">
+                            <li>에스티씨오</li>
+                            <li>www.stco.co.kr</li>
+                        </ul>
+                    </div>
+
+                    <nav class="name-info flex-jc-sb">
+                        <div>Introduction <br> of page </div>
+                        <div class="intro">
+                            <ul class="info-1 flex">
+                                <li>CONCEPT</li>
+                                <li>워크맨들의 라이프스타일을 위한 모던 트래지셔널 브랜드이다.</li>
+                            </ul>
+                            <ul class="info-2 flex">
+                                <li>SITE</li>
+                                <li>남성의류 브랜드</li>
+                                <li class="di">DIVISION</li>
+                                <li>홈페이지 모작</li>
+                            </ul>
+                            <ul class="info-3 flex">
+                                <li>TOOL</li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/html.png" alt=""></li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/css.png" alt=""></li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/js.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
             </div>
+            <div class="slider-in">
+                <a href="https://site1.blog.oa.gg/pf/pr/public/index.php"></a><img src="https://yousangyeop.github.io/img1/pf/my/paul.png" alt="" width="45%">
+                <div class="text-box">
+                    <div class="title">
+                        <a href="https://site1.blog.oa.gg/pf/pr/public/index.php"></a>
+                        <h1>PAUL ROASTERS</h1>
+                    </div>
+                    <div>
+                        <ul class="name">
+                            <li>폴로스터즈</li>
+                            <li>site1.blog.oa.gg/pf/pr/public/index.php</li>
+                        </ul>
+                    </div>
+
+                    <nav class="name-info flex-jc-sb">
+                        <div>Introduction <br> of page </div>
+                        <div class="intro">
+                            <ul class="info-1 flex">
+                                <li>CONCEPT</li>
+                                <li>성경인물 바울의 영어이름 PAUL, 좋으신 예수님을 알렸던 바울처럼 좋은 커피를 알리려는 의미를 담고있다.</li>
+                            </ul>
+                            <ul class="info-2 flex">
+                                <li>SITE</li>
+                                <li>카페</li>
+                                <li class="di">DIVISION</li>
+                                <li>홈페이지 창작</li>
+                            </ul>
+                            <ul class="info-3 flex">
+                                <li>TOOL</li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/html.png" alt=""></li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/css.png" alt=""></li>
+                                <li><img src="https://yousangyeop.github.io/img1/pf/my/js.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+        <div class="slider slider-nav">
+            <div><img src="https://yousangyeop.github.io/img1/pf/my/gm1.png" alt="" width="60%"></div>
+            <div><img src="https://yousangyeop.github.io/img1/pf/my/dv-1.png" alt="" width="60%"></div>
+            <div><img src="https://yousangyeop.github.io/img1/pf/my/yp1.png" alt="" width="60%"></div>
+            <div><img src="https://yousangyeop.github.io/img1/pf/my/shes1.png" alt="" width="60%"></div>
+            <div><img src="https://yousangyeop.github.io/img1/pf/my/port1.png" alt="" width="60%"></div>
+            <div><img src="https://yousangyeop.github.io/img1/pf/my/stco1.png" alt="" width="60%"></div>
+            <div><img src="https://yousangyeop.github.io/img1/pf/my/paul1.png" alt="" width="60%"></div>
         </div>
     </div>
+</div>
     <div class="section page4">
         <div class="list-box row">
             <div class="item-list cell relative">
