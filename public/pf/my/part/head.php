@@ -35,6 +35,5 @@ if ( isset($pageName) == false ) {
     </ul>
     <ul class="right-text">
         <li class="text1">SHARE</li>
-        <li class="text2">_______________________</li>
         <li class="text3">Instagram/Facebook/Youtube</li>
     </ul>

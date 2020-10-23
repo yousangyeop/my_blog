@@ -141,7 +141,7 @@ include "../part/head.php"
                 <a href="https://site1.blog.oa.gg/pf/gm/index.php"><img src="https://yousangyeop.github.io/img1/pf/my/gm.png" alt="" width="45%"></a>
                 <div class="text-box">
                     <div class="title">
-                        <a href="https://www.gentlemonster.com/">
+                        <a href="https://site1.blog.oa.gg/pf/gm/index.php">
                             <h1>GENTLE MONSTER</h1>
                         </a>
                     </div>
@@ -179,7 +179,7 @@ include "../part/head.php"
                 <a href="https://site1.blog.oa.gg/pf/dv/index.php"><img src="https://yousangyeop.github.io/img1/pf/my/dv.png" alt="" width="45%"></a>
                 <div class="text-box">
                     <div class="title">
-                        <a href="http://www.di-in.co.kr/">
+                        <a href="https://site1.blog.oa.gg/pf/dv/index.php">
                             <h1>DI IN VISUAL</h1>
                         </a>
                     </div>
@@ -217,7 +217,7 @@ include "../part/head.php"
                 <a href="https://site1.blog.oa.gg/pf/yp/index.php"><img src="https://yousangyeop.github.io/img1/pf/my/yp.png" alt="" width="45%"></a>
                 <div class="text-box">
                     <div class="title">
-                        <a href="https://www.yogerpresso.co.kr/">
+                        <a href="https://site1.blog.oa.gg/pf/yp/index.php">
                             <h1>YOGERPRESSO</h1>
                         </a>
                     </div>
@@ -255,7 +255,7 @@ include "../part/head.php"
                 <a href="https://site1.blog.oa.gg/pf/shes/index.php"><img src="https://yousangyeop.github.io/img1/pf/my/shes.png" alt="" width="45%"></a>
                 <div class="text-box">
                     <div class="title">
-                        <a href="http://shes-line.co.kr/index/">
+                        <a href="https://site1.blog.oa.gg/pf/shes/index.php">
                             <h1>SHES LINE</h1>
                         </a>
                     </div>
@@ -330,7 +330,7 @@ include "../part/head.php"
                 <a href="https://site1.blog.oa.gg/pf/stco/index.php"><img src="https://yousangyeop.github.io/img1/pf/my/stco.png" alt="" width="45%"></a>
                 <div class="text-box">
                     <div class="title">
-                        <a href="http://www.stco.co.kr/">
+                        <a href="https://site1.blog.oa.gg/pf/stco/index.php">
                             <h1>STCO</h1>
                         </a>
                     </div>
@@ -572,6 +572,18 @@ include "../part/head.php"
             <li class="bottom"></li>
         </ul>
         <div class="popup1">
+            <ul class="start">
+                <li>Starting</li>
+                <li>지금부터 웹디자이너</li>
+                <li>유상엽의 꿈을 펼쳐보겠습니다.</li>
+                <li>감사합니다.</li>
+            </ul>
+            <ul class="end-contact">
+                <li>Contact</li>
+                <li>insta : yeobbook</li>
+                <li>phone : 010 - 5754 - 2132</li>
+                <li>email : yeop4030@naver.com</li>
+            </ul>
             <ul class="lastdoor">
                 <li class="top"></li>
                 <li class="mid"></li>
