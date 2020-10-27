@@ -573,13 +573,13 @@ include "../part/head.php"
         </ul>
         <div class="popup1">
             <ul class="start">
-                <li>Starting</li>
+                <li>STARTING</li>
                 <li>지금부터 웹디자이너</li>
                 <li>유상엽의 꿈을 펼쳐보겠습니다.</li>
                 <li>감사합니다.</li>
             </ul>
             <ul class="end-contact">
-                <li>Contact</li>
+                <li>CONTACT</li>
                 <li>insta : yeobbook</li>
                 <li>phone : 010 - 5754 - 2132</li>
                 <li>email : yeop4030@naver.com</li>

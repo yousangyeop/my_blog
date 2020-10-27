@@ -428,12 +428,6 @@
     margin-top: 5%;
 }
 
-.slick-next:before {
-    font-size: 30px;
-    opacity: 1;
-    color: black;
-}
-
 .slider-for {
     position: relative;
 }
@@ -457,31 +451,7 @@
 .slider-in .name {
     margin-top: 15%;
 }
-/* 추가 시작 */
-.slider-in .name::after {
-    content:"";
-    display:block;
-    position:absolute;
-    left: 0;
-    width:100%;
-    height:1px;
-    background-color:black;
-    transform:translateY(-20px);
-}
 
-.slider-in .name::before {
-    content:"";
-    display:block;
-    position:absolute;
-    right: 0;
-    margin-top: 1%;
-    width:80px;
-    height:1px;
-    background-color:black;
-    transform-origin:top right;
-    transform:translateY(22px) rotate(45deg);
-}
-/* 추가 끝 */
 .name-info>div:first-child {
     font-weight: bold;
     font-size: 1.2rem;
@@ -512,28 +482,15 @@
     opacity: 0;
     user-select: none;
 }
-.slider .slick-next {
-    content:"";
-    display:block;
-    position:absolute;
-    right: 0;
-    top:-25%;
-    width:50%;
-    height:0.5%;
-    background-color:black;
-    transform:translateY(-20px);
-}
-.slider .slick-next::after {
-    content:"";
-    display:block;
-    position:absolute;
-    right: 0;
-    margin-top: -6%;
-    width:80px;
-    height:5px;
-    background-color:black;
-    transform-origin:top right;
-    transform:translateY(22px) rotate(45deg);
+.slider .slick-next button {
+    top:50%;
+    transform: translate(-50%);
+    right: 3%;
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 10px;
+    background-color: black;
 }
 /* 4페이지 */
 a {
@@ -791,7 +748,7 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.9);
     visibility: hidden;
     opacity: 0;
     transition: visibility 0.3s, opacity 0.3s;
@@ -844,7 +801,6 @@ a {
     left: 43%;
 }
 
-
 .lastdoor .mid {
     width: 60%;
     top: 50%;
@@ -874,12 +830,15 @@ a {
 }
 .end-contact {
     position: absolute;
-    top: 55%;
-    right: 20%;
+    top: 54%;
+    right: 15%;
     user-select: none;
     color:white;
     font-weight: bold;
 }
 .end-contact > li {
     padding: 5px;
+}
+.end-contact > li:first-child {
+    font-size: 2rem;
 }
