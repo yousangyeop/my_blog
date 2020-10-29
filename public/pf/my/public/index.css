@@ -482,16 +482,16 @@
     opacity: 0;
     user-select: none;
 }
-.slider .slick-next button {
-    top:50%;
-    transform: translate(-50%);
-    right: 3%;
+.slider-nav .slick-next {
     position: absolute;
-    display: block;
-    width: 30px;
-    height: 10px;
+    top:50%;
+    right: 0;
     background-color: black;
-}
+    display: block;
+    width: 100px;
+    height: 5px;
+} 
+
 /* 4페이지 */
 a {
     text-decoration: none;
