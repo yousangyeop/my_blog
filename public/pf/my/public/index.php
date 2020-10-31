@@ -409,14 +409,17 @@ include "../part/head.php"
                 </div>
 
             </div>
-            <div class="slider slider-nav relative">
-                <div><img src="https://yousangyeop.github.io/img1/pf/my/gm1.png" alt="" width="60%"></div>
-                <div><img src="https://yousangyeop.github.io/img1/pf/my/dv-1.png" alt="" width="60%"></div>
-                <div><img src="https://yousangyeop.github.io/img1/pf/my/yp1.png" alt="" width="60%"></div>
-                <div><img src="https://yousangyeop.github.io/img1/pf/my/shes1.png" alt="" width="60%"></div>
-                <div><img src="https://yousangyeop.github.io/img1/pf/my/port1.png" alt="" width="60%"></div>
-                <div><img src="https://yousangyeop.github.io/img1/pf/my/stco1.png" alt="" width="60%"></div>
-                <div><img src="https://yousangyeop.github.io/img1/pf/my/paul1.png" alt="" width="60%"></div>
+            <div class="sum-slider">
+                <div class="slider slider-nav relative">
+                    <div><img src="https://yousangyeop.github.io/img1/pf/my/gm1.png" alt="" width="60%"></div>
+                    <div><img src="https://yousangyeop.github.io/img1/pf/my/dv-1.png" alt="" width="60%"></div>
+                    <div><img src="https://yousangyeop.github.io/img1/pf/my/yp1.png" alt="" width="60%"></div>
+                    <div><img src="https://yousangyeop.github.io/img1/pf/my/shes1.png" alt="" width="60%"></div>
+                    <div><img src="https://yousangyeop.github.io/img1/pf/my/port1.png" alt="" width="60%"></div>
+                    <div><img src="https://yousangyeop.github.io/img1/pf/my/stco1.png" alt="" width="60%"></div>
+                    <div><img src="https://yousangyeop.github.io/img1/pf/my/paul1.png" alt="" width="60%"></div>
+                </div>
+                <div class="aro1_next"></div>
             </div>
         </div>
     </div>

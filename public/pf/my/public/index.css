@@ -491,6 +491,19 @@
     width: 100px;
     height: 5px;
 } 
+.sum-slider {
+    position: relative;
+}
+.aro1_next {
+    position: absolute;
+    top:50%;
+    right: 0;
+    transform: translatey(-50%);
+    background-color: black;
+    width: 100px;
+    height: 50px;
+}
+
 
 /* 4페이지 */
 a {

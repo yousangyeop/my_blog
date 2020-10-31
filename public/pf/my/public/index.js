@@ -75,7 +75,8 @@ function Slider__init() {
         slidesToScroll: 1,
         asNavFor: '.slider-for',
         dots: false,
-        focusOnSelect: true
+        focusOnSelect: true,
+        nextArrow: $('.aro1_next')
     });
 }
 
