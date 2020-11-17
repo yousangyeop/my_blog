@@ -80,58 +80,7 @@ include "../part/head.php"
         </ul>
     </div>
     <div class="section page2 flex flex-1-0-0">
-        <ul class="pillow">
-            <li class="about">
-                <a href=""><img src="https://yousangyeop.github.io/img1/pf/my/about.png" alt=""></a>
-            </li>
-            <li class="me">
-                <a href=""><img src="https://yousangyeop.github.io/img1/pf/my/me.png" alt=""></a>
-            </li>
-        </ul>
-        <ul class="bed">
-            <li class="flame"></li>
-            <li class="blanket">
-                <ul class="content flex">
-                    <li class="pro"><img src="https://yousangyeop.github.io/img1/pf/my/profile.png" alt=""></li>
-                    <li class="file">
-                        <ul class="me">
-                            <li class="name"><img src="https://yousangyeop.github.io/img1/pf/my/name.png" alt=""
-                                    width="400"></li>
-                            <li class="birth">
-                                <ul>
-                                    <li>DATE OF BIRTH</li>
-                                    <li> 93.04.30</li>
-                                </ul>
-                            </li>
-                            <li class="edu">
-                                <ul>
-                                    <li>EDUCATION</li>
-                                    <li>서대전고등학교 졸업</li>
-                                    <li>서울모드패션직업전문학교 패션디자인학과 중퇴</li>
-                                    <li>SBS컴퓨터아카데미학원 웹디자인과정 수료</li>
-                                </ul>
-                            </li>
-                            <li class="skills">
-                                <div class="title">SKILLS</div>
-                                <ul class="flex flex-wrap-wrap">
-
-                                    <li class="html"><img src="https://yousangyeop.github.io/img1/pf/my/html.png" alt=""
-                                            width="60"></li>
-                                    <li class="css"><img src="https://yousangyeop.github.io/img1/pf/my/css.png" alt=""
-                                            width="60"></li>
-                                    <li class="js"><img src="https://yousangyeop.github.io/img1/pf/my/js.png" alt=""
-                                            width="60"></li>
-                                    <li class="ps"><img src="https://yousangyeop.github.io/img1/pf/my/ps.png" alt=""
-                                            width="60"></li>
-                                    <li class="ai"><img src="https://yousangyeop.github.io/img1/pf/my/ai.png" alt=""
-                                            width="60"></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+        
     </div>
     <div class="section page3">
         <div class="main">

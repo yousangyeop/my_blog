@@ -244,167 +244,167 @@
     height: 100%;
 
 }
-
-/* 베개 */
-.page2>.pillow {
-    width: 28%;
+.tab-box-1 {
+    display: inline-block;
+  }
+  
+  .tab-box-1 > .head > ul > li.active {
+    color: red;
+  }
+  .tab-box-1 > .body > ul > li {
+    display: none;
+  }
+  .tab-box-1 > .body > ul > li.active {
+    display: block;
+  }
+  /* page2 */
+  .page2 {
+    width: 100%;
     height: 100%;
-    position: relative;
-}
-
-.page2>.pillow>.about {
-    border-left: 1px solid black;
-    width: 80px;
-    height: 150px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    box-shadow: -6px 6px 6px .3px rgba(129, 129, 129, 0.4);
-    position: absolute;
-    top: 43%;
-    right: 25%;
-}
-
-.page2>.pillow>.me {
-    border-right: 1px solid black;
-    width: 80px;
-    height: 150px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    box-shadow: -6px 6px 6px .3px rgba(129, 129, 129, 0.4);
-    position: absolute;
-    top: 53%;
-    right: 5%;
-}
-
-.page2>ul>li {
+  }
+  .page2 > .bed {
     position: relative;
     width: 100%;
     height: 100%;
-}
-
-.page2>ul>.about>a>img {
-    position: absolute;
-    top: 50%;
-    right: 0%;
-    transform: translatey(-50%);
-}
-
-.page2>ul>.me>a>img {
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    transform: translatey(-50%);
-}
-
-/* 침대 */
-.page2>.bed {
-    position: relative;
-    width: 72%;
-    height: 100%;
-}
-
-.page2>.bed>.flame {
+  }
+  /* page2 - about */
+  .page2 > .bed > .flame {
     position: absolute;
     width: 800px;
     height: 500px;
-    bottom: 15%;
-    right: 25%;
+    top: 0%;
+    left: 20%;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
-    box-shadow: -6px 6px 6px .3px rgba(129, 129, 129, 0.4);
+    box-shadow: -6px 6px 6px 0.3px rgba(129, 129, 129, 0.4);
+  }
+  .page2>.bed>.blanket {
+      position: absolute;
+      width: 800px;
+      height: 500px;
+      top: 0%;
+      left: 30%;
+      border-left: 1px solid black;
+      border-bottom: 1px solid black;
+      box-shadow: -6px 6px 6px .3px rgba(129, 129, 129, 0.4);
+  }
+  /* 침대 - 내용 */
+  .blanket {
+      width: 100%;
+      height: 100%;
 
-}
-
-.page2>.bed>.blanket {
+  }
+  .blanket>.content {
+      width: 100%;
+      height: 100%;
+  }
+  .pro>img {
+      height: 130%;
+      margin-left: 5%;
+  }
+  
+  .blanket>.content>.file>.me {
+      margin-top: 10%;
+      width: 100%;
+      height: 100%;
+      position: relative;
+  }
+  .blanket>.content>.file {
+      width: 100%;
+      height: 100%;
+  }
+  .file>ul>li {
+      padding: 10px;
+  }
+  
+  .birth>ul>li:first-child {
+      font-size: 1.1rem;
+      font-weight: bold;
+  }
+  
+  .birth>ul>li:nth-child(2) {
+      font-size: 1rem;
+      padding: 5px;
+  }
+  
+  .edu>ul>li:first-child {
+      font-size: 1.1rem;
+      font-weight: bold;
+  }
+  
+  .edu>ul>li:not(:first-child) {
+      font-size: 1rem;
+      padding: 5px;
+  }
+  
+  .skills {
+      width: 100%;
+  }
+  .skills>ul {
+      width: 100%;
+      height: 100%;
+  }
+  
+  .skills>.title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      width: 100%;
+  }
+  .skills>ul>li {
+      box-sizing: border-box;
+      padding: 10px;
+      width: calc(100%/3);
+  }
+  /* page2 - me */
+  body, ul, li {
+      list-style:none;
+      margin:0;
+      padding:0;
+  }
+  .page2 > .bed {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  /* page2 - about */
+  .page2 > .bed > .flame {
     position: absolute;
+    background-color:pink;
     width: 800px;
     height: 500px;
-    bottom: 22%;
-    right: 22%;
+    top: 60%;
+    left: 20%;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
-    box-shadow: -6px 6px 6px .3px rgba(129, 129, 129, 0.4);
-}
-
-/* 침대 - 내용 */
-.blanket {
-    width: 100%;
-    height: 100%;
-}
-
-.blanket>.content {
-    width: 100%;
-    height: 100%;
-}
-
-.pro>img {
-    height: 130%;
-    margin-left: 5%;
-}
-
-.blanket>.content>.file>.me {
-    margin-top: 10%;
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-.blanket>.content>.file>.me>.name>img {
-    position: absolute;
-    top: -8%;
-    left: 0;
-    width: 80%;
-}
-
-.blanket>.content>.file {
-    width: 100%;
-    height: 100%;
-}
-
-.file>ul>li {
-    padding: 10px;
-}
-
-.birth>ul>li:first-child {
-    font-size: 1.1rem;
-    font-weight: bold;
-}
-
-.birth>ul>li:nth-child(2) {
-    font-size: 1rem;
-    padding: 5px;
-}
-
-.edu>ul>li:first-child {
-    font-size: 1.1rem;
-    font-weight: bold;
-}
-
-.edu>ul>li:not(:first-child) {
-    font-size: 1rem;
-    padding: 5px;
-}
-
-.skills {
-    width: 100%;
-}
-
-.skills>ul {
-    width: 100%;
-    height: 100%;
-}
-
-.skills>ul>li {
-    box-sizing: border-box;
-    padding: 10px;
-    width: calc(100%/3);
-}
-
-.skills>.title {
-    font-size: 1.1rem;
-    font-weight: bold;
-    width: 100%;
-}
+    box-shadow: -6px 6px 6px 0.3px rgba(129, 129, 129, 0.4);
+  }
+  .page2>.bed>.blanket {
+      position: absolute;
+    background-color:gold;
+      width: 800px;
+      height: 500px;
+      top: 40%;
+      left: 30%;
+      border-left: 1px solid black;
+      border-bottom: 1px solid black;
+      box-shadow: -6px 6px 6px .3px rgba(129, 129, 129, 0.4);
+  }
+  nav ul {
+      padding:10px;
+      font-weight:bold;
+    margin-left:50px;
+    margin-top:30px;
+  }
+  .content-1 > li:first-child {
+      font-size:2rem;
+      font-weight:bold;
+  }
+  .content-1 > li {
+      padding:10px;
+  }
+  .content-2 > li {
+      padding:10px;
+  }
 
 /* 3페이지 */
 .page3 {
