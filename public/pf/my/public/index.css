@@ -237,143 +237,169 @@
     bottom: 480px;
     right: -10px;
 }
+
 /* 2페이지 */
 
-body, ul, li {
-    margin:0;
-    padding:0;
-    list-style:none;
-  }
-  .flex {
-    display:flex;
-  }
-  
-  
-  .tab-box-1 > .head > ul > li.active {
-    color:red;
-  }
-  .tab-box-1 > .body > ul > li {
-    display:none;
-  }
-  .tab-box-1 > .body > ul > li.active {
-    display:block;
-  }
-  /* page2 */
-  .page2 {
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.tab-box-1>.head>ul>li.active {
+    color: red;
+}
+
+.tab-box-1>.body>ul>li {
+    display: none;
+}
+
+.tab-box-1>.body>ul>li.active {
+    display: block;
+}
+
+/* page2 */
+.page2 {
     width: 100vw;
     height: 100vh;
-  }
-  .page2 > .bed {
     position: relative;
+}
+
+/* page2 - about */
+.page2 .bed>.flame {
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    top: 22%;
+    left: 32%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: -6px 6px 6px 0.3px rgba(129, 129, 129, 0.4);
+}
+
+.page2 .bed>.blanket {
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    top: 10%;
+    left: 37%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: -6px 6px 6px .3px rgba(129, 129, 129, 0.4);
+}
+
+/* 침대 - 내용 */
+.blanket {
     width: 100%;
     height: 100%;
-  }
-  /* page2 - about */
-  .page2 .bed > .flame {
-    position: absolute;
-    background-color:pink;
-    width: 800px;
-    height: 500px;
-    top: 30%;
-    left: 20%;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-    box-shadow: -6px 6px 6px 0.3px rgba(129, 129, 129, 0.4);
-  }
-  .page2 .bed>.blanket {
-      position: absolute;
-    background-color:gold;
-      width: 800px;
-      height: 500px;
-      top: 3%;
-      left: 30%;
-      border-left: 1px solid black;
-      border-bottom: 1px solid black;
-      box-shadow: -6px 6px 6px .3px rgba(129, 129, 129, 0.4);
-  }
-  /* 침대 - 내용 */
-  .blanket {
-      width: 100%;
-      height: 100%;
-  }
-  .blanket>.content {
-      width: 100%;
-      height: 100%;
-  }
-  .pro>img {
-      height: 130%;
-      margin-left: 5%;
-  }
-  
-  .blanket>.content>.file>.me {
-      margin-top: 10%;
-      width: 100%;
-      height: 100%;
-      position: relative;
-  }
-  .blanket>.content>.file {
-      width: 100%;
-      height: 100%;
-  }
-  .file>ul>li {
-      padding: 10px;
-  }
-  
-  .birth>ul>li:first-child {
-      font-size: 1.1rem;
-      font-weight: bold;
-  }
-  
-  .birth>ul>li:nth-child(2) {
-      font-size: 1rem;
-      padding: 5px;
-  }
-  
-  .edu>ul>li:first-child {
-      font-size: 1.1rem;
-      font-weight: bold;
-  }
-  
-  .edu>ul>li:not(:first-child) {
-      font-size: 1rem;
-      padding: 5px;
-  }
-  
-  .skills {
-      width: 100%;
-  }
-  .skills>ul {
-      width: 100%;
-      height: 100%;
-  }
-  
-  .skills>.title {
-      font-size: 1.1rem;
-      font-weight: bold;
-      width: 100%;
-  }
-  .skills>ul>li {
-      box-sizing: border-box;
-      padding: 10px;
-      width: calc(100%/3);
-  }
-  /* page2 - me */
-  nav ul {
-      padding:10px;
-      font-weight:bold;
-    margin-left:50px;
-    margin-top:30px;
-  }
-  .content-1 > li:first-child {
-      font-size:2rem;
-      font-weight:bold;
-  }
-  .content-1 > li {
-      padding:10px;
-  }
-  .content-2 > li {
-      padding:10px;
-  }
+}
+
+.blanket>.content {
+    width: 100%;
+    height: 100%;
+}
+
+.pro>img {
+    height: 130%;
+    margin-left: 5%;
+}
+
+.blanket>.content>.file>.me {
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.blanket>.content>.file {
+    width: 100%;
+    height: 100%;
+}
+
+.file>ul>li {
+    padding: 10px;
+}
+
+.birth>ul>li:first-child {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.birth>ul>li:nth-child(2) {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.edu>ul>li:first-child {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.edu>ul>li:not(:first-child) {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.skills {
+    width: 100%;
+}
+
+.skills>ul {
+    width: 100%;
+    height: 100%;
+}
+
+.skills>.title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.skills>ul>li {
+    box-sizing: border-box;
+    padding: 10px;
+    width: calc(100%/3);
+}
+
+/* page2 - me */
+nav ul {
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.content-1>li:first-child {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.content-1>li {
+    padding: 10px;
+}
+
+.content-2>li {
+    padding: 10px;
+}
+/* 2페이지 - 탭박스 */
+.page2 > .tab-box-1 {
+    margin-left: 16%;
+    margin-top: 23%;
+}
+.tab-box-1 > .head > ul > li > a > img {
+    width: 70%;
+}
+.tab-box-1 > .head > ul > li > .me > img {
+    margin-top: 40%;
+}
+
 
 /* 3페이지 */
 .page3 {
@@ -436,7 +462,7 @@ body, ul, li {
 }
 
 .name-info>div>ul>li {
-    padding: 10px;
+    padding: 5px;
 }
 
 .name-info>div>ul>li:first-child {
@@ -446,26 +472,32 @@ body, ul, li {
 .name-info>div>ul>.di {
     font-weight: bold;
 }
+.name-info > .intro > .info-3 > li {
+    padding-right: 25px;
+}
 .slider .slick-prev {
     display: none;
     opacity: 0;
     user-select: none;
 }
+
 .slider-nav .slick-next {
     position: absolute;
-    top:50%;
+    top: 50%;
     right: 0;
     background-color: black;
     display: block;
     width: 100px;
     height: 5px;
-} 
+}
+
 .sum-slider {
     position: relative;
 }
+
 .aro1_next {
     position: absolute;
-    top:50%;
+    top: 50%;
     right: 0;
     transform: translatey(-50%);
     background-color: black;
@@ -771,6 +803,7 @@ a {
     left: 43%;
     z-index: 50;
 }
+
 .lastdoor li {
     background-color: white;
     width: 20%;
@@ -796,12 +829,13 @@ a {
     right: 43%;
 }
 
-.popup1 > .start {
-    color:white;
+.popup1>.start {
+    color: white;
     position: absolute;
     top: 25%;
     left: 20%;
 }
+
 .start>li:first-child {
     font-weight: bold;
     font-size: 2rem;
@@ -810,17 +844,20 @@ a {
 .start>li {
     padding: 5px;
 }
+
 .end-contact {
     position: absolute;
     top: 54%;
     right: 15%;
     user-select: none;
-    color:white;
+    color: white;
     font-weight: bold;
 }
-.end-contact > li {
+
+.end-contact>li {
     padding: 5px;
 }
-.end-contact > li:first-child {
+
+.end-contact>li:first-child {
     font-size: 2rem;
 }
