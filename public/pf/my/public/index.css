@@ -291,7 +291,7 @@ li {
     top: 10%;
     left: 37%;
     border-left: 2px solid black;
-    border-bottom: 2px solid black;
+    border-bottom: px solid black;
     box-shadow: -6px 6px 6px .3px rgba(129, 129, 129, 0.4);
 }
 
@@ -391,13 +391,14 @@ nav ul {
 /* 2페이지 - 탭박스 */
 .page2 > .tab-box-1 {
     margin-left: 16%;
-    margin-top: 23%;
+    margin-top: 21%;
 }
 .tab-box-1 > .head > ul > li > a > img {
     width: 70%;
+    box-shadow: -6px 6px 6px 0.3px rgba(129, 129, 129, 0.4);
 }
 .tab-box-1 > .head > ul > li > .me > img {
-    margin-top: 40%;
+    margin-top: 35%;
 }
 
 
