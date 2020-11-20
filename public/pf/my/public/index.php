@@ -64,7 +64,6 @@ include "../part/head.php"
                     <div></div>
                 </div>
             </div>
-
         </div>
         <div class="desert" style="background-image:url('https://yousangyeop.github.io/img1/pf/my/desert.png')"></div>
         <ul class="top-text">
