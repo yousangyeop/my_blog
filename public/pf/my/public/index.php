@@ -457,7 +457,7 @@ include "../part/head.php"
                     <div><img src="https://yousangyeop.github.io/img1/pf/my/stco1.png" alt="" width="60%"></div>
                     <div><img src="https://yousangyeop.github.io/img1/pf/my/paul1.png" alt="" width="60%"></div>
                 </div>
-                <div class="aro1_next"></div>
+                <div class="aro1_next"><img src="https://yousangyeop.github.io/img1/pf/my/aro1.png" alt="" width="110"></div>
             </div>
         </div>
     </div>
@@ -493,8 +493,8 @@ include "../part/head.php"
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
+                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="item-2-sel absolute">

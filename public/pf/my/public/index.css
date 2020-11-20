@@ -467,7 +467,9 @@ nav ul {
 .slider-in .name {
     margin-top: 15%;
 }
-
+.name > li {
+    font-weight: bold;
+}
 .name-info>div:first-child {
     font-weight: bold;
     font-size: 1.2rem;
@@ -522,13 +524,14 @@ nav ul {
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translatey(-50%);
-    background-color: black;
-    width: 100px;
-    height: 50px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
 }
 
-
+.aro1_next:active > img {
+    transform: translateY(2px);
+}
 /* 4페이지 */
 a {
     text-decoration: none;
@@ -665,11 +668,13 @@ a {
     font-size: 1.3rem;
     padding-top: 20px;
 }
-
+.link-box>li {
+    padding: 15px;
+    margin-top: -50px;
+    margin-left: 20px;
+}
 .link-box>li>img {
-    width: 70px;
-    padding: 20px;
-    margin-top: -60px;
+    width: 50px;
 }
 
 /* 5페이지 */
