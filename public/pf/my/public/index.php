@@ -83,8 +83,10 @@ include "../part/head.php"
         <div class="tab-box-1">
             <div class="head">
                 <ul class="flex">
-                    <li class="active" data-tab-name="box-1" data-tab-head-item-name="1"><a class="about"><img src="https://yousangyeop.github.io/img1/pf/my/button-about.png" alt=""></a></li>
-                    <li data-tab-name="box-1" data-tab-head-item-name="2"><a class="me"><img src="https://yousangyeop.github.io/img1/pf/my/button-me.png" alt=""></a></li>
+                    <li class="active" data-tab-name="box-1" data-tab-head-item-name="1"><a class="custom about"><img
+                                src="https://yousangyeop.github.io/img1/pf/my/button-about.png" alt=""></a></li>
+                    <li data-tab-name="box-1" data-tab-head-item-name="2"><a class="custom me"><img
+                                src="https://yousangyeop.github.io/img1/pf/my/button-me.png" alt=""></a></li>
                 </ul>
             </div>
             <div class="body">
