@@ -328,23 +328,25 @@ li {
 }
 
 .birth>ul>li:first-child {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
 .birth>ul>li:nth-child(2) {
     font-size: 1rem;
     padding: 5px;
+    font-weight: bold;
 }
 
 .edu>ul>li:first-child {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
 .edu>ul>li:not(:first-child) {
     font-size: 1rem;
     padding: 5px;
+    font-weight: bold;
 }
 
 .skills {
@@ -373,20 +375,25 @@ nav ul {
     padding: 10px;
     font-weight: bold;
     margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
-
+.content {
+    margin-left: 20px;
+}
 .content-1>li:first-child {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .content-1>li {
     padding: 10px;
+    font-size: 1.1rem;
 }
 
 .content-2>li {
     padding: 10px;
+    font-size: 1.1rem;
 }
 
 /* 2페이지 - 탭박스 */
