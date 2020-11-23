@@ -78,7 +78,8 @@ include "../part/head.php"
             <li class="text3">I'm sangyeop</li>
         </ul>
     </div>
-    <div class="section page2 flex flex-1-0-0" style="background-image: url('https://yousangyeop.github.io/img1/pf/my/background.png');">
+    <div class="section page2 flex flex-1-0-0"
+        style="background-image: url('https://yousangyeop.github.io/img1/pf/my/background.png');">
         <div class="tab-box-1">
             <div class="head">
                 <ul class="flex">
@@ -170,7 +171,8 @@ include "../part/head.php"
             </div>
         </div>
     </div>
-    <div class="section page3" style="background-image: url('https://yousangyeop.github.io/img1/pf/my/background-4.png');">
+    <div class="section page3"
+        style="background-image: url('https://yousangyeop.github.io/img1/pf/my/background.png');">
         <div class="main">
             <div class="slider slider-for">
                 <div class="slider-in">
@@ -411,8 +413,9 @@ include "../part/head.php"
                         src="https://yousangyeop.github.io/img1/pf/my/paul.png" alt="" width="45%">
                     <div class="text-box">
                         <div class="title">
-                            <a href="https://site1.blog.oa.gg/pf/pr/public/index.php"></a>
-                            <h1>PAUL ROASTERS</h1>
+                            <a href="https://site1.blog.oa.gg/pf/pr/public/index.php">
+                                <h1>PAUL ROASTERS</h1>
+                            </a>
                         </div>
                         <div>
                             <ul class="name">
@@ -456,11 +459,13 @@ include "../part/head.php"
                     <div><img src="https://yousangyeop.github.io/img1/pf/my/stco1.png" alt="" width="60%"></div>
                     <div><img src="https://yousangyeop.github.io/img1/pf/my/paul1.png" alt="" width="60%"></div>
                 </div>
-                <div class="aro1_next"><img src="https://yousangyeop.github.io/img1/pf/my/aro1.png" alt="" width="110"></div>
+                <div class="aro1_next"><img src="https://yousangyeop.github.io/img1/pf/my/aro1.png" alt="" width="110">
+                </div>
             </div>
         </div>
     </div>
-    <div class="section page4" style="background-image: url('https://yousangyeop.github.io/img1/pf/my/background-2.png');">
+    <div class="section page4"
+        style="background-image: url('https://yousangyeop.github.io/img1/pf/my/background.png');">
         <div class="list-box row">
             <div class="item-list cell relative">
                 <div class="item item-1 active absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/africa.PNG"
@@ -601,7 +606,8 @@ include "../part/head.php"
             </div>
         </div>
     </div>
-    <div class="section page5 relative" style="background-image: url('https://yousangyeop.github.io/img1/pf/my/background-3.png');">
+    <div class="section page5 relative"
+        style="background-image: url('https://yousangyeop.github.io/img1/pf/my/background.png');">
         <div class="line5-1"></div>
         <div class="line5-2"></div>
         <div class="line5-3"></div>
