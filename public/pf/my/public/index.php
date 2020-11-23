@@ -488,7 +488,7 @@ include "../part/head.php"
             </div>
             <div class="item-select cell relative">
                 <div class="item-1-sel absolute active">
-                    <div class="title"> 아프리카 페스티벌</div>
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/portfolio/africa.PNG">아프리카 페스티벌</a> </div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">포스터 (poster)</li>
@@ -502,7 +502,7 @@ include "../part/head.php"
                     </ul>
                 </div>
                 <div class="item-2-sel absolute">
-                    <div class="title">앱 디자인</div>
+                    <div class="title-1">앱 디자인</div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">모바일 앱 (app)</li>
@@ -516,7 +516,7 @@ include "../part/head.php"
                     </ul>
                 </div>
                 <div class="item-3-sel absolute">
-                    <div class="title">아이스 컵받침 디자인</div>
+                    <div class="title-1">아이스 컵받침 디자인</div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">컵 받침</li>
@@ -530,7 +530,7 @@ include "../part/head.php"
                     </ul>
                 </div>
                 <div class="item-4-sel absolute">
-                    <div class="title">폴 로스터즈 로고 디자인</div>
+                    <div class="title-1">폴 로스터즈 로고 디자인</div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">로고 (logo) 디자인</li>
@@ -545,7 +545,7 @@ include "../part/head.php"
                     </ul>
                 </div>
                 <div class="item-5-sel absolute">
-                    <div class="title">포트폴리오 디자인 (리디자인)</div>
+                    <div class="title-1">포트폴리오 디자인 (리디자인)</div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">포트폴리오 시안</li>
@@ -560,7 +560,7 @@ include "../part/head.php"
                     </ul>
                 </div>
                 <div class="item-6-sel absolute">
-                    <div class="title">색 전시회 디자인</div>
+                    <div class="title-1">색 전시회 디자인</div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">포스터 (poster)</li>
@@ -574,7 +574,7 @@ include "../part/head.php"
                     </ul>
                 </div>
                 <div class="item-7-sel absolute">
-                    <div class="title">창작 사이트 시안</div>
+                    <div class="title-1">창작 사이트 시안</div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">창작 사이트 시안</li>
@@ -589,7 +589,7 @@ include "../part/head.php"
                     </ul>
                 </div>
                 <div class="item-8-sel absolute">
-                    <div class="title">포트폴리오 디자인</div>
+                    <div class="title-1">포트폴리오 디자인</div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">포트폴리오 시안</li>
