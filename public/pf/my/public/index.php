@@ -488,7 +488,7 @@ include "../part/head.php"
             </div>
             <div class="item-select cell relative">
                 <div class="item-1-sel absolute active">
-                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/portfolio/africa.PNG">아프리카 페스티벌</a> </div>
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/portfolio/africa.PNG" target="_blank" title="africa festival image">아프리카 페스티벌</a> <!--href=링크, target=새탭으로, title=툴팁--> </div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">포스터 (poster)</li>

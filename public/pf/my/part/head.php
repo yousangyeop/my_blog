@@ -4,13 +4,13 @@ if ( isset($pageName) == false ) {
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!--html위에 관용적으로 적어두는 것-->
+<html lang="en"> <!--head태그와 body태그를 감싸는 최상위 태그-->
 
-<head data-fullpage-index="0">
-    <meta charset="UTF-8">
+<head data-fullpage-index="0"> <!--본문을 설명해줌-->
+    <meta charset="UTF-8"> <!--utf-8로 문서를 읽어라 한국어로도 웹에서 표기되게-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>나의 포폴 페이지</title>
+    <title>나의 포폴 페이지</title> <!--웹의 제목을 지정-->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -29,7 +29,7 @@ if ( isset($pageName) == false ) {
 
 </head>
 
-<body>
+<body> <!-- 본문 -->
     <div class="line1-1"></div>
     <div class="line1-2"></div>
     <ul class="left-text">
