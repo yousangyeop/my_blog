@@ -78,7 +78,7 @@ include "../part/head.php"
             <li class="text3">I'm sangyeop</li>
         </ul>
     </div>
-    <div class="section page2 flex flex-1-0-0">
+    <div class="section page2 flex flex-1-0-0" style="background-image: url('https://yousangyeop.github.io/img1/pf/my/background.png');">
         <div class="tab-box-1">
             <div class="head">
                 <ul class="flex">
@@ -170,7 +170,7 @@ include "../part/head.php"
             </div>
         </div>
     </div>
-    <div class="section page3">
+    <div class="section page3" style="background-image: url('https://yousangyeop.github.io/img1/pf/my/background-4.png');">
         <div class="main">
             <div class="slider slider-for">
                 <div class="slider-in">
@@ -460,7 +460,7 @@ include "../part/head.php"
             </div>
         </div>
     </div>
-    <div class="section page4">
+    <div class="section page4" style="background-image: url('https://yousangyeop.github.io/img1/pf/my/background-2.png');">
         <div class="list-box row">
             <div class="item-list cell relative">
                 <div class="item item-1 active absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/africa.PNG"
@@ -483,7 +483,7 @@ include "../part/head.php"
             </div>
             <div class="item-select cell relative">
                 <div class="item-1-sel absolute active">
-                    <div class="title">아프리카 페스티벌</div>
+                    <div class="title"> 아프리카 페스티벌</div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">포스터 (poster)</li>
@@ -601,7 +601,7 @@ include "../part/head.php"
             </div>
         </div>
     </div>
-    <div class="section page5 relative">
+    <div class="section page5 relative" style="background-image: url('https://yousangyeop.github.io/img1/pf/my/background-3.png');">
         <div class="line5-1"></div>
         <div class="line5-2"></div>
         <div class="line5-3"></div>

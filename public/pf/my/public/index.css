@@ -648,19 +648,20 @@ a {
     padding-bottom: 50px;
 }
 
-.item-select>div>.title {
-    font-size: 2.5rem;
+.item-select>div>.title{
+    font-size: 2.8rem;
     font-weight: bold;
 }
 
 .item-select>div>.sub-title>li {
     padding-top: 30px;
+    font-size: 1.3rem;
 }
 
 .item-select>div>ul>.sub-1,
 .sub-3 {
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 
 .item-select>div>.tool {
