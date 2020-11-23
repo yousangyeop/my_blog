@@ -502,7 +502,7 @@ include "../part/head.php"
                     </ul>
                 </div>
                 <div class="item-2-sel absolute">
-                    <div class="title-1">앱 디자인</div>
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/artworks/1/%EB%AF%B8%EC%88%A0%EA%B4%80%20%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EB%94%94%EC%9E%90%EC%9D%B8(%20%EC%95%B1%20).png" target="_blank" title="app design">앱 디자인</a></div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">모바일 앱 (app)</li>
@@ -516,7 +516,7 @@ include "../part/head.php"
                     </ul>
                 </div>
                 <div class="item-3-sel absolute">
-                    <div class="title-1">아이스 컵받침 디자인</div>
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/blog/article/pf/cup.png" target="_blank" title="ice Cupboard"> 아이스 컵받침 디자인</a></div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">컵 받침</li>
@@ -530,7 +530,7 @@ include "../part/head.php"
                     </ul>
                 </div>
                 <div class="item-4-sel absolute">
-                    <div class="title-1">폴 로스터즈 로고 디자인</div>
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/blog/article/pf/logo-1.png" target="_blank" title="paul roasters logo">폴 로스터즈 로고 디자인</a></div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">로고 (logo) 디자인</li>
@@ -545,7 +545,7 @@ include "../part/head.php"
                     </ul>
                 </div>
                 <div class="item-5-sel absolute">
-                    <div class="title-1">포트폴리오 디자인 (리디자인)</div>
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/my.jpg" target="_blank" title="portfolio REdesign">포트폴리오 디자인 (리디자인)</a> </div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">포트폴리오 시안</li>
@@ -560,7 +560,7 @@ include "../part/head.php"
                     </ul>
                 </div>
                 <div class="item-6-sel absolute">
-                    <div class="title-1">색 전시회 디자인</div>
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/navy.PNG" target="_blank" title="color Exhibition"> 색 전시회 디자인</a></div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">포스터 (poster)</li>
@@ -574,7 +574,7 @@ include "../part/head.php"
                     </ul>
                 </div>
                 <div class="item-7-sel absolute">
-                    <div class="title-1">창작 사이트 시안</div>
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/paul-1.png" target="_blank" title="paul roasters site"> 창작 사이트 시안</a></div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">창작 사이트 시안</li>
@@ -589,7 +589,7 @@ include "../part/head.php"
                     </ul>
                 </div>
                 <div class="item-8-sel absolute">
-                    <div class="title-1">포트폴리오 디자인</div>
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/portfolio.jpg" target="_blank" title="portfolio design"> 포트폴리오 디자인</a></div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
                         <li class="sub-2">포트폴리오 시안</li>

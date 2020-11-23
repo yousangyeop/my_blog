@@ -632,11 +632,11 @@ a {
 }
 
 .item-select>div {
-    opacity: 0;
+    display: none;
 }
 
 .item-select>div.active {
-    opacity: 1;
+    display: block;
 }
 
 .item-select>div {
