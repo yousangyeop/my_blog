@@ -19,7 +19,7 @@ include "../part/head.php"
         <li class="text3">Instagram/Facebook/Youtube</li>
     </ul>
     <div class="section page1">
-        <div class="meteor-field" style="background-image:url('https://yousangyeop.github.io/img1/pf/my/back.png')">
+        <div class="meteor-field" style="background-image:url('https://yousangyeop.github.io/img1/pf/my/back.png')"><!--div=selector, style=declaration(선언), backround-image=property(속성), url=value(값)-->
             <div class="meteor meteor-1" data-meteor-delay="6000" data-meteor-duration="6000" data-meteor-x="-3000">
                 <div>
                     <div></div>
