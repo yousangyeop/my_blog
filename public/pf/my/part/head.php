@@ -9,7 +9,10 @@ if ( isset($pageName) == false ) {
 
 <head data-fullpage-index="0"> <!--본문을 설명해줌-->
     <meta charset="UTF-8"> <!--utf-8로 문서를 읽어라 한국어로도 웹에서 표기되게-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--모바일로도 보게끔 하는 반응형 설정-->
+    <meta name="author" content="yeobb"><!--저자-->
+    <meta name="description" content="웹디자인 취업을 위한 포트폴리오 페이지입니다."><!--이 페이지 설명-->
+    <meta name="keywords" content="웹디자인, 웹접근성, 포트폴리오"><!--키워드 검색시 나올 확률이 높음--> 
     <title>나의 포폴 페이지</title> <!--웹의 제목을 지정-->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
