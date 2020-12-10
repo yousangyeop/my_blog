@@ -484,6 +484,8 @@ include "../part/head.php"
                         alt=""> </div>
                 <div class="item item-8 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/portfolio.jpg"
                         alt=""> </div>
+                <div class="item item-9 active absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/holder.png"
+                        alt=""> </div>
 
             </div>
             <div class="item-select cell relative">
@@ -596,6 +598,20 @@ include "../part/head.php"
                         <li class="sub-3">CONCEPT</li>
                         <li class="sub-4">저를 소개할 수 있는 포트폴리오 페이지 시안입니다. 컨셉은 제 방이며 제 방이야 말로 저를 가장 잘 드러낼 수 있는 공간이라고
                             생각하였습니다.</li>
+                    </ul>
+                    <div class="tool">TOOL</div>
+                    <ul class="link-box flex">
+                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
+                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="item-9-sel absolute">
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/holder.png" target="_blank" title="portfolio design"> 컵홀더 디자인</a></div>
+                    <ul class="sub-title">
+                        <li class="sub-1">DIVISION</li>
+                        <li class="sub-2">컵 홀더 디자인</li>
+                        <li class="sub-3">CONCEPT</li>
+                        <li class="sub-4">전에 작업했던 폴로스터즈라는 카페의 캐릭터를 만들어 보았고 그 캐릭터를 컵홀더에 프린팅했을 때를 간략하게 구현해보았습니다.</li>
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
