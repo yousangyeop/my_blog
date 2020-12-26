@@ -615,8 +615,16 @@ a {
     left: 10%;
 }
 .item-9 {
-    top: 25%;
+    top: 0%;
     left: 50%;
+}
+.item-10 {
+    top: 39%;
+    left: 22%;
+}
+.item-11 {
+    top: 68%;
+    left: 33%;
 }
 
 .item-list>div {
