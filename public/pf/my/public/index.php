@@ -490,6 +490,8 @@ include "../part/head.php"
                         alt=""> </div>
                 <div class="item item-11 active absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/second%20app.png"
                         alt=""> </div>
+                <div class="item item-12 active absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/lookbook.png"
+                        alt=""> </div>
 
             </div>
             <div class="item-select cell relative">
@@ -644,6 +646,20 @@ include "../part/head.php"
                         <li class="sub-2">모바일 로그인 화면 디자인</li>
                         <li class="sub-3">CONCEPT</li>
                         <li class="sub-4">피그마를 활용한 모바일 로그인 화면을 디자인 해보았습니다.</li>
+                    </ul>
+                    <div class="tool">TOOL</div>
+                    <ul class="link-box flex">
+                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
+                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="item-12-sel absolute">
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/lookbook.png" target="_blank" title="portfolio design">룩북 디자인</a></div>
+                    <ul class="sub-title">
+                        <li class="sub-1">DIVISION</li>
+                        <li class="sub-2">모바일 룩북 디자인</li>
+                        <li class="sub-3">CONCEPT</li>
+                        <li class="sub-4">피그마를 활용한 모바일 룩북화면을 디자인 해보았습니다.</li>
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
