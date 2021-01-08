@@ -15,7 +15,6 @@ include "../part/head.php"
     </ul>
     <ul class="right-text">
         <li class="text1">SHARE</li>
-        <li class="text2">_____________________</li>
         <li class="text3">Instagram/Facebook/Youtube</li>
     </ul>
     <div class="section page1">
@@ -492,6 +491,8 @@ include "../part/head.php"
                         alt=""> </div>
                 <div class="item item-12 active absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/lookbook.png"
                         alt=""> </div>
+                <div class="item item-13 active absolute"> <img src="https://yousangyeop.github.io/img1/pf/artworks/1/main1.png"
+                        alt=""> </div>
 
             </div>
             <div class="item-select cell relative">
@@ -664,6 +665,19 @@ include "../part/head.php"
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
                         <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
+                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="item-13-sel absolute">
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/artworks/1/main.png" target="_blank" title="portfolio design">웹사이트 디자인</a></div>
+                    <ul class="sub-title">
+                        <li class="sub-1">DIVISION</li>
+                        <li class="sub-2">화장품 회사사이트 디자인</li>
+                        <li class="sub-3">CONCEPT</li>
+                        <li class="sub-4">일러스트 툴을 활용한 웹사이트를 디자인 해보았습니다.</li>
+                    </ul>
+                    <div class="tool">TOOL</div>
+                    <ul class="link-box flex">
                         <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
                     </ul>
                 </div>
