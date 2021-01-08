@@ -483,15 +483,15 @@ include "../part/head.php"
                         alt=""> </div>
                 <div class="item item-8 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/portfolio.jpg"
                         alt=""> </div>
-                <div class="item item-9 active absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/holder.png"
+                <div class="item item-9 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/holder.png"
                         alt=""> </div>
-                <div class="item item-10 active absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/first%20app.png"
+                <div class="item item-10 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/first%20app.png"
                         alt=""> </div>
-                <div class="item item-11 active absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/second%20app.png"
+                <div class="item item-11 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/second%20app.png"
                         alt=""> </div>
-                <div class="item item-12 active absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/lookbook.png"
+                <div class="item item-12 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/lookbook.png"
                         alt=""> </div>
-                <div class="item item-13 active absolute"> <img src="https://yousangyeop.github.io/img1/pf/artworks/1/main1.png"
+                <div class="item item-13 absolute"> <img src="https://yousangyeop.github.io/img1/pf/artworks/1/main1.png"
                         alt=""> </div>
 
             </div>
