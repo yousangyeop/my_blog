@@ -595,6 +595,7 @@ include "../part/head.php"
                     <ul class="link-box flex">
                         <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
                         <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/artworks/2/figma.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="item-8-sel absolute">
@@ -610,6 +611,7 @@ include "../part/head.php"
                     <ul class="link-box flex">
                         <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
                         <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/artworks/2/figma.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="item-9-sel absolute">
@@ -636,8 +638,7 @@ include "../part/head.php"
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                         <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/artworks/2/figma.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="item-11-sel absolute">
@@ -650,8 +651,7 @@ include "../part/head.php"
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/artworks/2/figma.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="item-12-sel absolute">
@@ -664,8 +664,7 @@ include "../part/head.php"
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/artworks/2/figma.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="item-13-sel absolute">
