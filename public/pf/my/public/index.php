@@ -121,19 +121,22 @@ include "../part/head.php"
                                                 <ul class="flex flex-wrap-wrap">
 
                                                     <li class="html"><img
-                                                            src="https://yousangyeop.github.io/img1/pf/my/html.png"
+                                                            src="https://yousangyeop.github.io/img1/pf/artworks/2/html.png"
                                                             alt="" width="60"></li>
                                                     <li class="css"><img
-                                                            src="https://yousangyeop.github.io/img1/pf/my/css.png"
+                                                            src="https://yousangyeop.github.io/img1/pf/artworks/2/css.png"
                                                             alt="" width="60"></li>
                                                     <li class="js"><img
-                                                            src="https://yousangyeop.github.io/img1/pf/my/js.png" alt=""
+                                                            src="https://yousangyeop.github.io/img1/pf/artworks/2/js.png" alt=""
                                                             width="60"></li>
                                                     <li class="ps"><img
-                                                            src="https://yousangyeop.github.io/img1/pf/my/ps.png" alt=""
+                                                            src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""
                                                             width="60"></li>
                                                     <li class="ai"><img
-                                                            src="https://yousangyeop.github.io/img1/pf/my/ai.png" alt=""
+                                                            src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""
+                                                            width="60"></li>
+                                                     <li class="figma"><img
+                                                            src="https://yousangyeop.github.io/img1/pf/artworks/2/figma.png" alt=""
                                                             width="60"></li>
                                                 </ul>
                                             </li>
@@ -205,9 +208,9 @@ include "../part/head.php"
                                 </ul>
                                 <ul class="info-3 flex">
                                     <li>TOOL</li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/html-1.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/css-1.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/js-1.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/html.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/css.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/js.png" alt=""></li>
                                 </ul>
                             </div>
                         </nav>
@@ -244,9 +247,9 @@ include "../part/head.php"
                                 </ul>
                                 <ul class="info-3 flex">
                                     <li>TOOL</li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/html-1.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/css-1.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/js-1.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/html.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/css.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/js.png" alt=""></li>
                                 </ul>
                             </div>
                         </nav>
@@ -283,9 +286,9 @@ include "../part/head.php"
                                 </ul>
                                 <ul class="info-3 flex">
                                     <li>TOOL</li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/html-1.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/css-1.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/js-1.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/html.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/css.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/js.png" alt=""></li>
                                 </ul>
                             </div>
                         </nav>
@@ -322,9 +325,9 @@ include "../part/head.php"
                                 </ul>
                                 <ul class="info-3 flex">
                                     <li>TOOL</li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/html-1.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/css-1.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/js-1.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/html.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/css.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/js.png" alt=""></li>
                                 </ul>
                             </div>
                         </nav>
@@ -361,8 +364,8 @@ include "../part/head.php"
                                 </ul>
                                 <ul class="info-3 flex">
                                     <li>TOOL</li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/html-1.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/css-1.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/html.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/css.png" alt=""></li>
                                 </ul>
                             </div>
                         </nav>
@@ -399,9 +402,9 @@ include "../part/head.php"
                                 </ul>
                                 <ul class="info-3 flex">
                                     <li>TOOL</li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/html-1.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/css-1.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/js-1.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/html.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/css.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/js.png" alt=""></li>
                                 </ul>
                             </div>
                         </nav>
@@ -438,9 +441,9 @@ include "../part/head.php"
                                 </ul>
                                 <ul class="info-3 flex">
                                     <li>TOOL</li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/html-1.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/css-1.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/my/js-1.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/html.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/css.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/js.png" alt=""></li>
                                 </ul>
                             </div>
                         </nav>
@@ -506,8 +509,8 @@ include "../part/head.php"
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
-                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
-                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""></li>
+                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="item-2-sel absolute">
@@ -520,8 +523,8 @@ include "../part/head.php"
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                    <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""></li>
+                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="item-3-sel absolute">
@@ -534,8 +537,8 @@ include "../part/head.php"
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                    <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""></li>
+                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="item-4-sel absolute">
@@ -549,8 +552,8 @@ include "../part/head.php"
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                    <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""></li>
+                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="item-5-sel absolute">
@@ -564,8 +567,8 @@ include "../part/head.php"
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                    <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""></li>
+                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="item-6-sel absolute">
@@ -578,8 +581,8 @@ include "../part/head.php"
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                    <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""></li>
+                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="item-7-sel absolute">
@@ -593,8 +596,8 @@ include "../part/head.php"
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                    <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""></li>
+                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
                         <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/artworks/2/figma.png" alt=""></li>
                     </ul>
                 </div>
@@ -609,8 +612,8 @@ include "../part/head.php"
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                    <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""></li>
+                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
                         <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/artworks/2/figma.png" alt=""></li>
                     </ul>
                 </div>
@@ -624,8 +627,8 @@ include "../part/head.php"
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ps-1.png" alt=""></li>
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                    <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""></li>
+                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
                     </ul>
                 </div>
                 <div class="item-10-sel absolute">
@@ -677,7 +680,7 @@ include "../part/head.php"
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/my/ai-1.png" alt=""></li>
+                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
                     </ul>
                 </div>
 
