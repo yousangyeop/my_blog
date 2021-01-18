@@ -449,6 +449,45 @@ include "../part/head.php"
                         </nav>
                     </div>
                 </div>
+                <div class="slider-in">
+                    <a href="https://site1.blog.oa.gg/"></a><img
+                        src="https://yousangyeop.github.io/img1/pf/my/blog.png" alt="" width="45%">
+                    <div class="text-box">
+                        <div class="title">
+                            <a href="https://site1.blog.oa.gg/">
+                                <h1>MY BLOG</h1>
+                            </a>
+                        </div>
+                        <div>
+                            <ul class="name">
+                                <li>블로그</li>
+                                <li>https://site1.blog.oa.gg/</li>
+                            </ul>
+                        </div>
+
+                        <nav class="name-info flex-jc-sb">
+                            <div>Introduction <br> of page </div>
+                            <div class="intro">
+                                <ul class="info-1 flex">
+                                    <li>CONCEPT</li>
+                                    <li>저의 취미를 공유할 수 있는 공간을 만들고 싶었고 그래서 블로그를 만들게 되었습니다.</li>
+                                </ul>
+                                <ul class="info-2 flex">
+                                    <li>SITE</li>
+                                    <li>블로그</li>
+                                    <li class="di">DIVISION</li>
+                                    <li>홈페이지 창작</li>
+                                </ul>
+                                <ul class="info-3 flex">
+                                    <li>TOOL</li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/html.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/css.png" alt=""></li>
+                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/js.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
 
             </div>
             <div class="sum-slider">
@@ -460,6 +499,7 @@ include "../part/head.php"
                     <div><img src="https://yousangyeop.github.io/img1/pf/my/port1.png" alt="" width="60%"></div>
                     <div><img src="https://yousangyeop.github.io/img1/pf/my/stco1.png" alt="" width="60%"></div>
                     <div><img src="https://yousangyeop.github.io/img1/pf/my/paul1.png" alt="" width="60%"></div>
+                    <div><img src="https://yousangyeop.github.io/img1/pf/my/blog-1.png" alt="" width="60%"></div>
                 </div>
                 <div class="aro1_next"><img src="https://yousangyeop.github.io/img1/pf/my/aro1.png" alt="" width="110">
                 </div>
