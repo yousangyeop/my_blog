@@ -96,7 +96,7 @@ include "../part/head.php"
                             <li class="blanket">
                                 <ul class="content flex">
                                     <li class="pro"><img src="https://yousangyeop.github.io/img1/pf/my/profile.png"
-                                            alt="" width="300"></li>
+                                            alt="" width=""></li>
                                     <li class="file">
                                         <ul class="me">
                                             <li class="name"><img

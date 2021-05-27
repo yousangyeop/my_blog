@@ -300,17 +300,19 @@ li {
     width: 100%;
     height: 100%;
 }
-
+.pro {
+    padding: 20px;
+}
 .pro>img {
-    height: 130%;
-    margin-left: 5%;
+    height: 100%;
 }
 
 .blanket>.content>.file>.me {
-    margin-top: 10%;
+    margin-top: 2%;
     width: 100%;
     height: 100%;
     position: relative;
+    margin-left: 7%;
 }
 
 .blanket>.content>.file {
