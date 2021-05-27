@@ -77,8 +77,7 @@ include "../part/head.php"
             <li class="text3">I'm sangyeop</li>
         </ul>
     </div>
-    <div class="section page2 flex flex-1-0-0"
-        style="background-image: url('https://yousangyeop.github.io/img1/pf/my/background.png');">
+    <div class="section page2 flex flex-1-0-0">
         <div class="tab-box-1">
             <div class="head">
                 <ul class="flex">
@@ -173,16 +172,15 @@ include "../part/head.php"
             </div>
         </div>
     </div>
-    <div class="section page3"
-        style="background-image: url('https://yousangyeop.github.io/img1/pf/my/background.png');">
+    <div class="section page3">
         <div class="main">
             <div class="slider slider-for">
                 <div class="slider-in">
-                    <a href="https://site1.blog.oa.gg/pf/gm/index.php"><img
+                    <a href="https://site1.blog.oa.gg/pf/gm/index.php" target="_blank" title="gentlemonster page"><img
                             src="https://yousangyeop.github.io/img1/pf/my/gm.png" alt="" width="45%"></a>
                     <div class="text-box">
                         <div class="title">
-                            <a href="https://site1.blog.oa.gg/pf/gm/index.php">
+                            <a href="https://site1.blog.oa.gg/pf/gm/index.php" target="_blank" title="gentlemonster page">
                                 <h1>GENTLE MONSTER</h1>
                             </a>
                         </div>
@@ -217,50 +215,11 @@ include "../part/head.php"
                     </div>
                 </div>
                 <div class="slider-in">
-                    <a href="https://site1.blog.oa.gg/pf/dv/index.php"><img
-                            src="https://yousangyeop.github.io/img1/pf/my/dv.png" alt="" width="45%"></a>
-                    <div class="text-box">
-                        <div class="title">
-                            <a href="https://site1.blog.oa.gg/pf/dv/index.php">
-                                <h1>DI IN VISUAL</h1>
-                            </a>
-                        </div>
-                        <div>
-                            <ul class="name">
-                                <li>디인 비주얼</li>
-                                <li>www.di-in.co.kr</li>
-                            </ul>
-                        </div>
-
-                        <nav class="name-info flex-jc-sb">
-                            <div>Introduction <br> of page </div>
-                            <div class="intro">
-                                <ul class="info-1 flex">
-                                    <li>CONCEPT</li>
-                                    <li>디지털 마케팅을 주로 맡고 있는 에이전시입니다.</li>
-                                </ul>
-                                <ul class="info-2 flex">
-                                    <li>SITE</li>
-                                    <li>에이전시</li>
-                                    <li class="di">DIVISION</li>
-                                    <li>홈페이지 모작</li>
-                                </ul>
-                                <ul class="info-3 flex">
-                                    <li>TOOL</li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/html.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/css.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/js.png" alt=""></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-                <div class="slider-in">
-                    <a href="https://site1.blog.oa.gg/pf/yp/index.php"><img
+                    <a href="https://site1.blog.oa.gg/pf/yp/index.php" target="_blank" title="yp page"><img
                             src="https://yousangyeop.github.io/img1/pf/my/yp.png" alt="" width="45%"></a>
                     <div class="text-box">
                         <div class="title">
-                            <a href="https://site1.blog.oa.gg/pf/yp/index.php">
+                            <a href="https://site1.blog.oa.gg/pf/yp/index.php" target="_blank" title="yp page">
                                 <h1>YOGERPRESSO</h1>
                             </a>
                         </div>
@@ -295,50 +254,11 @@ include "../part/head.php"
                     </div>
                 </div>
                 <div class="slider-in">
-                    <a href="https://site1.blog.oa.gg/pf/shes/index.php"><img
-                            src="https://yousangyeop.github.io/img1/pf/my/shes.png" alt="" width="45%"></a>
-                    <div class="text-box">
-                        <div class="title">
-                            <a href="https://site1.blog.oa.gg/pf/shes/index.php">
-                                <h1>SHES LINE</h1>
-                            </a>
-                        </div>
-                        <div>
-                            <ul class="name">
-                                <li>한국쉬즈라인</li>
-                                <li>shes-line.co.kr</li>
-                            </ul>
-                        </div>
-
-                        <nav class="name-info flex-jc-sb">
-                            <div>Introduction <br> of page </div>
-                            <div class="intro">
-                                <ul class="info-1 flex">
-                                    <li>CONCEPT</li>
-                                    <li>"머리에서 발끝까지의 아름다움이"이라는 모토를 둔 미용품 유통하는 브랜드이다. </li>
-                                </ul>
-                                <ul class="info-2 flex">
-                                    <li>SITE</li>
-                                    <li>유통 회사</li>
-                                    <li class="di">DIVISION</li>
-                                    <li>홈페이지 모작</li>
-                                </ul>
-                                <ul class="info-3 flex">
-                                    <li>TOOL</li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/html.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/css.png" alt=""></li>
-                                    <li><img src="https://yousangyeop.github.io/img1/pf/artworks/2/js.png" alt=""></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-                <div class="slider-in">
-                    <a href="https://site1.blog.oa.gg/pf/page/pp.php"><img
+                    <a href="https://site1.blog.oa.gg/pf/page/pp.php" target="_blank" title="pf page"><img
                             src="https://yousangyeop.github.io/img1/pf/my/port.png" alt="" width="45%"></a>
                     <div class="text-box">
                         <div class="title">
-                            <a href="https://site1.blog.oa.gg/pf/page/pp.php">
+                            <a href="https://site1.blog.oa.gg/pf/page/pp.php" target="_blank" title="pf page">
                                 <h1>PORTFOLIO PAGE</h1>
                             </a>
                         </div>
@@ -372,11 +292,11 @@ include "../part/head.php"
                     </div>
                 </div>
                 <div class="slider-in">
-                    <a href="https://site1.blog.oa.gg/pf/stco/index.php"><img
+                    <a href="https://site1.blog.oa.gg/pf/stco/index.php" target="_blank" title="stco page"><img
                             src="https://yousangyeop.github.io/img1/pf/my/stco.png" alt="" width="45%"></a>
                     <div class="text-box">
                         <div class="title">
-                            <a href="https://site1.blog.oa.gg/pf/stco/index.php">
+                            <a href="https://site1.blog.oa.gg/pf/stco/index.php" target="_blank" title="stco page">
                                 <h1>STCO</h1>
                             </a>
                         </div>
@@ -493,9 +413,7 @@ include "../part/head.php"
             <div class="sum-slider">
                 <div class="slider slider-nav relative">
                     <div><img src="https://yousangyeop.github.io/img1/pf/my/gm1.png" alt="" width="60%"></div>
-                    <div><img src="https://yousangyeop.github.io/img1/pf/my/dv-1.png" alt="" width="60%"></div>
                     <div><img src="https://yousangyeop.github.io/img1/pf/my/yp1.png" alt="" width="60%"></div>
-                    <div><img src="https://yousangyeop.github.io/img1/pf/my/shes1.png" alt="" width="60%"></div>
                     <div><img src="https://yousangyeop.github.io/img1/pf/my/port1.png" alt="" width="60%"></div>
                     <div><img src="https://yousangyeop.github.io/img1/pf/my/stco1.png" alt="" width="60%"></div>
                     <div><img src="https://yousangyeop.github.io/img1/pf/my/paul1.png" alt="" width="60%"></div>
@@ -506,96 +424,22 @@ include "../part/head.php"
             </div>
         </div>
     </div>
-    <div class="section page4"
-        style="background-image: url('https://yousangyeop.github.io/img1/pf/my/background.png');">
+    <div class="section page4">
         <div class="list-box row">
             <div class="item-list cell relative">
-                <div class="item item-1 active absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/africa.PNG"
-                        alt=""> </div>
-                <div class="item item-2 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/app.png" alt="">
-                </div>
-                <div class="item item-3 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/cup.png" alt="">
-                </div>
-                <div class="item item-4 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/logo-1.png"
-                        alt=""> </div>
                 <div class="item item-5 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/my.jpg" alt="">
-                </div>
-                <div class="item item-6 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/navy.PNG" alt="">
                 </div>
                 <div class="item item-7 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/paul-1.png"
                         alt=""> </div>
                 <div class="item item-8 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/portfolio.jpg"
                         alt=""> </div>
-                <div class="item item-9 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/holder.png"
-                        alt=""> </div>
-                <div class="item item-10 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/first%20app.png"
-                        alt=""> </div>
-                <div class="item item-11 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/second%20app.png"
-                        alt=""> </div>
                 <div class="item item-12 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/lookbook.png"
                         alt=""> </div>
-                <div class="item item-13 absolute"> <img src="https://yousangyeop.github.io/img1/pf/artworks/1/main1.png"
+                <div class="item item-1 absolute"> <img src="https://yousangyeop.github.io/img1/pf/artworks/1/main1.png"
                         alt=""> </div>
 
             </div>
             <div class="item-select cell relative">
-                <div class="item-1-sel absolute active">
-                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/portfolio/africa.PNG" target="_blank" title="africa festival image">아프리카 페스티벌</a> <!--href=링크, target=새탭으로, title=툴팁--> </div>
-                    <ul class="sub-title">
-                        <li class="sub-1">DIVISION</li>
-                        <li class="sub-2">포스터 (poster)</li>
-                        <li class="sub-3">CONCEPT</li>
-                        <li class="sub-4">사람들에게 낯선 아프리카를 소개하는 페스티벌을 담은 포스터이다.</li>
-                    </ul>
-                    <div class="tool">TOOL</div>
-                    <ul class="link-box flex">
-                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""></li>
-                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
-                    </ul>
-                </div>
-                <div class="item-2-sel absolute">
-                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/artworks/1/%EB%AF%B8%EC%88%A0%EA%B4%80%20%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EB%94%94%EC%9E%90%EC%9D%B8(%20%EC%95%B1%20).png" target="_blank" title="app design">앱 디자인</a></div>
-                    <ul class="sub-title">
-                        <li class="sub-1">DIVISION</li>
-                        <li class="sub-2">모바일 앱 (app)</li>
-                        <li class="sub-3">CONCEPT</li>
-                        <li class="sub-4">단 한명의 작가의 작품을 전시하며 소규모로 진행되는 전시회입니다.</li>
-                    </ul>
-                    <div class="tool">TOOL</div>
-                    <ul class="link-box flex">
-                    <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""></li>
-                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
-                    </ul>
-                </div>
-                <div class="item-3-sel absolute">
-                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/blog/article/pf/cup.png" target="_blank" title="ice Cupboard"> 아이스 컵받침 디자인</a></div>
-                    <ul class="sub-title">
-                        <li class="sub-1">DIVISION</li>
-                        <li class="sub-2">컵 받침</li>
-                        <li class="sub-3">CONCEPT</li>
-                        <li class="sub-4">맥주잔에 잔받침을 제공하는 것에 착안하여 아이스커피 잔에 제공할 때 제공할 잔 받침 디자인입니다.</li>
-                    </ul>
-                    <div class="tool">TOOL</div>
-                    <ul class="link-box flex">
-                    <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""></li>
-                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
-                    </ul>
-                </div>
-                <div class="item-4-sel absolute">
-                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/blog/article/pf/logo-1.png" target="_blank" title="paul roasters logo">폴 로스터즈 로고 디자인</a></div>
-                    <ul class="sub-title">
-                        <li class="sub-1">DIVISION</li>
-                        <li class="sub-2">로고 (logo) 디자인</li>
-                        <li class="sub-3">CONCEPT</li>
-                        <li class="sub-4">폴 로스터즈라는 카페 로고 디자인입니다. 로고에는 성경에 예수님이 돌아오셨을 때 백성들이 종려나무를 들고 환영하였는데 그것에 착안하여 폴
-                            로스터즈 카페를 방문하시는 손님들을 환영한다는 의미를 담고 있습니다.</li>
-                    </ul>
-                    <div class="tool">TOOL</div>
-                    <ul class="link-box flex">
-                    <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""></li>
-                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
-                    </ul>
-                </div>
                 <div class="item-5-sel absolute">
                     <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/my.jpg" target="_blank" title="portfolio REdesign">포트폴리오 디자인 (리디자인)</a> </div>
                     <ul class="sub-title">
@@ -604,20 +448,6 @@ include "../part/head.php"
                         <li class="sub-3">CONCEPT</li>
                         <li class="sub-4">저를 소개할 수 있는 포트폴리오 페이지 시안입니다. 컨셉은 제 방이며 제 방이야 말로 저를 가장 잘 드러낼 수 있는 공간이라고
                             생각하였습니다.</li>
-                    </ul>
-                    <div class="tool">TOOL</div>
-                    <ul class="link-box flex">
-                    <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""></li>
-                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
-                    </ul>
-                </div>
-                <div class="item-6-sel absolute">
-                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/navy.PNG" target="_blank" title="color Exhibition"> 색 전시회 디자인</a></div>
-                    <ul class="sub-title">
-                        <li class="sub-1">DIVISION</li>
-                        <li class="sub-2">포스터 (poster)</li>
-                        <li class="sub-3">CONCEPT</li>
-                        <li class="sub-4">작은 전시회를 홍보하는 포스터 이며 컬러리스트를 초청하여 우리가 즐겨 사용하는 색을 소개하는 홍보 포스터입니다.</li>
                     </ul>
                     <div class="tool">TOOL</div>
                     <ul class="link-box flex">
@@ -657,46 +487,6 @@ include "../part/head.php"
                         <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/artworks/2/figma.png" alt=""></li>
                     </ul>
                 </div>
-                <div class="item-9-sel absolute">
-                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/holder.png" target="_blank" title="portfolio design"> 컵홀더 디자인</a></div>
-                    <ul class="sub-title">
-                        <li class="sub-1">DIVISION</li>
-                        <li class="sub-2">컵 홀더 디자인</li>
-                        <li class="sub-3">CONCEPT</li>
-                        <li class="sub-4">전에 작업했던 폴로스터즈라는 카페의 캐릭터를 만들어 보았고 그 캐릭터를 컵홀더에 프린팅했을 때를 간략하게 구현해보았습니다.</li>
-                    </ul>
-                    <div class="tool">TOOL</div>
-                    <ul class="link-box flex">
-                    <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""></li>
-                        <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
-                    </ul>
-                </div>
-                <div class="item-10-sel absolute">
-                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/first%20app.png" target="_blank" title="portfolio design"> 모바일 로그인 디자인1</a></div>
-                    <ul class="sub-title">
-                        <li class="sub-1">DIVISION</li>
-                        <li class="sub-2">모바일 로그인 화면 디자인</li>
-                        <li class="sub-3">CONCEPT</li>
-                        <li class="sub-4">피그마를 활용한 모바일 로그인 화면을 디자인 해보았습니다.</li>
-                    </ul>
-                    <div class="tool">TOOL</div>
-                    <ul class="link-box flex">
-                         <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/artworks/2/figma.png" alt=""></li>
-                    </ul>
-                </div>
-                <div class="item-11-sel absolute">
-                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/second%20app.png" target="_blank" title="portfolio design"> 모바일 로그인 디자인2</a></div>
-                    <ul class="sub-title">
-                        <li class="sub-1">DIVISION</li>
-                        <li class="sub-2">모바일 로그인 화면 디자인</li>
-                        <li class="sub-3">CONCEPT</li>
-                        <li class="sub-4">피그마를 활용한 모바일 로그인 화면을 디자인 해보았습니다.</li>
-                    </ul>
-                    <div class="tool">TOOL</div>
-                    <ul class="link-box flex">
-                        <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/artworks/2/figma.png" alt=""></li>
-                    </ul>
-                </div>
                 <div class="item-12-sel absolute">
                     <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/lookbook.png" target="_blank" title="portfolio design">룩북 디자인</a></div>
                     <ul class="sub-title">
@@ -710,7 +500,7 @@ include "../part/head.php"
                         <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/artworks/2/figma.png" alt=""></li>
                     </ul>
                 </div>
-                <div class="item-13-sel absolute">
+                <div class="item-1-sel absolute">
                     <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/artworks/1/main.png" target="_blank" title="portfolio design">웹사이트 디자인</a></div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
@@ -727,8 +517,7 @@ include "../part/head.php"
             </div>
         </div>
     </div>
-    <div class="section page5 relative"
-        style="background-image: url('https://yousangyeop.github.io/img1/pf/my/background.png');">
+    <div class="section page5 relative">
         <div class="line5-1"></div>
         <div class="line5-2"></div>
         <div class="line5-3"></div>
