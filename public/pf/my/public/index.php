@@ -158,7 +158,8 @@ include "../part/head.php"
                                         <li>어려셔부터 미술에 관심이 많았습니다 그래서 자연스레 디자인에 관심이 생겼고</li>
                                         <li>서울모드 패션디자인학과에 진학하게 되었고 학생 때 Juun.J 라는 브랜드를 좋아했습니다.</li>
                                         <li>Juun.J의 디자인에 대한 확실히 현대적인 접근 방식은 고전적인 테일러링에 대한</li>
-                                        <li>그의 숙달 지식에 깊이 뿌리를두고 있으며, 그는 새로운 실루엣을 만들기 위해 오래된 개념을 깨뜨립니다.</li>
+                                        <li>그의 숙달 지식에 깊이 뿌리를두고 있으며, 그는 새로운 실루엣을 만들기 위해 오래된 개념을</li>
+                                        <li>깨뜨립니다.</li>
                                     </ul>
                                     <ul class="content-2">
                                         <li> 저 역시 고전적인 감각보다 전위적인 디자인 감각을 끊임없이 연구하여 늘 새로운 웹디자이너가</li>
@@ -427,24 +428,27 @@ include "../part/head.php"
     <div class="section page4">
         <div class="list-box row">
             <div class="item-list cell relative">
-                <div class="item item-5 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/my.jpg" alt="">
+                <div class="item item-1 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/my-1.png" alt="">
                 </div>
-                <div class="item item-7 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/paul-1.png"
+                <div class="item item-2 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/paul-re-1.png"
                         alt=""> </div>
-                <div class="item item-8 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/portfolio.jpg"
+                <div class="item item-3 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/portfolio.jpg"
                         alt=""> </div>
-                <div class="item item-12 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/lookbook.png"
+                <div class="item item-4 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/lookbook-1.png"
                         alt=""> </div>
-                <div class="item item-1 absolute"> <img src="https://yousangyeop.github.io/img1/pf/artworks/1/main1.png"
+                <div class="item item-5 absolute"> <img src="https://yousangyeop.github.io/img1/pf/artworks/1/main1.png"
                         alt=""> </div>
-
+                <div class="item item-6 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/kream-1.png"
+                        alt=""> </div>
+                <div class="item item-7 absolute"> <img src="https://yousangyeop.github.io/img1/pf/my/mobile twice-1.png"
+                        alt=""> </div>
             </div>
             <div class="item-select cell relative">
-                <div class="item-5-sel absolute">
-                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/my.jpg" target="_blank" title="portfolio REdesign">포트폴리오 디자인 (리디자인)</a> </div>
+                <div class="item-1-sel absolute">
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/my.png" target="_blank" title="portfolio REdesign">포트폴리오 리디자인</a> </div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
-                        <li class="sub-2">포트폴리오 시안</li>
+                        <li class="sub-2">내 포트폴리오 디자인</li>
                         <li class="sub-3">CONCEPT</li>
                         <li class="sub-4">저를 소개할 수 있는 포트폴리오 페이지 시안입니다. 컨셉은 제 방이며 제 방이야 말로 저를 가장 잘 드러낼 수 있는 공간이라고
                             생각하였습니다.</li>
@@ -455,13 +459,13 @@ include "../part/head.php"
                         <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
                     </ul>
                 </div>
-                <div class="item-7-sel absolute">
-                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/paul-1.png" target="_blank" title="paul roasters site"> 창작 사이트 시안</a></div>
+                <div class="item-2-sel absolute">
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/paul-re.png" target="_blank" title="paul roasters site">폴 로스터즈 리디자인</a></div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
-                        <li class="sub-2">창작 사이트 시안</li>
+                        <li class="sub-2">폴로스터즈 리디자인</li>
                         <li class="sub-3">CONCEPT</li>
-                        <li class="sub-4">폴 로스터즈라는 카페를 제가 사이트로 구현하기 위한 시안입니다. 풀 페이지로 진행되며 메뉴 카테고리별로 상세페이지 디자인도 하였고 카페의
+                        <li class="sub-4">폴 로스터즈라는 카페를 제가 사이트로 구현하기 위한 시안입니다. 풀 페이지로 진행되며 페의
                             색을 담은 시안입니다.</li>
                     </ul>
                     <div class="tool">TOOL</div>
@@ -471,11 +475,11 @@ include "../part/head.php"
                         <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/artworks/2/figma.png" alt=""></li>
                     </ul>
                 </div>
-                <div class="item-8-sel absolute">
-                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/portfolio.jpg" target="_blank" title="portfolio design"> 포트폴리오 디자인</a></div>
+                <div class="item-3-sel absolute">
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/portfolio.jpg" target="_blank" title="portfolio design">포트폴리오 디자인</a></div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
-                        <li class="sub-2">포트폴리오 시안</li>
+                        <li class="sub-2">포트폴리오 리디자인</li>
                         <li class="sub-3">CONCEPT</li>
                         <li class="sub-4">저를 소개할 수 있는 포트폴리오 페이지 시안입니다. 컨셉은 제 방이며 제 방이야 말로 저를 가장 잘 드러낼 수 있는 공간이라고
                             생각하였습니다.</li>
@@ -487,7 +491,7 @@ include "../part/head.php"
                         <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/artworks/2/figma.png" alt=""></li>
                     </ul>
                 </div>
-                <div class="item-12-sel absolute">
+                <div class="item-4-sel absolute">
                     <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/lookbook.png" target="_blank" title="portfolio design">룩북 디자인</a></div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
@@ -500,11 +504,11 @@ include "../part/head.php"
                         <li class="flex"><img src="https://yousangyeop.github.io/img1/pf/artworks/2/figma.png" alt=""></li>
                     </ul>
                 </div>
-                <div class="item-1-sel absolute">
-                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/artworks/1/main.png" target="_blank" title="portfolio design">웹사이트 디자인</a></div>
+                <div class="item-5-sel absolute">
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/artworks/1/main.png" target="_blank" title="portfolio design">뷰티스튜디오 디자인</a></div>
                     <ul class="sub-title">
                         <li class="sub-1">DIVISION</li>
-                        <li class="sub-2">화장품 회사사이트 디자인</li>
+                        <li class="sub-2">헤어뷰티 관련 스튜디오 디자인</li>
                         <li class="sub-3">CONCEPT</li>
                         <li class="sub-4">일러스트 툴을 활용한 웹사이트를 디자인 해보았습니다.</li>
                     </ul>
@@ -513,7 +517,32 @@ include "../part/head.php"
                         <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ai.png" alt=""></li>
                     </ul>
                 </div>
-
+                <div class="item-6-sel absolute">
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/kream.png" target="_blank" title="portfolio REdesign">KREAM 리디자인</a> </div>
+                    <ul class="sub-title">
+                        <li class="sub-1">DIVISION</li>
+                        <li class="sub-2">KREAM 리디자인</li>
+                        <li class="sub-3">CONCEPT</li>
+                        <li class="sub-4">패션 거래 사이트인 크림이라는 사이트를 리디자인했습니다. </li>
+                    </ul>
+                    <div class="tool">TOOL</div>
+                    <ul class="link-box flex">
+                    <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/ps.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="item-7-sel absolute">
+                    <div class="title-1"> <a href="https://yousangyeop.github.io/img1/pf/my/moblie%20twice.png" target="_blank" title="portfolio REdesign">패션커뮤니티 디자인</a> </div>
+                    <ul class="sub-title">
+                        <li class="sub-1">DIVISION</li>
+                        <li class="sub-2">모바일 패션 커뮤니티 디자인</li>
+                        <li class="sub-3">CONCEPT</li>
+                        <li class="sub-4">모바일 로그인 화면과 패션 커뮤니티 페이지를 디자인했습니다. </li>
+                    </ul>
+                    <div class="tool">TOOL</div>
+                    <ul class="link-box flex">
+                    <li class=""><img src="https://yousangyeop.github.io/img1/pf/artworks/2/figma.png" alt=""></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

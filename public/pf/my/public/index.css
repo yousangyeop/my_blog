@@ -301,7 +301,7 @@ li {
     height: 100%;
 }
 .pro {
-    padding: 20px;
+    padding: 30px;
 }
 .pro>img {
     height: 100%;
@@ -573,64 +573,42 @@ a {
 }
 
 .item-1 {
-    top: 20%;
-    left: 50%;
+    top: 10%;
+    left: 10%;
 }
 
 .item-2 {
-    top: 40%;
-    left: 70%;
-}
+    top: 20%;
+    left: 20%;
 
+}
+.item-2 > img {
+    
+}
 .item-3 {
-    top: 15%;
-    left: 40%;
+    top: 30%;
+    left: 30%;
 }
 
 .item-4 {
-    top: 10%;
-    left: 70%;
+    top: 40%;
+    left: 40%;
 }
 
 .item-5 {
-    top: 80%;
-    left: 70%;
+    top: 50%;
+    left: 50%;
 }
 
 .item-6 {
-    top: 10%;
-    left: 0%;
+    top: 60%;
+    left: 60%;
 }
-
 .item-7 {
-    top: 40%;
-    left: 15%;
+    top: 70%;
+    left: 70%;
 }
 
-.item-8 {
-    top: 70%;
-    left: 10%;
-}
-.item-9 {
-    top: 0%;
-    left: 50%;
-}
-.item-10 {
-    top: 39%;
-    left: 22%;
-}
-.item-11 {
-    top: 68%;
-    left: 33%;
-}
-.item-12 {
-    top: 13%;
-    left: 23%;
-}
-.item-13 {
-    top: 63%;
-    left: 43%;
-}
 .item-list>div {
     width: 80px;
     height: 80px;
@@ -670,10 +648,13 @@ a {
 }
 
 .item-select>div>.sub-title>li {
-    padding-top: 30px;
+    padding-top: 10px;
     font-size: 1.3rem;
+    margin-right: 100px;
 }
-
+.item-select>div>.sub-title>.sub-4 {
+    line-height: 40px;
+}
 .item-select>div>ul>.sub-1,
 .sub-3 {
     font-weight: bold;
